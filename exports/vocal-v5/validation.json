@@ -1,0 +1,105 @@
+{
+  "reference": "v4 tone, tuning, timing and accompaniment retained; alternate spatial proposals, not claimed improvements",
+  "focus_processing": {
+    "centre_gain_range": [
+      0.75,
+      1.0
+    ],
+    "side_gain_range": [
+      0.4,
+      0.7
+    ],
+    "control": "Dry-vocal activity, 80ms hold and ~220ms release; no hard gating",
+    "body_lane": "150\u20131700Hz input; 4x oversampled tanh; 150\u20132500Hz output; 12% active-body RMS-matched parallel addition",
+    "body_drive": 3.521002097390475,
+    "stem_loudness_compensation_dB": -0.25
+  },
+  "depth_processing": {
+    "additional_late_tail_predelay_ms": 45,
+    "low_band_nominal_decay_s": 1.05,
+    "high_band_nominal_decay_s": 0.75,
+    "unducked_return_relative_active_mid_dB": -24,
+    "return_gain_during_activity": 0.6,
+    "note": "Diffuse convolution tail, no discrete early taps; printed original room cannot be fully removed",
+    "stem_loudness_compensation_dB": 0.0
+  },
+  "outputs": {
+    "MUSIC_v5_FOCUS": {
+      "WAV_LUFS": -12.09,
+      "WAV_dBTP": -1.23,
+      "MP3_LUFS": -12.09,
+      "MP3_dBTP": -1.04,
+      "duration_seconds": 214.27375,
+      "mono_fold_energy_dB": -0.11335582286119461,
+      "passes": [
+        {
+          "gain_dB": 5.049999999999999,
+          "LUFS": -12.42,
+          "dBTP": -1.23
+        },
+        {
+          "gain_dB": 5.389999999999999,
+          "LUFS": -12.15,
+          "dBTP": -1.23
+        },
+        {
+          "gain_dB": 5.459999999999999,
+          "LUFS": -12.09,
+          "dBTP": -1.23
+        }
+      ],
+      "limiter_stats": {
+        "method": "1 ms stereo least-squares gain relative to driven input; active blocks > -50 dBFS. Approximate limiter gain reduction, includes resampling differences.",
+        "gain_reduction_dB_percentiles": {
+          "50": 4.76303139294032e-05,
+          "90": 0.3690342903137207,
+          "95": 1.0689592361450195,
+          "99": 2.568040609359741,
+          "99.9": 3.898665428161621,
+          "100": 5.185313701629639
+        },
+        "active_percent_over_1dB": 5.337800536825874,
+        "active_percent_over_3dB": 0.5154099484114143
+      }
+    },
+    "MUSIC_v5_DEPTH": {
+      "WAV_LUFS": -12.1,
+      "WAV_dBTP": -1.23,
+      "MP3_LUFS": -12.1,
+      "MP3_dBTP": -1.03,
+      "duration_seconds": 214.27375,
+      "mono_fold_energy_dB": -0.11436455696821213,
+      "passes": [
+        {
+          "gain_dB": 5.049999999999999,
+          "LUFS": -12.41,
+          "dBTP": -1.23
+        },
+        {
+          "gain_dB": 5.379999999999999,
+          "LUFS": -12.15,
+          "dBTP": -1.23
+        },
+        {
+          "gain_dB": 5.449999999999999,
+          "LUFS": -12.1,
+          "dBTP": -1.23
+        }
+      ],
+      "limiter_stats": {
+        "method": "1 ms stereo least-squares gain relative to driven input; active blocks > -50 dBFS. Approximate limiter gain reduction, includes resampling differences.",
+        "gain_reduction_dB_percentiles": {
+          "50": 4.76303139294032e-05,
+          "90": 0.3642691373825073,
+          "95": 1.0609931945800781,
+          "99": 2.562220573425293,
+          "99.9": 3.893993616104126,
+          "100": 5.1873297691345215
+        },
+        "active_percent_over_1dB": 5.2984009137635635,
+        "active_percent_over_3dB": 0.5063773082048353
+      }
+    }
+  },
+  "limitations": "No subjective audition. Cannot completely separate printed room/reverb from direct vocal. Cleaner tuned/processed vocal with effects bypassed remains best source for a full space rebuild."
+}
