@@ -1,0 +1,78 @@
+{
+  "MUSIC_v6_OPEN": {
+    "active_mid_band_energy_delta_vs_V4_dB": {
+      "150-280": 0.4467374445691405,
+      "350-650": -0.998651534511714,
+      "650-1050": -1.0826053194705894,
+      "1200-1800": 0.9325593930571465,
+      "2500-5000": 0.8592793554004261,
+      "5000-10000": 0.6934809846154222
+    },
+    "weak_vocal_frame_delta_dB_percentiles": {
+      "1": -1.4534753561019897,
+      "10": -0.6597616672515869,
+      "50": 0.09712682664394379,
+      "90": 0.5045574307441711,
+      "99": 0.616871178150177
+    },
+    "unchanged_premaster_accompaniment_max_absolute_residual": 2.9802322387695312e-08,
+    "format": {
+      "sample_rate": "48000",
+      "channels": 2,
+      "bits_per_sample": 24,
+      "duration": "214.273750"
+    },
+    "master_adjacent_sample_jump_p9999": 0.6644368171691895
+  },
+  "MUSIC_v6_DRIER": {
+    "active_mid_band_energy_delta_vs_V4_dB": {
+      "150-280": 0.6248383932295941,
+      "350-650": -1.3341823545298281,
+      "650-1050": -1.6138163361377391,
+      "1200-1800": 1.0831348388441986,
+      "2500-5000": 1.1270392562983496,
+      "5000-10000": 0.9521148748616849
+    },
+    "weak_vocal_frame_delta_dB_percentiles": {
+      "1": -2.114760637283325,
+      "10": -1.0169333219528198,
+      "50": 0.05610588565468788,
+      "90": 0.6921074390411377,
+      "99": 0.8508882522583008
+    },
+    "unchanged_premaster_accompaniment_max_absolute_residual": 2.9802322387695312e-08,
+    "format": {
+      "sample_rate": "48000",
+      "channels": 2,
+      "bits_per_sample": 24,
+      "duration": "214.273750"
+    },
+    "master_adjacent_sample_jump_p9999": 0.6794601678848267
+  },
+  "comparison": [
+    {
+      "label": "V4",
+      "start_s": 0.0,
+      "end_s": 20.0,
+      "gain_dB": -4.800000000000001,
+      "clip_LUFS_before": -11.2,
+      "target_LUFS": -16
+    },
+    {
+      "label": "V6_OPEN",
+      "start_s": 20.5,
+      "end_s": 40.5,
+      "gain_dB": -4.699999999999999,
+      "clip_LUFS_before": -11.3,
+      "target_LUFS": -16
+    },
+    {
+      "label": "V6_DRIER",
+      "start_s": 41.0,
+      "end_s": 61.0,
+      "gain_dB": -4.67,
+      "clip_LUFS_before": -11.33,
+      "target_LUFS": -16
+    }
+  ]
+}
