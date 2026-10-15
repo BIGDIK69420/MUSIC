@@ -1,0 +1,22 @@
+[
+  {
+    "name": "MUSIC_v3_MASTER.mp3",
+    "bytes": 8573804,
+    "sha256": "1bcc6f17ac4ca0c6db01b7d0a759e89b8a0b33a9e9f34e1fbda54a054ccef015"
+  },
+  {
+    "name": "MUSIC_v3_MASTER.wav",
+    "bytes": 61710942,
+    "sha256": "1f6114a13bf5145629dc6c22b953a76a30fc9f76cb524532d24b118bcc82d532"
+  },
+  {
+    "name": "MUSIC_v3_VOCAL_STEM.wav",
+    "bytes": 61710942,
+    "sha256": "7012fda19cc52612ecdbe6c861b243044046519a8f9a9d2d87cac6403842ffb2"
+  },
+  {
+    "name": "DELIVERY_NOTES.md",
+    "bytes": 2266,
+    "sha256": "001251dd711c7ef2b4b7fe9c5305a722cd6b11c7f56d0112b79641f802fda8d6"
+  }
+]
