@@ -1,0 +1,68 @@
+{
+  "source_files_used": {
+    "dry": "unaltered dry signal activity and transient comparison",
+    "mixed": "single lead source, existing tuning retained; time alignment and EQ from v2",
+    "beat": "original accompaniment, activity-dependent masking relief",
+    "demo": "timing, original levels and fair comparison reference"
+  },
+  "duration_seconds": 214.27375,
+  "vocal_gain_relative_to_v2_dB": 2.0,
+  "vocal_peak_control_ceiling_dBFS": -8.5,
+  "vocal_peak_control_loudness_compensation_dB": 0.019999999999999574,
+  "vocal_peak_control_statistics": {
+    "method": "1 ms stereo least-squares gain relative to driven input; active blocks > -50 dBFS. Approximate limiter gain reduction, includes resampling differences.",
+    "gain_reduction_dB_percentiles": {
+      "50": 5.7984765589935705e-05,
+      "90": 0.001051705447025597,
+      "95": 0.002175543224439025,
+      "99": 0.011545531451702118,
+      "99.9": 1.6885877847671509,
+      "100": 6.324429035186768
+    },
+    "active_percent_over_1dB": 0.18538535015836308,
+    "active_percent_over_3dB": 0.030164395957970942
+  },
+  "vocal_mix_gain_dB": 2.6650153301264403,
+  "beat_mix_gain_dB": -7.417639528958842,
+  "premaster_LUFS": -17.31,
+  "master_passes": [
+    {
+      "input_gain_dB": 5.309999999999999,
+      "measured_LUFS": -12.34,
+      "measured_dBTP": -1.24
+    },
+    {
+      "input_gain_dB": 5.649999999999999,
+      "measured_LUFS": -12.07,
+      "measured_dBTP": -1.24
+    }
+  ],
+  "master_statistics": {
+    "method": "1 ms stereo least-squares gain relative to driven input; active blocks > -50 dBFS. Approximate limiter gain reduction, includes resampling differences.",
+    "gain_reduction_dB_percentiles": {
+      "50": 4.659486876334995e-05,
+      "90": 0.3917992115020752,
+      "95": 1.1033821105957031,
+      "99": 2.627312183380127,
+      "99.9": 3.9618921279907227,
+      "100": 5.608628273010254
+    },
+    "active_percent_over_1dB": 5.496439562948622,
+    "active_percent_over_3dB": 0.5955467185470943
+  },
+  "outputs": {
+    "MUSIC_v3_MASTER": {
+      "WAV_LUFS": -12.07,
+      "WAV_true_peak_dBTP": -1.24,
+      "MP3_LUFS": -12.07,
+      "MP3_true_peak_dBTP": -0.98
+    }
+  },
+  "matched_comparison_LUFS_target": -17.52,
+  "notes": [
+    "No subjective listening or claim of matching a measured Tory Lanez reference.",
+    "No raw/processed vocal stacking; dry is a control reference to avoid phase interference.",
+    "Limiter gain statistics approximate 1ms block estimates, not exact internal envelopes.",
+    "Master loudness raised after vocal-specific transient control, not by global gain alone."
+  ]
+}
