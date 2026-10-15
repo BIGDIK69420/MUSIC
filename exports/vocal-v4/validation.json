@@ -1,0 +1,59 @@
+{
+  "vocal_eq": "highpass=f=65:p=2,lowshelf=f=180:t=s:w=1:g=-1,equalizer=f=420:t=q:w=0.85:g=-2.2,equalizer=f=3000:t=q:w=0.8:g=2,highshelf=f=7000:t=s:w=1:g=-1.5",
+  "beat_eq": "lowshelf=f=120:t=s:w=1:g=-0.8,equalizer=f=450:t=q:w=0.8:g=-1.5,equalizer=f=2200:t=q:w=0.8:g=2,highshelf=f=4500:t=s:w=1:g=1",
+  "vocal_gain_dB": 2.650000000000002,
+  "beat_gain_dB": -6.887639528958841,
+  "vocal_level_reference_LUFS": -19.06,
+  "sidechain_beat_dip": "2500 Hz Q1 -0.8 dB only during voice; replaces v3 deeper 500/1800Hz dynamic cuts",
+  "target_LUFS": -12.07,
+  "passes": [
+    {
+      "gain_dB": 5.059999999999999,
+      "LUFS": -12.41,
+      "dBTP": -1.23
+    },
+    {
+      "gain_dB": 5.399999999999999,
+      "LUFS": -12.14,
+      "dBTP": -1.23
+    },
+    {
+      "gain_dB": 5.469999999999999,
+      "LUFS": -12.08,
+      "dBTP": -1.23
+    }
+  ],
+  "WAV_LUFS": -12.08,
+  "WAV_dBTP": -1.23,
+  "MP3_LUFS": -12.09,
+  "MP3_dBTP": -0.96,
+  "duration_seconds": 214.27375,
+  "mono_loss_dB": -0.13314218819141388,
+  "vocal_peak_control": {
+    "method": "1 ms stereo least-squares gain relative to driven input; active blocks > -50 dBFS. Approximate limiter gain reduction, includes resampling differences.",
+    "gain_reduction_dB_percentiles": {
+      "50": 8.490638720104471e-05,
+      "90": 0.0014191848458722234,
+      "95": 0.0028199574444442987,
+      "99": 0.014192699454724789,
+      "99.9": 1.85025954246521,
+      "100": 6.943660736083984
+    },
+    "active_percent_over_1dB": 0.224764375161333,
+    "active_percent_over_3dB": 0.03714593314991217
+  },
+  "master_gain_reduction": {
+    "method": "1 ms stereo least-squares gain relative to driven input; active blocks > -50 dBFS. Approximate limiter gain reduction, includes resampling differences.",
+    "gain_reduction_dB_percentiles": {
+      "50": 5.2289815357653424e-05,
+      "90": 0.41460874676704407,
+      "95": 1.1162406206130981,
+      "99": 2.5911810398101807,
+      "99.9": 3.965177059173584,
+      "100": 5.475358963012695
+    },
+    "active_percent_over_1dB": 5.58852503485987,
+    "active_percent_over_3dB": 0.5434808472971108
+  },
+  "interpretation": "Clarity-directed A/B proposal addressing both vocal and beat; no claim that subjective clarity was confirmed or that absent detail was reconstructed."
+}
