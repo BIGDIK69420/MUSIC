@@ -1,0 +1,66 @@
+{
+  "MUSIC_v8_1CALL.mp3": {
+    "bytes": 8573804,
+    "sha256": "b8a3e0a98d01452627a7a821baa6cca9bbc8976e37e9a321427686accc930309"
+  },
+  "MUSIC_v8_1CALL.wav": {
+    "bytes": 61710942,
+    "sha256": "e36c7532c64f2f019ee1a0c2309aec6d8b7cf3c886baa3511703fa16c13b2966"
+  },
+  "MUSIC_v8_VOCAL.wav": {
+    "bytes": 61710942,
+    "sha256": "8f5d481a37e32aaba7a9fb4faf6ad6549cc30a05b7ddf7ca07a3bf1b725893d4"
+  },
+  "MUSIC_v8_VOCAL_CORE.wav": {
+    "bytes": 61710942,
+    "sha256": "5dbfc893e26a467f85c2d867bb6558fbfad660fd83bc1504595fbc6b540f713b"
+  },
+  "MUSIC_v8_VOCAL_FX.wav": {
+    "bytes": 61710942,
+    "sha256": "aded172cad651814d3dd67a8808b6d6b8fe55ceb59fcedec582cc5988cbd9d48"
+  },
+  "MUSIC_v8_COMPARE.mp3": {
+    "bytes": 1642604,
+    "sha256": "c1a7cfd2092f8c0800ef84c7a12370eb36b246d31fa719ec02fae92fc7e1f459"
+  },
+  "NOTES.md": {
+    "bytes": 4076,
+    "sha256": "c02ef39176969d5c4ac01eb10a0e8365b59da9029628cdfb2322fed3d3547199"
+  },
+  "validation.json": {
+    "bytes": 3515,
+    "sha256": "3ee8753c36dfbcfc88689de569816c93ab0e163801e7c727e68922e8f7d62ab0"
+  },
+  "build_v8.py": {
+    "bytes": 9944,
+    "sha256": "5b17aaa2044c0bd5e53e9a6d102dcad6707ac557f4590acca0165631074de31d"
+  },
+  "REFERENCE_VOCAL_ANALYSIS.md": {
+    "bytes": 4040,
+    "sha256": "17803c351e04817445c665a526850b91396c01a278e21088c4759fd71abad4ff"
+  },
+  "vocal_comparison.json": {
+    "bytes": 4619,
+    "sha256": "43b1611b69d20f0021cebfb382a084f7ddf7951d83ac7b82591483d6bb518c22"
+  },
+  "separation_control.json": {
+    "bytes": 948,
+    "sha256": "ce37a8806e412f0890321b80c821f8a2d16c32e262106f5bdbf9c8766f71cd87"
+  },
+  "high_band_check.json": {
+    "bytes": 3299,
+    "sha256": "156a37f79ca79b3aaca2f209c78afd5b16d0529c0e39f7e9504ce4595799be62"
+  },
+  "separation_metadata.json": {
+    "bytes": 574,
+    "sha256": "81d37f14828b813bf4d1851a03429581e502465acacc6a5e9122475a94644f36"
+  },
+  "tempo-analysis.json": {
+    "bytes": 2943,
+    "sha256": "8cffc3ded6e2cf2dbfd6f81d9c8c9c85f10c656be033eb00b32b9eda33febcc9"
+  },
+  "quality-check.json": {
+    "bytes": 3968,
+    "sha256": "3a2b1b497b1a502e9672149de50211be6ad7dd23d7fd1f1d299600917ccf971d"
+  }
+}

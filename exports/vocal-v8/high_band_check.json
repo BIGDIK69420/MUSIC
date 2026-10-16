@@ -1,0 +1,85 @@
+{
+  "40_70": {
+    "high": {
+      "estimated_vocal_energy_to_source_dB": -5.051277160644531,
+      "fraction_of_estimated_vocal_energy_during_low_voice_mid": 0.3511306047439575,
+      "envelope_correlation_vocal_high_with_residual_high_linear": -0.09576345584443406,
+      "envelope_correlation_vocal_high_with_vocal_mid_log": -0.04064600718313994,
+      "envelope_correlation_vocal_high_with_residual_high_log": -0.35530065569214164,
+      "top_energy_frames_absolute_times_seconds": [
+        66.496,
+        42.12266666666667,
+        61.92,
+        55.605333333333334,
+        42.00533333333333,
+        55.626666666666665,
+        42.304,
+        55.616,
+        42.22933333333334,
+        42.016
+      ]
+    },
+    "air": {
+      "estimated_vocal_energy_to_source_dB": -1.6998968124389648,
+      "fraction_of_estimated_vocal_energy_during_low_voice_mid": 0.32712140679359436,
+      "envelope_correlation_vocal_high_with_residual_high_linear": -0.11980868937724518,
+      "envelope_correlation_vocal_high_with_vocal_mid_log": -0.04855329434053563,
+      "envelope_correlation_vocal_high_with_residual_high_log": -0.29353037610941174,
+      "top_energy_frames_absolute_times_seconds": [
+        57.77066666666667,
+        54.90133333333333,
+        54.89066666666667,
+        54.816,
+        54.76266666666667,
+        54.82666666666667,
+        54.77333333333333,
+        54.784,
+        54.79466666666667,
+        54.80533333333334
+      ]
+    },
+    "fraction_frames_low_voice_mid": 0.06716417910447761
+  },
+  "100_130": {
+    "high": {
+      "estimated_vocal_energy_to_source_dB": -4.787710666656494,
+      "fraction_of_estimated_vocal_energy_during_low_voice_mid": 0.17372220754623413,
+      "envelope_correlation_vocal_high_with_residual_high_linear": -0.12381859469271658,
+      "envelope_correlation_vocal_high_with_vocal_mid_log": 0.48531580356497755,
+      "envelope_correlation_vocal_high_with_residual_high_log": -0.26098846757301003,
+      "top_energy_frames_absolute_times_seconds": [
+        103.68,
+        112.72533333333334,
+        112.74666666666667,
+        112.736,
+        112.77866666666667,
+        103.63733333333333,
+        103.66933333333333,
+        112.78933333333333,
+        103.65866666666666,
+        103.648
+      ]
+    },
+    "air": {
+      "estimated_vocal_energy_to_source_dB": -1.4836233854293823,
+      "fraction_of_estimated_vocal_energy_during_low_voice_mid": 0.12053992599248886,
+      "envelope_correlation_vocal_high_with_residual_high_linear": -0.1486354105992509,
+      "envelope_correlation_vocal_high_with_vocal_mid_log": 0.5300442858882127,
+      "envelope_correlation_vocal_high_with_residual_high_log": -0.1208038351606276,
+      "top_energy_frames_absolute_times_seconds": [
+        124.096,
+        103.66933333333333,
+        103.70133333333334,
+        103.69066666666667,
+        101.888,
+        101.89866666666667,
+        124.10666666666667,
+        103.68,
+        124.128,
+        124.11733333333333
+      ]
+    },
+    "fraction_frames_low_voice_mid": 0.10305614783226724
+  },
+  "interpretation": "These metrics do not identify hi-hats or prove absence of bleed. Source-separated high bands can mix sibilance, air, and leaked percussion. Use no more than about +1 dB high shelf near 10 kHz initially, not full spectral matching."
+}

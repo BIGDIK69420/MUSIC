@@ -1,0 +1,132 @@
+{
+  "basis": "V7 original user vocal and accompaniment; commercial reference used only for analysis, never added to audio",
+  "reference_evidence": "UVR-MDX-NET estimated vocal excerpts show substantially greater side information, broadly similar 1.2\u20135kHz balance, and no justification for more heavy lead compression. Separation is imperfect.",
+  "lead": {
+    "air_shelf": "10kHz +0.8dB; core loudness matched before added effects",
+    "new_compression": "none",
+    "main_vocal_target_relative_V7_LU": 0.45,
+    "combined_gain_after_effects_dB": 0.240000000000002
+  },
+  "doubles": {
+    "cents": [
+      -7,
+      9
+    ],
+    "delay_ms": [
+      27,
+      43
+    ],
+    "formant": "preserved",
+    "bandpass_Hz": [
+      300,
+      6000
+    ],
+    "each_channel_active_RMS_relative_lead_dB": -13.5,
+    "rendered_sample_counts": {
+      "left": 10285140,
+      "right": 10285140
+    }
+  },
+  "delay": {
+    "tempo_BPM": 135,
+    "half_time_BPM": 67.5,
+    "initial_taps_ms": [
+      444.444,
+      666.667
+    ],
+    "later_taps_ms": [
+      1111.111,
+      1555.556,
+      2000.0
+    ],
+    "main_bandpass_Hz": [
+      330,
+      4500
+    ],
+    "initial_return_active_RMS_dB": -18,
+    "duck_max_dB": 7,
+    "throw_candidates_s": [
+      61.56,
+      69.16,
+      100.08,
+      115.68,
+      139.32,
+      163.92,
+      171.08,
+      179.72
+    ]
+  },
+  "diffuse_tail": {
+    "predelay_ms": 55,
+    "nominal_low_T60_s": 1.35,
+    "nominal_high_T60_s": 0.95,
+    "low_cut_Hz": 450,
+    "initial_return_active_RMS_dB": -21.5,
+    "duck_max_dB": 4.5
+  },
+  "effects": {
+    "before_cap_active_RMS_relative_lead_dB": -12.9809508832461,
+    "cap_gain": 1.0,
+    "new_total_vocal_active_side_mid_dB": -15.033236833979666
+  },
+  "master": {
+    "WAV_LUFS": -11.04,
+    "WAV_dBTP": -1.25,
+    "MP3_LUFS": -11.04,
+    "MP3_dBTP": -0.58,
+    "passes": [
+      {
+        "gain_dB": 5.739999999999998,
+        "LUFS": -11.66,
+        "dBTP": -1.28
+      },
+      {
+        "gain_dB": 6.399999999999999,
+        "LUFS": -11.24,
+        "dBTP": -1.25
+      },
+      {
+        "gain_dB": 6.639999999999999,
+        "LUFS": -11.11,
+        "dBTP": -1.25
+      },
+      {
+        "gain_dB": 6.749999999999998,
+        "LUFS": -11.04,
+        "dBTP": -1.25
+      }
+    ],
+    "limiter": {
+      "method": "1 ms stereo least-squares gain relative to driven input; active blocks > -50 dBFS. Approximate limiter gain reduction, includes resampling differences.",
+      "gain_reduction_dB_percentiles": {
+        "50": 0.0001522108359495178,
+        "90": 1.7679879665374756,
+        "95": 2.5509588718414307,
+        "99": 4.084188461303711,
+        "99.9": 5.618531703948975,
+        "100": 7.3264360427856445
+      },
+      "active_percent_over_1dB": 18.623829690259605,
+      "active_percent_over_3dB": 3.242683783732457
+    },
+    "mono_fold_energy_dB": -0.2926228642463684,
+    "duration_seconds": 214.27375
+  },
+  "comparison": [
+    {
+      "label": "V7",
+      "start_seconds": 0.0,
+      "duration_seconds": 20.25,
+      "gain_dB": -4.1899999999999995,
+      "target_LUFS": -16
+    },
+    {
+      "label": "V8",
+      "start_seconds": 20.75,
+      "duration_seconds": 20.25,
+      "gain_dB": -5.25,
+      "target_LUFS": -16
+    }
+  ],
+  "limitations": "No subjective audition. This is an original mixing interpretation, not identification or reconstruction of the artist original plugin settings or vocal identity. Artificial doubles and new returns can affect mono tone; separate core/FX provided for revision."
+}

@@ -1,0 +1,23 @@
+{
+  "model": "UVR-MDX-NET-Voc_FT.onnx",
+  "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR-MDX-NET-Voc_FT.onnx",
+  "model_mdx_metadata": {
+    "compensate": 1.021,
+    "dim_f": 3072,
+    "dim_t": 256,
+    "n_fft": 7680
+  },
+  "sample_rate_model": 44100,
+  "source_sample_rate": 48000,
+  "clip_times_seconds": [
+    [
+      40,
+      70
+    ],
+    [
+      100,
+      130
+    ]
+  ],
+  "purpose": "Estimated vocal stems for analysis only; cannot establish true isolated vocal properties; outputs not to be included in user mix."
+}

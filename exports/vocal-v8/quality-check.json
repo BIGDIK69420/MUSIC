@@ -1,0 +1,132 @@
+{
+  "core": {
+    "samples": 10285140,
+    "duration_s": 214.27375,
+    "finite": true,
+    "sample_peak_dBFS": -4.14072322845459
+  },
+  "fx": {
+    "samples": 10285140,
+    "duration_s": 214.27375,
+    "finite": true,
+    "sample_peak_dBFS": -16.638776779174805
+  },
+  "vocal": {
+    "samples": 10285140,
+    "duration_s": 214.27375,
+    "finite": true,
+    "sample_peak_dBFS": -3.708752155303955
+  },
+  "beat": {
+    "samples": 10285140,
+    "duration_s": 214.27375,
+    "finite": true,
+    "sample_peak_dBFS": -4.282834053039551
+  },
+  "premaster": {
+    "samples": 10285140,
+    "duration_s": 214.27375,
+    "finite": true,
+    "sample_peak_dBFS": -0.6282614469528198
+  },
+  "master": {
+    "samples": 10285140,
+    "duration_s": 214.27375,
+    "finite": true,
+    "sample_peak_dBFS": -1.2803237438201904
+  },
+  "core_plus_fx_residual_peak": 0.0,
+  "beat_preservation_residual_peak": 5.960464477539063e-08,
+  "active_side_to_mid_dB": -15.046523734924769,
+  "active_fx_to_coremid_dB": -12.986753463505288,
+  "core_vs_V7_active_mid_gain_dB": 0.186226557568045,
+  "vocal_mono_fold_energy_loss_dB": -0.14251631071622986,
+  "master_mono_fold_energy_loss_dB": -0.2926228418045823,
+  "active_mid_changes_vs_core_by_band": {
+    "100-200": {
+      "aggregate_dB": 7.521338269724186e-05,
+      "frame_percentiles_dB": {
+        "1": -0.5658937331323418,
+        "10": -0.1719172366481276,
+        "50": -0.0017045813306568146,
+        "90": 0.17461210227711887,
+        "99": 0.5010308346823269
+      },
+      "frame_percent_below_minus3dB": 0.0,
+      "mono_fold_energy_loss_dB": -0.013305254779078839
+    },
+    "200-300": {
+      "aggregate_dB": -0.001306104223348661,
+      "frame_percentiles_dB": {
+        "1": -0.9670010139962857,
+        "10": -0.4077052452848558,
+        "50": 0.0017978730992209112,
+        "90": 0.40989745957829615,
+        "99": 0.9496963490520074
+      },
+      "frame_percent_below_minus3dB": 0.0,
+      "mono_fold_energy_loss_dB": -0.05430052105828852
+    },
+    "300-600": {
+      "aggregate_dB": 0.09387574220274685,
+      "frame_percentiles_dB": {
+        "1": -1.5714994733777405,
+        "10": -0.5879709284182647,
+        "50": 0.11603838025133764,
+        "90": 0.8540484944496727,
+        "99": 1.9005835089661796
+      },
+      "frame_percent_below_minus3dB": 0.0,
+      "mono_fold_energy_loss_dB": -0.14158373697839133
+    },
+    "600-1200": {
+      "aggregate_dB": 0.27313738159164985,
+      "frame_percentiles_dB": {
+        "1": -1.6579365019668866,
+        "10": -0.4901530837289495,
+        "50": 0.22479061405196477,
+        "90": 1.2438943732431507,
+        "99": 2.5427812311358995
+      },
+      "frame_percent_below_minus3dB": 0.0755287009063444,
+      "mono_fold_energy_loss_dB": -0.25562617931951703
+    },
+    "1200-2500": {
+      "aggregate_dB": 0.20989232632552438,
+      "frame_percentiles_dB": {
+        "1": -1.0363858563206587,
+        "10": -0.18021378977543967,
+        "50": 0.23180304454943032,
+        "90": 0.92046852151532,
+        "99": 2.2917154735664385
+      },
+      "frame_percent_below_minus3dB": 0.03779289493575208,
+      "mono_fold_energy_loss_dB": -0.258928503773203
+    },
+    "2500-5000": {
+      "aggregate_dB": 0.19354168485388204,
+      "frame_percentiles_dB": {
+        "1": -0.2975443923461086,
+        "10": -0.03618164655323332,
+        "50": 0.1984555403184156,
+        "90": 0.6413935243738911,
+        "99": 1.8556378869744783
+      },
+      "frame_percent_below_minus3dB": 0.0,
+      "mono_fold_energy_loss_dB": -0.22040232639922525
+    },
+    "5000-10000": {
+      "aggregate_dB": 0.03719736795999609,
+      "frame_percentiles_dB": {
+        "1": -0.06541929242392741,
+        "10": -0.014874630672976638,
+        "50": 0.039931213964536603,
+        "90": 0.14640329465463084,
+        "99": 0.4193575672467182
+      },
+      "frame_percent_below_minus3dB": 0.0,
+      "mono_fold_energy_loss_dB": -0.059156364866061614
+    }
+  },
+  "ending_2s_vocal_rms_dBFS": -95.19733474966087
+}
