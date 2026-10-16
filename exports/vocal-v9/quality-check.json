@@ -1,0 +1,165 @@
+{
+  "no_subjective_audition": true,
+  "detectors": {
+    "vocal": {
+      "amount_range": [
+        0.0,
+        0.9999999999963364
+      ],
+      "center_gain_dB_active": {
+        "0": -0.7999999999969303,
+        "10": -0.7747887111847567,
+        "50": -0.36171237358054864,
+        "90": -0.018260873719213585,
+        "99": -7.520670707284287e-06,
+        "100": -6.133395324308673e-08
+      },
+      "maximum_center_gain_step_dB_per_10ms": 0.2093070516985367,
+      "95pct_center_gain_step_dB_per_10ms": 0.042628816775218265,
+      "long_gap_dose_median": 1.0059502090892947e-08
+    },
+    "beat": {
+      "amount_range": [
+        0.0,
+        0.9999996842532589
+      ],
+      "center_gain_dB_active": {
+        "0": -2.4999990853037297,
+        "10": -2.3998023316243198,
+        "50": -1.1275220900606362,
+        "90": -0.5627091264990083,
+        "99": -0.5402632845347557,
+        "100": -0.17420578079818383
+      },
+      "maximum_center_gain_step_dB_per_10ms": 0.371220276613603,
+      "95pct_center_gain_step_dB_per_10ms": 0.09778513521812679,
+      "long_gap_dose_median": 9.0932850862692e-07
+    }
+  },
+  "bands_Hz": [
+    [
+      60,
+      85
+    ],
+    [
+      85,
+      125
+    ],
+    [
+      125,
+      200
+    ],
+    [
+      200,
+      350
+    ],
+    [
+      350,
+      600
+    ],
+    [
+      600,
+      1200
+    ],
+    [
+      1200,
+      2500
+    ],
+    [
+      2500,
+      5000
+    ]
+  ],
+  "active_window_band_delta_dB": {
+    "core_unmatched_vs_old_v": [
+      -2.848429679068353,
+      -1.4420293170234857,
+      -1.1464623355195886,
+      -1.2658707563061287,
+      -0.5598648565570448,
+      -0.14641730951817353,
+      -0.03339530234837839,
+      -0.008618310777814154
+    ],
+    "beat_unmatched_vs_old_b": [
+      -0.019390791329824908,
+      -0.036941985841157245,
+      -0.08356030947153816,
+      -0.27105831350845855,
+      -0.7799207229345546,
+      -1.7508340284481403,
+      -0.8079438173161604,
+      -0.1851984143805839
+    ],
+    "clean_v_vs_control_v": [
+      -2.438468825833888,
+      -1.0320098680688,
+      -0.7366726150514281,
+      -0.8559272178752774,
+      -0.15117682689262504,
+      0.2679837803957786,
+      0.37627521242009787,
+      0.4017618755044412
+    ],
+    "clean_b_vs_old_b": [
+      0.29060925246755326,
+      0.27305868460245025,
+      0.22643986056209725,
+      0.038942041849435394,
+      -0.4699205387282194,
+      -1.4408341027496674,
+      -0.49794378835318476,
+      0.12480181173428809
+    ]
+  },
+  "checks": {
+    "MUSIC_v9_CLEAN": {
+      "frames": 10285140,
+      "expected_frames": 10285140,
+      "finite": true,
+      "sample_peak_dBFS": -1.3848016262054443,
+      "premaster_stem_sum_max_absolute_error": 0.0
+    },
+    "MUSIC_v9_LIGHT_CONTROL": {
+      "frames": 10285140,
+      "expected_frames": 10285140,
+      "finite": true,
+      "sample_peak_dBFS": -1.379799723625183,
+      "premaster_stem_sum_max_absolute_error": 0.0
+    },
+    "MUSIC_v9_CLEAN.wav": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_s24le",
+          "sample_rate": "48000",
+          "channels": 2,
+          "time_base": "1/48000",
+          "duration_ts": 10285140,
+          "duration": "214.273750"
+        }
+      ]
+    },
+    "MUSIC_v9_LIGHT_CONTROL.wav": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_s24le",
+          "sample_rate": "48000",
+          "channels": 2,
+          "time_base": "1/48000",
+          "duration_ts": 10285140,
+          "duration": "214.273750"
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "Frequency averages are not measures of subjective muddiness.",
+    "V8 versus LIGHT_CONTROL changes FX level/highpass, air shelf, target vocal level, master drive/ceiling together; cannot isolate one causal factor.",
+    "CLEAN versus LIGHT_CONTROL adds vocal HP/static/dynamic filtering and mid-only accompaniment relief plus independent LUFS matching; not a single-variable EQ experiment.",
+    "Clip comparison does not cover the highest limiter attenuation at 35 and 79 seconds."
+  ]
+}
