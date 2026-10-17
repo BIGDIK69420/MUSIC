@@ -1,0 +1,23 @@
+{
+  "model": "UVR-DeEcho-DeReverb",
+  "url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR-DeEcho-DeReverb.pth",
+  "model_bytes": 223650277,
+  "sha256": "e644028ec82865dc0fe082bc6fea85a43f7c71cfe375caee2da2d154aa661ee7",
+  "uvr_tail_md5": "0fb9249ffe4ffc38d7b16243f394c0ff",
+  "uvr_primary_stem": "No Reverb",
+  "vr_model_param": "4band_v3",
+  "sample_rate_model": 44100,
+  "source_rate": 48000,
+  "nout": 64,
+  "nout_lstm": 128,
+  "window_frames": 256,
+  "offset_frames": 64,
+  "strengths": [
+    0.35,
+    0.65,
+    1.0
+  ],
+  "return_method": "original - strength * reconstructed_model_rejected_component",
+  "latency_compensation": "centered STFT and polyphase resampling; 20-second cross correlation confirms zero-sample lag",
+  "note": "Model targets estimated reverberant components, not proven acoustic source separation. CPU inference; no subjective audition performed."
+}

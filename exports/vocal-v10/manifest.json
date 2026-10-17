@@ -1,0 +1,98 @@
+{
+  "MUSIC_v10_COMPARE.mp3": {
+    "bytes": 2142764,
+    "sha256": "cf3e53d11239d65a12f5515c409262681ec4ccee91897e9b1ce3b76d72d9eb36"
+  },
+  "MUSIC_v10_REBUILD.mp3": {
+    "bytes": 8573804,
+    "sha256": "86911e53a005ee5a11157e6e6bba24baafc3ed3f701c9aa627f15e88629fe9e1"
+  },
+  "MUSIC_v10_REBUILD.wav": {
+    "bytes": 61710942,
+    "sha256": "7709d91bf5d62aabb0f70e14c2119c5756f748af99f47eb6ef7d23dddfd2dd9b"
+  },
+  "MUSIC_v10_VOCAL.wav": {
+    "bytes": 61710942,
+    "sha256": "0bdf7be842c98d7ff9dd889c5ae4a7cbc5d46893587f356910d4fedbd7a447f7"
+  },
+  "MUSIC_v10_VOCAL_CORE.wav": {
+    "bytes": 61710942,
+    "sha256": "11c220ec56afef2bbafe558e7bb20ed6a3caabe6fe303840bcd928cb2cde0bbd"
+  },
+  "NOTES.md": {
+    "bytes": 6816,
+    "sha256": "8e6db1f5ce34930d486d716b6684810c46c6f1f95abc40787dd9934422e7edcc"
+  },
+  "PITCH_METHOD.md": {
+    "bytes": 3674,
+    "sha256": "35c7ec22a3eb388797d3e95d70336eba4247dd10b54f3af2f266b0bc9d7c2fcf"
+  },
+  "RESTORATION_REPORT.md": {
+    "bytes": 3006,
+    "sha256": "5456b650ee31cb623ea29cca9fb4f4d62573cdbe2bd27da9ef03c9817b6f2d1e"
+  },
+  "SOURCE_AUDIT.md": {
+    "bytes": 6353,
+    "sha256": "8e9723e64a4c7fd020c489376740e78fc2a923bf29abd046317cf851397838d1"
+  },
+  "build_v10.py": {
+    "bytes": 9893,
+    "sha256": "69a1e756adc22557584a7b4740d37ef12dc54614c5e2ed9288d031d7c71fe6a1"
+  },
+  "check_exports.py": {
+    "bytes": 3149,
+    "sha256": "8b419a6395939fbf0fff9c77e7e285f8923ef346185d4fd6d86a48ca9843549f"
+  },
+  "check_restored_pitch.py": {
+    "bytes": 3785,
+    "sha256": "bc94ae4184ec4c7ca9af8b3b8255a19959176c83a41d777b3319a75936469c41"
+  },
+  "export-check.json": {
+    "bytes": 2018,
+    "sha256": "f3614707ad915830b15a74cb978de7142e13dedabdebe032b4c626aaccd0529c"
+  },
+  "final_quality.json": {
+    "bytes": 32320,
+    "sha256": "756cdc91e1e036faac494f297e7773aed1fcac5f38b6caa7d1a25acffc9748e7"
+  },
+  "final_quality.md": {
+    "bytes": 6924,
+    "sha256": "e254ed4a651821b95fae4abd0353c207fae165599907898f569d142b85506779"
+  },
+  "final_quality.py": {
+    "bytes": 3987,
+    "sha256": "b028fa12abf3d9a6ee0209212450357f91850bd1fa43e54366ff8b650c9efca3"
+  },
+  "final_quality_reference.json": {
+    "bytes": 15926,
+    "sha256": "c42afd94c1b3b9f99e620b871fb31f14bd1495a658ee8cb5d727d541aac5410d"
+  },
+  "final_quality_reference.py": {
+    "bytes": 1261,
+    "sha256": "ad331024d8784831d177b28d37a15e212b6703172a0ee64734211d96e213530c"
+  },
+  "full_validation.json": {
+    "bytes": 2655,
+    "sha256": "55e9b978362a80a017ee6ccf9744521ce0bb1486d1dd0a3a4834c466901a6dd3"
+  },
+  "provenance.json": {
+    "bytes": 917,
+    "sha256": "fa62b8d0537383051e0afd1a92681c95f5c52f3e8c9ba183e50b70d4889e753c"
+  },
+  "restored_pitch_alignment.json": {
+    "bytes": 4131,
+    "sha256": "675faf038f549cb512f5359b33060f35536a9be66fcd599fbd25665078526771"
+  },
+  "source_audit.json": {
+    "bytes": 18800,
+    "sha256": "8655d9665b8af9491a349dc344223b7c0978e1c9050bb643ceff8c09e4c39e54"
+  },
+  "source_audit.py": {
+    "bytes": 3489,
+    "sha256": "9f2e8df9b7da17481ab65a062afb49e719acf55fa1f9dd7d7e9ed3ff2afe332f"
+  },
+  "validation.json": {
+    "bytes": 4468,
+    "sha256": "e498257683e30bb64dc6608f8efd9c06f625e3e564938779fc55bfb903c8e76c"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "method": "Existing trustworthy period frames, sampled every fourth valid frame; normalized autocorrelation with parabolic refinement within \u00b115% of original dry F0. This checks tuning preservation without rerunning a whole-track neural estimator.",
+  "duration_seconds": 214.27375,
+  "sample_count": 10285140,
+  "source_finite": true,
+  "alignment": [
+    {
+      "start_s": 6,
+      "best_lag_samples_at_12k": 2,
+      "best_lag_ms": 0.16666666666666666,
+      "normalized_correlation": 0.6225250363349915
+    },
+    {
+      "start_s": 16,
+      "best_lag_samples_at_12k": 0,
+      "best_lag_ms": 0.0,
+      "normalized_correlation": 0.9483848214149475
+    },
+    {
+      "start_s": 31,
+      "best_lag_samples_at_12k": 0,
+      "best_lag_ms": 0.0,
+      "normalized_correlation": 0.9630981683731079
+    },
+    {
+      "start_s": 57,
+      "best_lag_samples_at_12k": 0,
+      "best_lag_ms": 0.0,
+      "normalized_correlation": 0.7852242588996887
+    },
+    {
+      "start_s": 63,
+      "best_lag_samples_at_12k": 0,
+      "best_lag_ms": 0.0,
+      "normalized_correlation": 0.9999755024909973
+    },
+    {
+      "start_s": 102,
+      "best_lag_samples_at_12k": 0,
+      "best_lag_ms": 0.0,
+      "normalized_correlation": 0.9782809615135193
+    },
+    {
+      "start_s": 109,
+      "best_lag_samples_at_12k": 0,
+      "best_lag_ms": 0.0,
+      "normalized_correlation": 0.9726166129112244
+    },
+    {
+      "start_s": 123,
+      "best_lag_samples_at_12k": 0,
+      "best_lag_ms": 0.0,
+      "normalized_correlation": 0.9973840117454529
+    },
+    {
+      "start_s": 141,
+      "best_lag_samples_at_12k": 0,
+      "best_lag_ms": 0.0,
+      "normalized_correlation": 0.9997106194496155
+    },
+    {
+      "start_s": 159,
+      "best_lag_samples_at_12k": 0,
+      "best_lag_ms": 0.0,
+      "normalized_correlation": 0.9692448377609253
+    },
+    {
+      "start_s": 173,
+      "best_lag_samples_at_12k": 0,
+      "best_lag_ms": 0.0,
+      "normalized_correlation": 0.9860754013061523
+    },
+    {
+      "start_s": 181,
+      "best_lag_samples_at_12k": 0,
+      "best_lag_ms": 0.0,
+      "normalized_correlation": 0.9522014856338501
+    }
+  ],
+  "pitch": {
+    "restored_tuned_vs_old_tuned": {
+      "paired_frames": 2144,
+      "absolute_cents_percentiles": {
+        "50": 0.001516059046297812,
+        "90": 0.8555029400023073,
+        "95": 1.9239784115637244,
+        "99": 4.455943993242943
+      },
+      "cents_RMS": 0.9997434102568306,
+      "percent_above_50c": 0.0
+    },
+    "restored_tuned_vs_wet_reference": {
+      "paired_frames": 2144,
+      "absolute_cents_percentiles": {
+        "50": 4.506790542949856,
+        "90": 17.171183342603086,
+        "95": 23.923488173041857,
+        "99": 44.87712921363187
+      },
+      "cents_RMS": 11.866038354267275,
+      "percent_above_50c": 0.6529850746268656
+    },
+    "restored_tuned_periodicity_pass_percent": 99.95337995337995,
+    "final_core_vs_old_tuned": {
+      "paired_frames": 2102,
+      "absolute_cents_percentiles": {
+        "50": 1.171763506795198,
+        "90": 5.834796271193703,
+        "95": 8.610928618512505,
+        "99": 15.69501867753694
+      },
+      "cents_RMS": 4.1180424456608415,
+      "percent_above_50c": 0.0
+    },
+    "final_core_vs_wet_reference": {
+      "paired_frames": 2102,
+      "absolute_cents_percentiles": {
+        "50": 4.3160023882262895,
+        "90": 16.142988369598722,
+        "95": 23.209690472174046,
+        "99": 40.76743742663525
+      },
+      "cents_RMS": 11.478166021302181,
+      "percent_above_50c": 0.7611798287345386
+    },
+    "final_core_periodicity_pass_percent": 97.99533799533799
+  },
+  "active_40ms_dynamics": {
+    "old_tuned": {
+      "p90_minus_p10_dB": 14.161702813364123,
+      "p95_minus_p50_dB": 9.762990102069459,
+      "median_dBFS": -31.270171655582168
+    },
+    "restored_tuned": {
+      "p90_minus_p10_dB": 14.158675830449258,
+      "p95_minus_p50_dB": 9.703934794202091,
+      "median_dBFS": -28.228974335578165
+    },
+    "final_core": {
+      "p90_minus_p10_dB": 5.702826157087088,
+      "p95_minus_p50_dB": 3.035216687140565,
+      "median_dBFS": -20.64353129221053
+    }
+  }
+}
