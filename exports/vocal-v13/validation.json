@@ -1,0 +1,203 @@
+{
+  "basis": "V12 core, layers and pitch/timing retained; accompaniment Mid receives bounded context-dependent relief. No additional global vocal EQ, widening or retuning.",
+  "accompaniment": {
+    "detector_band_Hz": [
+      900,
+      1600
+    ],
+    "bell_Hz": 1150,
+    "Q": 1.05,
+    "maximum_cut_dB": 1.5,
+    "attack_ms": 35,
+    "release_ms": 200,
+    "side": "preserved",
+    "gain_makeup_dB": 0,
+    "active_dose_percentiles": {
+      "50": 0.08758846543358004,
+      "75": 0.3964243265792307,
+      "90": 0.7436007036502696,
+      "95": 0.8827658372213424,
+      "99": 0.9919812059320967
+    }
+  },
+  "vocal": {
+    "maximum_local_lift_dB": 0.65,
+    "attack_ms": 140,
+    "release_ms": 250,
+    "maximum_slew_dB_per_s": 1.8,
+    "core_loudness_target": "same as V12 CORE",
+    "core_makeup_dB": -0.13000000000000256,
+    "active_lift_percentiles_dB": {
+      "50": 0.07444159934086687,
+      "75": 0.18322545062448573,
+      "90": 0.32203750684501964,
+      "95": 0.4113994752731181,
+      "99": 0.5193354765269753
+    },
+    "lift_above_025dB_s": 24.34
+  },
+  "phrase_entries": {
+    "candidates_s": [
+      6.235,
+      7.815,
+      11.125,
+      16.485,
+      21.645,
+      22.745,
+      23.745,
+      26.365000000000002,
+      27.265,
+      31.145,
+      32.875,
+      34.755,
+      36.495,
+      38.275,
+      40.005,
+      41.765,
+      43.615,
+      45.325,
+      47.095,
+      48.905,
+      57.355000000000004,
+      59.405,
+      62.975,
+      66.535,
+      102.455,
+      109.19500000000001,
+      113.61500000000001,
+      117.805,
+      121.125,
+      123.535,
+      130.645,
+      134.145,
+      141.085,
+      159.215,
+      160.925,
+      162.565,
+      166.005,
+      168.025,
+      169.485,
+      173.185,
+      176.815,
+      178.815,
+      181.525,
+      183.405,
+      184.935
+    ],
+    "early_start_ms": 20,
+    "ramp_ms": 20,
+    "hold_until_ms_from_early_start": 120,
+    "release_time_constant_ms": 100,
+    "maximum_extra_return_duck_dB": {
+      "echo": 1.5,
+      "deep": 2.0,
+      "shallow": 0.6
+    },
+    "double_change": "none"
+  },
+  "master": {
+    "WAV_LUFS": -11.55,
+    "WAV_dBTP": -1.38,
+    "MP3_LUFS": -11.56,
+    "MP3_dBTP": -0.98,
+    "limiter": {
+      "method": "Approximate 1 ms least-squares gain, input > -50 dBFS; includes resampling differences.",
+      "gain_reduction_dB_percentiles": {
+        "50": 8.594183600507677e-05,
+        "90": 1.1114827394485474,
+        "95": 1.8428767919540405,
+        "99": 3.3184096813201904,
+        "99.9": 4.815651893615723,
+        "100": 6.0222015380859375
+      },
+      "active_percent_over_3dB": 1.4961479418460413
+    },
+    "passes": [
+      {
+        "gain_dB": 5.060000000000002,
+        "LUFS": -12.02,
+        "dBTP": -1.38
+      },
+      {
+        "gain_dB": 5.540000000000003,
+        "LUFS": -11.69,
+        "dBTP": -1.38
+      },
+      {
+        "gain_dB": 5.690000000000003,
+        "LUFS": -11.59,
+        "dBTP": -1.38
+      },
+      {
+        "gain_dB": 5.740000000000004,
+        "LUFS": -11.55,
+        "dBTP": -1.38
+      }
+    ],
+    "mono_fold_energy_dB": -0.2837044298648834,
+    "duration_seconds": 214.27375
+  },
+  "comparison": [
+    {
+      "label": "V12_MIX",
+      "start_s": 0.0,
+      "end_s": 24.25,
+      "source_intervals_s": [
+        [
+          38,
+          50
+        ],
+        [
+          60,
+          72
+        ]
+      ],
+      "target_LUFS": -16,
+      "gain_dB": -4.91
+    },
+    {
+      "label": "V13_MIX",
+      "start_s": 24.75,
+      "end_s": 49.0,
+      "source_intervals_s": [
+        [
+          38,
+          50
+        ],
+        [
+          60,
+          72
+        ]
+      ],
+      "target_LUFS": -16,
+      "gain_dB": -4.92
+    },
+    {
+      "label": "V12_VOCAL",
+      "start_s": 49.5,
+      "end_s": 59.5,
+      "source_intervals_s": [
+        [
+          38,
+          48
+        ]
+      ],
+      "target_LUFS": -20,
+      "gain_dB": -1.3599999999999994
+    },
+    {
+      "label": "V13_VOCAL",
+      "start_s": 60.0,
+      "end_s": 70.0,
+      "source_intervals_s": [
+        [
+          38,
+          48
+        ]
+      ],
+      "target_LUFS": -20,
+      "gain_dB": -1.4200000000000017
+    }
+  ],
+  "limitations": "No subjective audition; technical measures do not establish professional-record quality. Band competition and phrase entries are signal-based operating cues, not proved masking or recognized lyrics. CORE retains previously printed effects."
+}
