@@ -1,0 +1,527 @@
+{
+  "source": "V7 original tuned lead; V9 accompaniment; no V10 reconstructed audio, no reference-song samples",
+  "intent": "Vocal beautification with light tone finishing, subtle nonlinear color and phrase-dependent backing/space",
+  "static_EQ": "highpass=f=80:p=2,equalizer=f=300:t=q:w=0.9:g=0.4,highshelf=f=10000:t=s:w=1:g=0.7",
+  "dynamic_EQ": [
+    {
+      "name": "occasional_mid_prominence",
+      "Hz": 900,
+      "Q": 1.8,
+      "maximum_cut_dB": -0.8,
+      "threshold_ratio_dB": 1.9426856317561518,
+      "active_amount_percentiles": {
+        "50": 0.0035225087933137655,
+        "90": 0.46710270566275963,
+        "99": 0.9732951455500657
+      }
+    },
+    {
+      "name": "occasional_edge",
+      "Hz": 4000,
+      "Q": 1.1,
+      "maximum_cut_dB": -1.0,
+      "threshold_ratio_dB": -2.708608446974526,
+      "active_amount_percentiles": {
+        "50": 0.005492295316490447,
+        "90": 0.49350334192302053,
+        "99": 0.993276196272052
+      }
+    }
+  ],
+  "core_loudness_compensation_dB": -0.0799999999999983,
+  "harmonic_color": {
+    "band_Hz": [
+      220,
+      2400
+    ],
+    "residual_band_Hz": [
+      250,
+      5200
+    ],
+    "oversampling": 4,
+    "relative_active_RMS_dB": -32,
+    "nonlinearity": "tanh with .08 offset; input-proportional component removed by least squares; selected voiced spans only"
+  },
+  "backing": {
+    "cents": [
+      -6,
+      7
+    ],
+    "delay_ms": [
+      31,
+      49
+    ],
+    "band_Hz": [
+      420,
+      6100
+    ],
+    "vowel_minimum_span_ms": 350,
+    "skip_onset_ms": 60,
+    "fade_in_ms": 120,
+    "fade_out_ms": 90,
+    "selected_seconds_over_half": 39.5885625,
+    "regions": [
+      [
+        6.285,
+        7.145
+      ],
+      [
+        8.105,
+        8.645
+      ],
+      [
+        11.295,
+        11.825
+      ],
+      [
+        12.015,
+        12.405
+      ],
+      [
+        12.445,
+        13.965
+      ],
+      [
+        16.535,
+        17.075000000000003
+      ],
+      [
+        17.415,
+        17.775000000000002
+      ],
+      [
+        17.855,
+        19.085
+      ],
+      [
+        21.645,
+        22.105
+      ],
+      [
+        22.755,
+        23.335
+      ],
+      [
+        23.755,
+        24.855
+      ],
+      [
+        25.495,
+        25.985000000000003
+      ],
+      [
+        33.365,
+        34.155
+      ],
+      [
+        35.745,
+        36.125
+      ],
+      [
+        36.945,
+        37.535
+      ],
+      [
+        38.695,
+        39.044999999999995
+      ],
+      [
+        40.935,
+        41.355
+      ],
+      [
+        42.615,
+        43.195
+      ],
+      [
+        43.655,
+        44.245
+      ],
+      [
+        47.185,
+        47.665
+      ],
+      [
+        53.895,
+        54.445
+      ],
+      [
+        57.375,
+        58.265
+      ],
+      [
+        58.315,
+        58.934999999999995
+      ],
+      [
+        60.855,
+        62.004999999999995
+      ],
+      [
+        63.705,
+        64.215
+      ],
+      [
+        64.585,
+        65.97500000000001
+      ],
+      [
+        67.475,
+        67.905
+      ],
+      [
+        68.155,
+        69.22500000000001
+      ],
+      [
+        71.415,
+        72.265
+      ],
+      [
+        72.345,
+        73.345
+      ],
+      [
+        73.895,
+        74.56500000000001
+      ],
+      [
+        75.195,
+        75.765
+      ],
+      [
+        76.645,
+        77.495
+      ],
+      [
+        85.855,
+        86.555
+      ],
+      [
+        87.035,
+        87.635
+      ],
+      [
+        88.525,
+        88.915
+      ],
+      [
+        89.435,
+        90.455
+      ],
+      [
+        91.245,
+        92.015
+      ],
+      [
+        92.055,
+        92.455
+      ],
+      [
+        94.755,
+        95.275
+      ],
+      [
+        97.395,
+        97.86500000000001
+      ],
+      [
+        99.605,
+        100.105
+      ],
+      [
+        103.925,
+        104.39500000000001
+      ],
+      [
+        104.445,
+        105.355
+      ],
+      [
+        111.125,
+        111.875
+      ],
+      [
+        112.035,
+        112.94500000000001
+      ],
+      [
+        113.655,
+        115.75500000000001
+      ],
+      [
+        117.835,
+        118.495
+      ],
+      [
+        118.745,
+        119.375
+      ],
+      [
+        119.415,
+        119.825
+      ],
+      [
+        120.015,
+        120.655
+      ],
+      [
+        121.165,
+        122.935
+      ],
+      [
+        123.945,
+        124.53500000000001
+      ],
+      [
+        124.895,
+        125.765
+      ],
+      [
+        128.295,
+        129.325
+      ],
+      [
+        129.395,
+        130.345
+      ],
+      [
+        130.675,
+        131.195
+      ],
+      [
+        132.445,
+        132.875
+      ],
+      [
+        134.175,
+        134.64499999999998
+      ],
+      [
+        135.065,
+        135.565
+      ],
+      [
+        137.905,
+        138.465
+      ],
+      [
+        138.765,
+        139.345
+      ],
+      [
+        142.475,
+        143.385
+      ],
+      [
+        143.975,
+        144.515
+      ],
+      [
+        146.315,
+        147.005
+      ],
+      [
+        148.235,
+        148.815
+      ],
+      [
+        148.905,
+        149.315
+      ],
+      [
+        151.665,
+        152.08499999999998
+      ],
+      [
+        154.305,
+        154.89499999999998
+      ],
+      [
+        156.645,
+        156.995
+      ],
+      [
+        159.225,
+        159.695
+      ],
+      [
+        163.085,
+        163.61499999999998
+      ],
+      [
+        173.235,
+        173.595
+      ],
+      [
+        174.765,
+        175.20499999999998
+      ],
+      [
+        177.285,
+        177.795
+      ],
+      [
+        179.145,
+        179.505
+      ]
+    ],
+    "sample_counts": [
+      10285140,
+      10285140
+    ],
+    "channel_RMS_relative_selected_lead_dB": -11.5
+  },
+  "space": {
+    "throws": [
+      {
+        "end_s": 13.96,
+        "interval_ms": 444.4444444444444
+      },
+      {
+        "end_s": 18.76,
+        "interval_ms": 666.6666666666666
+      },
+      {
+        "end_s": 28.84,
+        "interval_ms": 444.4444444444444
+      },
+      {
+        "end_s": 61.56,
+        "interval_ms": 666.6666666666666
+      },
+      {
+        "end_s": 69.16,
+        "interval_ms": 444.4444444444444
+      },
+      {
+        "end_s": 100.08,
+        "interval_ms": 666.6666666666666
+      },
+      {
+        "end_s": 115.68,
+        "interval_ms": 444.4444444444444
+      },
+      {
+        "end_s": 139.32,
+        "interval_ms": 666.6666666666666
+      },
+      {
+        "end_s": 163.92,
+        "interval_ms": 444.4444444444444
+      },
+      {
+        "end_s": 171.08,
+        "interval_ms": 666.6666666666666
+      },
+      {
+        "end_s": 179.72,
+        "interval_ms": 444.4444444444444
+      }
+    ],
+    "echo_decay_gains": [
+      1,
+      0.24,
+      0.07
+    ],
+    "echo_relative_selected_RMS_dB": -16.5,
+    "echo_duck_dB": 6,
+    "short_tail": {
+      "predelay_ms": 40,
+      "low_T60_s": 0.65,
+      "high_T60_s": 0.45,
+      "active_relative_RMS_dB": -26,
+      "duck_dB": 3
+    },
+    "end_tail": {
+      "predelay_ms": 75,
+      "low_T60_s": 1.55,
+      "high_T60_s": 1.05,
+      "selected_RMS_dB": -22,
+      "duck_dB": 5
+    }
+  },
+  "levels": {
+    "vocal_target_LUFS": -18.259999999999998,
+    "vocal_post_FX_gain_dB": 0.4400000000000013,
+    "FX_cap": 1.0,
+    "FX_active_RMS_before_cap_dB": -15.631904425920862,
+    "vocal_side_mid_dB": {
+      "all_active": -16.756980621517002,
+      "sustained_vowels": -13.550270663440358
+    }
+  },
+  "master": {
+    "WAV_LUFS": -11.52,
+    "WAV_dBTP": -1.38,
+    "MP3_LUFS": -11.52,
+    "MP3_dBTP": -1.02,
+    "limiter": {
+      "method": "Approximate 1 ms least-squares gain, active input > -50 dBFS; includes resampling differences.",
+      "gain_reduction_dB_percentiles": {
+        "50": 8.387094567297027e-05,
+        "90": 1.1676546335220337,
+        "95": 1.9006829261779785,
+        "99": 3.3935675621032715,
+        "99.9": 4.910262107849121,
+        "100": 6.2724409103393555
+      },
+      "active_percent_over_3dB": 1.6302540174286555
+    },
+    "passes": [
+      {
+        "gain_dB": 5.199999999999999,
+        "LUFS": -12.0,
+        "dBTP": -1.38
+      },
+      {
+        "gain_dB": 5.699999999999999,
+        "LUFS": -11.65,
+        "dBTP": -1.38
+      },
+      {
+        "gain_dB": 5.85,
+        "LUFS": -11.55,
+        "dBTP": -1.38
+      },
+      {
+        "gain_dB": 5.9,
+        "LUFS": -11.52,
+        "dBTP": -1.38
+      }
+    ],
+    "mono_fold_energy_dB": -0.27777722477912903,
+    "duration_seconds": 214.27375
+  },
+  "comparison": [
+    {
+      "label": "V9_MIX",
+      "start_s": 0.0,
+      "end_s": 16.0,
+      "target_LUFS": -16,
+      "gain_dB": -4.58
+    },
+    {
+      "label": "V11_MIX",
+      "start_s": 16.5,
+      "end_s": 32.5,
+      "target_LUFS": -16,
+      "gain_dB": -5.1899999999999995
+    },
+    {
+      "label": "V9_VOCAL",
+      "start_s": 33.0,
+      "end_s": 43.0,
+      "target_LUFS": -20,
+      "gain_dB": -2.5500000000000007
+    },
+    {
+      "label": "V11_VOCAL",
+      "start_s": 43.5,
+      "end_s": 53.5,
+      "target_LUFS": -20,
+      "gain_dB": -2.7600000000000016
+    }
+  ],
+  "limitations": "No subjective audition. Reference-separated vocal is approximate and was only analysed, not mixed into this audio. No claim of identifying original artist plugin settings or reproducing vocal anatomy. Synthetic backing is not a separately performed double. V7 includes previously printed effects, also present in CORE."
+}

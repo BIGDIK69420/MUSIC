@@ -1,0 +1,78 @@
+{
+  "IMPLEMENTATION_REVIEW.md": {
+    "bytes": 4248,
+    "sha256": "4660a83344346c22359fd8a0fd3fa06f4c2d382bd661fbd4df18a411d516354a"
+  },
+  "MUSIC_v11_1CALL.mp3": {
+    "bytes": 8573804,
+    "sha256": "e3cae173ae8375ed414e0db54ed2e3c26c2d256983a5a770bc01074338bed1f6"
+  },
+  "MUSIC_v11_1CALL.wav": {
+    "bytes": 61710942,
+    "sha256": "6d49495fd927653d68d48a88064ea271f289acb4ec5190b662575fa576464e00"
+  },
+  "MUSIC_v11_COMPARE.mp3": {
+    "bytes": 2142764,
+    "sha256": "3e791063ec7ad697e30b4100367b037824fc8415778f81dcbe4a3a937bb89e4f"
+  },
+  "MUSIC_v11_VOCAL.wav": {
+    "bytes": 61710942,
+    "sha256": "e26bf3db664a7bb7b83b22a2202640bedfe9c0c23a86d47f27a7d9970d5a3063"
+  },
+  "MUSIC_v11_VOCAL_CORE.wav": {
+    "bytes": 61710942,
+    "sha256": "ed5e18bf1520fec8e7ee1f44fcdcc992ebda312b5ff5ed8d1cc01c0a36dd938f"
+  },
+  "MUSIC_v11_VOCAL_FX.wav": {
+    "bytes": 61710942,
+    "sha256": "de9bddb0b01064b00762a0c4735b1fa2b78a50825b53e8bf845945b7bb178216"
+  },
+  "NOTES.md": {
+    "bytes": 6178,
+    "sha256": "bf19189c26995afe9b0b8b90e2addc30a30ac649f6371724fe8f365621e45717"
+  },
+  "QUALITY.json": {
+    "bytes": 20978,
+    "sha256": "7cb16f5697bd622ab27f456a33d6217fd60c5309cef77222f2113cf60ca60a49"
+  },
+  "QUALITY.md": {
+    "bytes": 6290,
+    "sha256": "7308c76402773e7f6d6a70b5b67320dba2cb4e1d13472b4e0b23b590a77dddb1"
+  },
+  "build_v11.py": {
+    "bytes": 15053,
+    "sha256": "9318511a7a5caa87efde3bc58d5623d7a2148e54c243869de52be81cb2c9dfef"
+  },
+  "check_comparison.py": {
+    "bytes": 1753,
+    "sha256": "96b304bc20050c5054fcc2db5f22f718cc3f40255434408f5f372e8be42dd5bd"
+  },
+  "comparison-check.json": {
+    "bytes": 1081,
+    "sha256": "a603945faf8f2af570179ed3c0c06e19cdb20302deff05edc7b0121bfcb09930"
+  },
+  "qa_v11.json": {
+    "bytes": 5050,
+    "sha256": "5e56cd42e78e8b12d4775d9baec0c7d1e67a69645d50ae9863d52bc77b504abd"
+  },
+  "qa_v11.py": {
+    "bytes": 4146,
+    "sha256": "2154a0a8ef7bcc6ae00e72f76f481c4b593346cadd2f85f8b82d1248a2e26262"
+  },
+  "qa_vowel_and_sum.json": {
+    "bytes": 3115,
+    "sha256": "cae92a98c02cbe2e99f9b944ce644955dbc222710400b5cc64576b7d7e7865a9"
+  },
+  "qa_vowel_and_sum.py": {
+    "bytes": 2502,
+    "sha256": "6a9b74854ba3e8f001e28603e6f28ccb4e34d48565708aaab699bd83b3655705"
+  },
+  "quality.py": {
+    "bytes": 4124,
+    "sha256": "4aadd531e9d255285eb25216f2854608c0a5e77ef975989248fa614c9173eb38"
+  },
+  "validation.json": {
+    "bytes": 9382,
+    "sha256": "54d298c7e65f2bd5257a45c176d4cdbb89bfb5c1a1b7899c051df0bf498fbdff"
+  }
+}

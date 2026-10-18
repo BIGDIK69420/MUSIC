@@ -1,0 +1,52 @@
+{
+  "comparison_seconds": 53.5,
+  "segments": [
+    {
+      "label": "V9_MIX",
+      "decoded_LUFS": -16.0,
+      "decoded_dBTP": -5.77
+    },
+    {
+      "label": "V11_MIX",
+      "decoded_LUFS": -16.0,
+      "decoded_dBTP": -6.39
+    },
+    {
+      "label": "V9_VOCAL",
+      "decoded_LUFS": -20.0,
+      "decoded_dBTP": -7.3
+    },
+    {
+      "label": "V11_VOCAL",
+      "decoded_LUFS": -20.01,
+      "decoded_dBTP": -7.43
+    }
+  ],
+  "WAV_formats": {
+    "MUSIC_v11_1CALL.wav": {
+      "codec_name": "pcm_s24le",
+      "sample_rate": "48000",
+      "channels": 2,
+      "bits_per_sample": 24
+    },
+    "MUSIC_v11_VOCAL.wav": {
+      "codec_name": "pcm_s24le",
+      "sample_rate": "48000",
+      "channels": 2,
+      "bits_per_sample": 24
+    },
+    "MUSIC_v11_VOCAL_CORE.wav": {
+      "codec_name": "pcm_s24le",
+      "sample_rate": "48000",
+      "channels": 2,
+      "bits_per_sample": 24
+    },
+    "MUSIC_v11_VOCAL_FX.wav": {
+      "codec_name": "pcm_s24le",
+      "sample_rate": "48000",
+      "channels": 2,
+      "bits_per_sample": 24
+    }
+  },
+  "status": "PASS"
+}
