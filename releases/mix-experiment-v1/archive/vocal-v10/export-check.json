@@ -1,0 +1,80 @@
+{
+  "exports": {
+    "MUSIC_v10_REBUILD.wav": {
+      "frames": 10285140,
+      "duration_s": 214.27375,
+      "peak_dBFS": -1.3975811004638672,
+      "max_quantization_error": 1.189655449707061e-07,
+      "format": {
+        "codec_name": "pcm_s24le",
+        "sample_rate": "48000",
+        "channels": 2,
+        "bits_per_sample": 24
+      },
+      "bytes": 61710942
+    },
+    "MUSIC_v10_VOCAL.wav": {
+      "frames": 10285140,
+      "duration_s": 214.27375,
+      "peak_dBFS": -5.426337718963623,
+      "max_quantization_error": 1.1897628127144344e-07,
+      "format": {
+        "codec_name": "pcm_s24le",
+        "sample_rate": "48000",
+        "channels": 2,
+        "bits_per_sample": 24
+      },
+      "bytes": 61710942
+    },
+    "MUSIC_v10_VOCAL_CORE.wav": {
+      "frames": 10285140,
+      "duration_s": 214.27375,
+      "peak_dBFS": -5.48415470123291,
+      "max_quantization_error": 1.189760041597765e-07,
+      "format": {
+        "codec_name": "pcm_s24le",
+        "sample_rate": "48000",
+        "channels": 2,
+        "bits_per_sample": 24
+      },
+      "bytes": 61710942
+    },
+    "MUSIC_v10_REBUILD.mp3": {
+      "frames": 10285140,
+      "duration_s": 214.27375,
+      "peak_dBFS": -1.1936225891113281
+    }
+  },
+  "comparison": [
+    {
+      "label": "V9_MIX",
+      "decoded_LUFS": -16.0,
+      "target_error_LU": 0.0,
+      "decoded_dBTP": -5.77
+    },
+    {
+      "label": "V10_MIX",
+      "decoded_LUFS": -16.0,
+      "target_error_LU": 0.0,
+      "decoded_dBTP": -6.05
+    },
+    {
+      "label": "V9_VOCAL",
+      "decoded_LUFS": -20.0,
+      "target_error_LU": 0.0,
+      "decoded_dBTP": -7.3
+    },
+    {
+      "label": "V10_VOCAL",
+      "decoded_LUFS": -20.0,
+      "target_error_LU": 0.0,
+      "decoded_dBTP": -8.64
+    }
+  ],
+  "sums": {
+    "core_plus_fx_max_error": 5.960464477539063e-08,
+    "vocal_plus_v9_beat_max_error": 0.0,
+    "core_L_R_max_difference": 0.0
+  },
+  "status": "PASS: decode, format, length, finite samples, peaks, component sums and comparison loudness."
+}

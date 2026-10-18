@@ -1,0 +1,46 @@
+{
+  "MUSIC_v6_OPEN.mp3": {
+    "bytes": 8573804,
+    "sha256": "1da3e75dd9db868bf65eeec965d4aef6b2335b08e55a48e9dded9ed0f0aba8df"
+  },
+  "MUSIC_v6_OPEN.wav": {
+    "bytes": 61710942,
+    "sha256": "286a75326f98a9c8609205b27769fd4103c784e493e08a5a0f735dc2d678e277"
+  },
+  "MUSIC_v6_DRIER.mp3": {
+    "bytes": 8573804,
+    "sha256": "48f286e1e2b2d463b8919d35bb8756896b856b0d6c93764e68087c91ac395ec9"
+  },
+  "MUSIC_v6_DRIER.wav": {
+    "bytes": 61710942,
+    "sha256": "0ac63068a95294513bf807d30cd5cd64866c0a0c0f26a1cc32189e90fddbc20b"
+  },
+  "MUSIC_v6_OPEN_VOCAL.wav": {
+    "bytes": 61710942,
+    "sha256": "84e181fd16009c9829f1bb4a164ebedf40c3378da4186f9c0585dc4f24510bb6"
+  },
+  "MUSIC_v6_COMPARE.mp3": {
+    "bytes": 2442284,
+    "sha256": "9541631f4b9b3f34f9ceab56ac2563c58a1e14ca42e773ab00a07a2c4a900622"
+  },
+  "NOTES.md": {
+    "bytes": 3555,
+    "sha256": "991560557dfab89a083078e44010e86ec45281a2823c7ac0dad8dc872732ed38"
+  },
+  "validation.json": {
+    "bytes": 7822,
+    "sha256": "3380ecc7da39ac8055d7c7f87d348b73b2798f801156276de7d1d68b768640bf"
+  },
+  "quality-check.json": {
+    "bytes": 2153,
+    "sha256": "50bb60782709a27fef4bf21105e4987002fe570c7aa667294226a461169e134a"
+  },
+  "build_v6.py": {
+    "bytes": 8445,
+    "sha256": "581d5fd07884a5261c5f67e1995717ef50c0d9b6cc8783d9508e2686cfb67d6b"
+  },
+  "verify_v6.py": {
+    "bytes": 4540,
+    "sha256": "6e233d71b6ec170013eb1a4a0daafde06d72c82797753f7e47eecb907949ef26"
+  }
+}

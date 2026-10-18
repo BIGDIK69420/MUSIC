@@ -1,0 +1,150 @@
+{
+  "purpose": "Whole-mix cleanup proposal responding to perceived muddiness/dirty sound; not a confirmed diagnosis",
+  "reference": "V7 tonal base and V8 effects separated; original tuning retained",
+  "vocal": "85Hz 2-pole HP; 250Hz Q.9 -0.8dB static plus at most -0.8dB dynamic, 40ms attack /180ms release; no new air boost",
+  "vocal_detector": {
+    "ratio_bands_Hz": [
+      [
+        125,
+        350
+      ],
+      [
+        600,
+        3000
+      ]
+    ],
+    "threshold_dB": 0.08096786080788347,
+    "active_reduction_amount_percentiles": {
+      "10": 0.023868307763108516,
+      "50": 0.4635626695523047,
+      "90": 0.9698711883488818,
+      "99": 0.9999985752285583
+    }
+  },
+  "beat": "Mid-only 800Hz Q.8 maximum -2.5dB, competition-aware during voice; original bass and side retained before global level match",
+  "beat_detector": {
+    "ratio_band_Hz": [
+      600,
+      2000
+    ],
+    "active_dose_percentiles": {
+      "10": 0.25081535548411305,
+      "50": 0.4867476194986761,
+      "90": 0.9652122042307584,
+      "99": 0.9998122665956668
+    }
+  },
+  "new_effects_relative_V8_pre_bus": {
+    "doubles_dB": -6,
+    "delay_dB": -2,
+    "plate_dB": -3,
+    "all_new_FX_highpass_Hz": 500
+  },
+  "levels": {
+    "control_vocal_gain_dB": 0.10000000000000142,
+    "clean_vocal_gain_dB": 0.5100000000000016,
+    "beat_clean_compensation_dB": 0.3100000000000023
+  },
+  "duration_seconds": 214.27375,
+  "outputs": {
+    "MUSIC_v9_CLEAN": {
+      "WAV_LUFS": -12.12,
+      "WAV_dBTP": -1.38,
+      "MP3_LUFS": -12.13,
+      "MP3_dBTP": -1.01,
+      "mono_fold_energy_dB": -0.27097222208976746,
+      "limiter": {
+        "method": "1 ms stereo least-squares gain relative to driven input; active blocks > -50 dBFS. Approximate limiter gain reduction, includes resampling differences.",
+        "gain_reduction_dB_percentiles": {
+          "50": 5.7467041187919676e-05,
+          "90": 0.6527714133262634,
+          "95": 1.359259843826294,
+          "99": 2.7922377586364746,
+          "99.9": 4.262245178222656,
+          "100": 5.879786014556885
+        },
+        "active_percent_over_1dB": 7.032119384814389,
+        "active_percent_over_3dB": 0.7513862600937806
+      },
+      "passes": [
+        {
+          "gain_dB": 4.820000000000002,
+          "LUFS": -12.49,
+          "dBTP": -1.38
+        },
+        {
+          "gain_dB": 5.210000000000003,
+          "LUFS": -12.19,
+          "dBTP": -1.38
+        },
+        {
+          "gain_dB": 5.3000000000000025,
+          "LUFS": -12.12,
+          "dBTP": -1.38
+        }
+      ]
+    },
+    "MUSIC_v9_LIGHT_CONTROL": {
+      "WAV_LUFS": -12.12,
+      "WAV_dBTP": -1.38,
+      "MP3_LUFS": -12.12,
+      "MP3_dBTP": -1.07,
+      "mono_fold_energy_dB": -0.25086113810539246,
+      "limiter": {
+        "method": "1 ms stereo least-squares gain relative to driven input; active blocks > -50 dBFS. Approximate limiter gain reduction, includes resampling differences.",
+        "gain_reduction_dB_percentiles": {
+          "50": 5.5396150855813175e-05,
+          "90": 0.6763443946838379,
+          "95": 1.360828161239624,
+          "99": 2.7885420322418213,
+          "99.9": 4.277753829956055,
+          "100": 5.806053161621094
+        },
+        "active_percent_over_1dB": 7.1564172713215175,
+        "active_percent_over_3dB": 0.7474723444748423
+      },
+      "passes": [
+        {
+          "gain_dB": 4.799999999999999,
+          "LUFS": -12.49,
+          "dBTP": -1.38
+        },
+        {
+          "gain_dB": 5.1899999999999995,
+          "LUFS": -12.19,
+          "dBTP": -1.38
+        },
+        {
+          "gain_dB": 5.279999999999999,
+          "LUFS": -12.12,
+          "dBTP": -1.38
+        }
+      ]
+    }
+  },
+  "comparison": [
+    {
+      "label": "V8",
+      "start_s": 0.0,
+      "end_s": 20.25,
+      "target_LUFS": -16,
+      "gain_dB": -5.25
+    },
+    {
+      "label": "LIGHT_CONTROL",
+      "start_s": 20.75,
+      "end_s": 41.0,
+      "target_LUFS": -16,
+      "gain_dB": -4.17
+    },
+    {
+      "label": "V9_CLEAN",
+      "start_s": 41.5,
+      "end_s": 61.75,
+      "target_LUFS": -16,
+      "gain_dB": -4.199999999999999
+    }
+  ],
+  "control_limitations": "LIGHT_CONTROL jointly reduces effects, removes the V8 +0.8dB air shelf, and uses a gentler master; it does not isolate each of those changes separately. CLEAN adds vocal/body and beat/masking correction on that same basis.",
+  "limitations": "No subjective audition. Cannot infer that low-mid balance, reverb, or limiter is the sole source of perceived dirt; printed recording and original processing remain."
+}

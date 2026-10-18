@@ -1,0 +1,257 @@
+{
+  "source": "V4 tuned, aligned vocal; V4 premaster accompaniment retained exactly before the new master limiter",
+  "approach": "Broad bounded low-mid dynamic cuts, small 1500Hz lift, frequency-selective side reduction; no new reverb/delay/saturation or raw/tuned doubling",
+  "reference_file_status": "1 Call.wav upload exceeds the available download tool 32 MiB limit; not accessed or analysed",
+  "controls": "10 ms measurements, 40 ms power smoothing, 25 ms attack / 150 ms release, sample-interpolated linked stereo EQ; original dry only controls activity",
+  "outputs": {
+    "MUSIC_v6_OPEN": {
+      "settings": {
+        "static_525": -1.0,
+        "dynamic_525": -2.0,
+        "dynamic_820": -1.5,
+        "presence_1500": 0.8,
+        "side_650": -3.5,
+        "side_active": 0.9,
+        "side_quiet": 0.62,
+        "mid_quiet": 0.88
+      },
+      "dynamic_bands": [
+        {
+          "frequency_band_Hz": [
+            350,
+            700
+          ],
+          "reference_bands_Hz": [
+            [
+              180,
+              320
+            ],
+            [
+              1050,
+              2000
+            ]
+          ],
+          "prominence_threshold_dB": -0.1448793681388186,
+          "threshold_percentile": 35,
+          "full_reduction_above_threshold_dB": 5.5,
+          "active_control_percentiles": {
+            "10": 0.030078750757808755,
+            "50": 0.30719231855456797,
+            "90": 0.804857497096143,
+            "99": 0.999810677862978
+          },
+          "name": "low_box",
+          "centre_Hz": 525,
+          "Q": 1.25,
+          "maximum_cut_dB": -2.0,
+          "centre_gain_active_percentiles": {
+            "1": -1.9995742254198101,
+            "10": -1.5718527063320336,
+            "50": -0.5668842148380902,
+            "90": -0.05390084852568371
+          }
+        },
+        {
+          "frequency_band_Hz": [
+            650,
+            1050
+          ],
+          "reference_bands_Hz": [
+            [
+              300,
+              550
+            ],
+            [
+              1400,
+              2300
+            ]
+          ],
+          "prominence_threshold_dB": -5.239014458881915,
+          "threshold_percentile": 35,
+          "full_reduction_above_threshold_dB": 5.5,
+          "active_control_percentiles": {
+            "10": 0.036192527356908026,
+            "50": 0.6109928802448142,
+            "90": 0.9999997965997662,
+            "99": 0.9999999999999999
+          },
+          "name": "upper_box",
+          "centre_Hz": 820,
+          "Q": 1.65,
+          "maximum_cut_dB": -1.5,
+          "centre_gain_active_percentiles": {
+            "1": -1.4999999999999996,
+            "10": -1.4999996669708622,
+            "50": -0.8853450862534307,
+            "90": -0.05000336018446188
+          }
+        }
+      ],
+      "stem_loudness_compensation_dB": 0.6600000000000001,
+      "stem_LUFS": -19.06,
+      "WAV_LUFS": -12.09,
+      "WAV_dBTP": -1.23,
+      "MP3_LUFS": -12.1,
+      "MP3_dBTP": -0.83,
+      "duration_seconds": 214.27375,
+      "mono_fold_energy_dB": -0.11622718721628189,
+      "limiter": {
+        "method": "1 ms stereo least-squares gain relative to driven input; active blocks > -50 dBFS. Approximate limiter gain reduction, includes resampling differences.",
+        "gain_reduction_dB_percentiles": {
+          "50": 5.5396150855813175e-05,
+          "90": 0.45716702938079834,
+          "95": 1.1728978157043457,
+          "99": 2.627438545227051,
+          "99.9": 4.062199115753174,
+          "100": 5.619697570800781
+        },
+        "active_percent_over_1dB": 5.944052616049418,
+        "active_percent_over_3dB": 0.5620437261452652
+      },
+      "passes": [
+        {
+          "gain_dB": 5.049999999999999,
+          "LUFS": -12.42,
+          "dBTP": -1.24
+        },
+        {
+          "gain_dB": 5.389999999999999,
+          "LUFS": -12.16,
+          "dBTP": -1.23
+        },
+        {
+          "gain_dB": 5.469999999999999,
+          "LUFS": -12.09,
+          "dBTP": -1.23
+        }
+      ]
+    },
+    "MUSIC_v6_DRIER": {
+      "settings": {
+        "static_525": -1.3,
+        "dynamic_525": -2.8,
+        "dynamic_820": -2.2,
+        "presence_1500": 0.9,
+        "side_650": -5.0,
+        "side_active": 0.79,
+        "side_quiet": 0.48,
+        "mid_quiet": 0.78
+      },
+      "dynamic_bands": [
+        {
+          "frequency_band_Hz": [
+            350,
+            700
+          ],
+          "reference_bands_Hz": [
+            [
+              180,
+              320
+            ],
+            [
+              1050,
+              2000
+            ]
+          ],
+          "prominence_threshold_dB": -0.1448793681388186,
+          "threshold_percentile": 35,
+          "full_reduction_above_threshold_dB": 5.5,
+          "active_control_percentiles": {
+            "10": 0.030078750757808755,
+            "50": 0.30719231855456797,
+            "90": 0.804857497096143,
+            "99": 0.999810677862978
+          },
+          "name": "low_box",
+          "centre_Hz": 525,
+          "Q": 1.25,
+          "maximum_cut_dB": -2.8,
+          "centre_gain_active_percentiles": {
+            "1": -2.7993745067884013,
+            "10": -2.1780614423899363,
+            "50": -0.7682672551448797,
+            "90": -0.07229408138782505
+          }
+        },
+        {
+          "frequency_band_Hz": [
+            650,
+            1050
+          ],
+          "reference_bands_Hz": [
+            [
+              300,
+              550
+            ],
+            [
+              1400,
+              2300
+            ]
+          ],
+          "prominence_threshold_dB": -5.239014458881915,
+          "threshold_percentile": 35,
+          "full_reduction_above_threshold_dB": 5.5,
+          "active_control_percentiles": {
+            "10": 0.036192527356908026,
+            "50": 0.6109928802448142,
+            "90": 0.9999997965997662,
+            "99": 0.9999999999999999
+          },
+          "name": "upper_box",
+          "centre_Hz": 820,
+          "Q": 1.65,
+          "maximum_cut_dB": -2.2,
+          "centre_gain_active_percentiles": {
+            "1": -2.2,
+            "10": -2.1999994907460776,
+            "50": -1.276880068837115,
+            "90": -0.07062627809227202
+          }
+        }
+      ],
+      "stem_loudness_compensation_dB": 0.9200000000000017,
+      "stem_LUFS": -19.06,
+      "WAV_LUFS": -12.1,
+      "WAV_dBTP": -1.23,
+      "MP3_LUFS": -12.1,
+      "MP3_dBTP": -0.88,
+      "duration_seconds": 214.27375,
+      "mono_fold_energy_dB": -0.11073915660381317,
+      "limiter": {
+        "method": "1 ms stereo least-squares gain relative to driven input; active blocks > -50 dBFS. Approximate limiter gain reduction, includes resampling differences.",
+        "gain_reduction_dB_percentiles": {
+          "50": 5.5396150855813175e-05,
+          "90": 0.4728255569934845,
+          "95": 1.1829181909561157,
+          "99": 2.620680570602417,
+          "99.9": 4.097568035125732,
+          "100": 5.5965728759765625
+        },
+        "active_percent_over_1dB": 5.990272410576612,
+        "active_percent_over_3dB": 0.5511031581351964
+      },
+      "passes": [
+        {
+          "gain_dB": 5.049999999999999,
+          "LUFS": -12.42,
+          "dBTP": -1.24
+        },
+        {
+          "gain_dB": 5.389999999999999,
+          "LUFS": -12.16,
+          "dBTP": -1.23
+        },
+        {
+          "gain_dB": 5.469999999999999,
+          "LUFS": -12.1,
+          "dBTP": -1.23
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "No subjective audition; these are targeted proposals, not a verified removal of perceived boxiness.",
+    "Existing printed room and direct voice cannot be uniquely separated from these files.",
+    "The dynamic-band operating threshold is internal to this recording, not a measured professional-reference target."
+  ]
+}

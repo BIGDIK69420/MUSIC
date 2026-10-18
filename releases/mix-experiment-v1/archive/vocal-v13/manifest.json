@@ -1,0 +1,86 @@
+{
+  "version": "V13",
+  "base_version": "V12",
+  "files": [
+    {
+      "file": "MUSIC_v13_BEAT.wav",
+      "bytes": 61710942,
+      "sha256": "b1f0372739a5066ac55f118c5ee9a2d78adcf9a3f8e2ad30d1eeae23a39deb0e"
+    },
+    {
+      "file": "MUSIC_v13_COMPARE.mp3",
+      "bytes": 2802284,
+      "sha256": "6669176f0ee297b7b8e110f9673c3f61c2243de155d1864c2ce4252d3a0911cb"
+    },
+    {
+      "file": "MUSIC_v13_FINISH.mp3",
+      "bytes": 8573804,
+      "sha256": "2aebb9b3526bc22d39dc15eb8fb903b92b829e4cf19795d0c89caa803de1788e"
+    },
+    {
+      "file": "MUSIC_v13_FINISH.wav",
+      "bytes": 61710942,
+      "sha256": "49bf3bb94a3a786a6f777e5c2f025c61b5be639bf3ac7bd5cbc83947aa39099c"
+    },
+    {
+      "file": "MUSIC_v13_VOCAL.wav",
+      "bytes": 61710942,
+      "sha256": "de369024064ebcb3bcad00cd01e0ce737b6df91876a24ddaf811bd5613112b46"
+    },
+    {
+      "file": "MUSIC_v13_VOCAL_CORE.wav",
+      "bytes": 61710942,
+      "sha256": "ecc1d45a3daea1ae17cb95e5cc897f37ac9e4cbaacf97eabb19c92cdea9448ec"
+    },
+    {
+      "file": "MUSIC_v13_VOCAL_FX.wav",
+      "bytes": 61710942,
+      "sha256": "3d1b1e7b8feb71b62c51cf13ed2192a7999c24a240c6131f54d35f79f4cce542"
+    },
+    {
+      "file": "NOTES.md",
+      "bytes": 5390,
+      "sha256": "80ba033aec9825d5aba55b1dabbc585c98b017bb4732b3032a43d03c84b9e201"
+    },
+    {
+      "file": "build_v13.py",
+      "bytes": 9615,
+      "sha256": "d7d01aeea2319247e3327a98841d8aee7bd28651ca18c007baab643a8638574a"
+    },
+    {
+      "file": "competition.npz",
+      "bytes": 1373378,
+      "sha256": "d69c6c45d6b3012900a5bb3f3c1cd2b540edd236e7273aeea36e1adfa240750d"
+    },
+    {
+      "file": "controls.npz",
+      "bytes": 1201698,
+      "sha256": "9a13e2a5ddb8f84fdfab2a737feabb4732c14f4a92866c3e56c904f600b1b475"
+    },
+    {
+      "file": "inspection.json",
+      "bytes": 4245,
+      "sha256": "802defefb7c56943428baf41b7fd3f32601b19ce91af5640f332269f07722e64"
+    },
+    {
+      "file": "onset_candidates.json",
+      "bytes": 770,
+      "sha256": "47dc324bc86966479b41a128835abf690dd3185c914585835299477dd4f1483c"
+    },
+    {
+      "file": "quality-check.json",
+      "bytes": 6842,
+      "sha256": "c0351b32c9017ad61495722833735792d9f29324715e03d13d2b3b4896ad47e6"
+    },
+    {
+      "file": "validation.json",
+      "bytes": 4424,
+      "sha256": "55ffb0a3e98a503d911a96f2ac49f7971e11237904c6dd1c4264c5dcf1ba3ab2"
+    },
+    {
+      "file": "verify_v13.py",
+      "bytes": 7390,
+      "sha256": "e77fcef3f49fd4d235369191b7c90a1dee206476700ecbb46c2d35dbdc0f0faf"
+    }
+  ]
+}

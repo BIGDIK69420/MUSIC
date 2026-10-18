@@ -1,0 +1,135 @@
+{
+  "purpose": "Locate possible competition; band power is not a perceptual masking threshold",
+  "dry_active_tertiles_dB": [
+    -32.09226338068637,
+    -27.23467429478985
+  ],
+  "bands": {
+    "200-500": {
+      "active": {
+        "beat_mid_minus_core_mid_dB": -5.966194826760423,
+        "beat_stronger_fraction": 0.06304845478824876
+      },
+      "weak": {
+        "beat_mid_minus_core_mid_dB": -5.34716888572344,
+        "beat_stronger_fraction": 0.09213161659513591
+      },
+      "medium": {
+        "beat_mid_minus_core_mid_dB": -6.483162006755201,
+        "beat_stronger_fraction": 0.03348597595878649
+      },
+      "strong": {
+        "beat_mid_minus_core_mid_dB": -6.005416654562273,
+        "beat_stronger_fraction": 0.06351931330472103
+      }
+    },
+    "500-900": {
+      "active": {
+        "beat_mid_minus_core_mid_dB": -5.526353363301818,
+        "beat_stronger_fraction": 0.11236169400991988
+      },
+      "weak": {
+        "beat_mid_minus_core_mid_dB": -3.164885280304242,
+        "beat_stronger_fraction": 0.20772532188841203
+      },
+      "medium": {
+        "beat_mid_minus_core_mid_dB": -5.722624396461603,
+        "beat_stronger_fraction": 0.08729250143102461
+      },
+      "strong": {
+        "beat_mid_minus_core_mid_dB": -6.567632046024933,
+        "beat_stronger_fraction": 0.04206008583690987
+      }
+    },
+    "900-1400": {
+      "active": {
+        "beat_mid_minus_core_mid_dB": -5.439414083614002,
+        "beat_stronger_fraction": 0.24828309805417778
+      },
+      "weak": {
+        "beat_mid_minus_core_mid_dB": -1.7044676688120333,
+        "beat_stronger_fraction": 0.4206008583690987
+      },
+      "medium": {
+        "beat_mid_minus_core_mid_dB": -5.078822790636383,
+        "beat_stronger_fraction": 0.19891242129364625
+      },
+      "strong": {
+        "beat_mid_minus_core_mid_dB": -7.222223193379236,
+        "beat_stronger_fraction": 0.12532188841201716
+      }
+    },
+    "1400-2200": {
+      "active": {
+        "beat_mid_minus_core_mid_dB": -5.596348552385287,
+        "beat_stronger_fraction": 0.13000763067531476
+      },
+      "weak": {
+        "beat_mid_minus_core_mid_dB": -3.3891125437374594,
+        "beat_stronger_fraction": 0.17310443490701002
+      },
+      "medium": {
+        "beat_mid_minus_core_mid_dB": -4.8330566028790365,
+        "beat_stronger_fraction": 0.1296508299942759
+      },
+      "strong": {
+        "beat_mid_minus_core_mid_dB": -7.367545667179101,
+        "beat_stronger_fraction": 0.08726752503576538
+      }
+    },
+    "2200-3500": {
+      "active": {
+        "beat_mid_minus_core_mid_dB": -4.551575801155597,
+        "beat_stronger_fraction": 0.13649370469286531
+      },
+      "weak": {
+        "beat_mid_minus_core_mid_dB": -4.586671098143432,
+        "beat_stronger_fraction": 0.11988555078683834
+      },
+      "medium": {
+        "beat_mid_minus_core_mid_dB": -4.064573034010037,
+        "beat_stronger_fraction": 0.15941614195764167
+      },
+      "strong": {
+        "beat_mid_minus_core_mid_dB": -4.985190980615101,
+        "beat_stronger_fraction": 0.1301859799713877
+      }
+    },
+    "3500-6000": {
+      "active": {
+        "beat_mid_minus_core_mid_dB": -4.7613187853520875,
+        "beat_stronger_fraction": 0.10988172453262114
+      },
+      "weak": {
+        "beat_mid_minus_core_mid_dB": -4.915792593720983,
+        "beat_stronger_fraction": 0.09985693848354793
+      },
+      "medium": {
+        "beat_mid_minus_core_mid_dB": -4.133404969839929,
+        "beat_stronger_fraction": 0.12993703491700057
+      },
+      "strong": {
+        "beat_mid_minus_core_mid_dB": -5.210842324554407,
+        "beat_stronger_fraction": 0.09985693848354793
+      }
+    },
+    "6000-10000": {
+      "active": {
+        "beat_mid_minus_core_mid_dB": -8.123589634083348,
+        "beat_stronger_fraction": 0.061999236932468525
+      },
+      "weak": {
+        "beat_mid_minus_core_mid_dB": -9.112068307897347,
+        "beat_stronger_fraction": 0.05722460658082976
+      },
+      "medium": {
+        "beat_mid_minus_core_mid_dB": -8.034735917595562,
+        "beat_stronger_fraction": 0.07040641099026904
+      },
+      "strong": {
+        "beat_mid_minus_core_mid_dB": -6.985536299775984,
+        "beat_stronger_fraction": 0.05836909871244635
+      }
+    }
+  }
+}

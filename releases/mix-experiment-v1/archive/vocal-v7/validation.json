@@ -1,0 +1,57 @@
+{
+  "reference": "User-supplied 1 Call.mp3 analysed as a complete mix, not separated or subjectively auditioned",
+  "changes": {
+    "beat_EQ": "260Hz Q.85 -1.5dB; 1800Hz Q.8 +1dB; 6k shelf +2.5dB",
+    "beat_existing_side": "250Hz highpassed side added with coefficient 10^(5/20)-1; no synthetic delay. Phase-dependent transition, not an exact brickwall width boost.",
+    "beat_loudness_compensation_dB": -0.08999999999999986,
+    "vocal": "V6 OPEN + 1900Hz Q.9 +0.6dB, loudness matched then raised .25dB; no new reverb",
+    "vocal_gain_dB": 0.13000000000000256
+  },
+  "passes": [
+    {
+      "gain": 4.909999999999998,
+      "LUFS": -12.43,
+      "dBTP": -1.23
+    },
+    {
+      "gain": 5.259999999999998,
+      "LUFS": -12.16,
+      "dBTP": -1.23
+    },
+    {
+      "gain": 5.339999999999998,
+      "LUFS": -12.11,
+      "dBTP": -1.23
+    }
+  ],
+  "WAV_LUFS": -12.11,
+  "WAV_dBTP": -1.23,
+  "MP3_LUFS": -12.11,
+  "MP3_dBTP": -0.83,
+  "mono_fold_energy_dB": -0.24231094121932983,
+  "limiter": {
+    "method": "1 ms stereo least-squares gain relative to driven input; active blocks > -50 dBFS. Approximate limiter gain reduction, includes resampling differences.",
+    "gain_reduction_dB_percentiles": {
+      "50": 5.3325260523706675e-05,
+      "90": 0.567003607749939,
+      "95": 1.2397451400756836,
+      "99": 2.647326946258545,
+      "99.9": 4.130740165710449,
+      "100": 5.699470520019531
+    },
+    "active_percent_over_1dB": 6.381784273426201,
+    "active_percent_over_3dB": 0.6156276166552485
+  },
+  "duration_seconds": 214.27375,
+  "comparison": [
+    {
+      "name": "V6",
+      "clip_gain_dB": -4.699999999999999
+    },
+    {
+      "name": "V7",
+      "clip_gain_dB": -4.720000000000001
+    }
+  ],
+  "limitations": "Reference band levels include different instrumentation, arrangements and vocals; not an exact vocal EQ target. No claim of verified perceptual similarity."
+}

@@ -1,0 +1,185 @@
+{
+  "source_frames": 10285140,
+  "expected_duration_s": 214.27375,
+  "raw": {
+    "core": {
+      "frames": 10285140,
+      "finite": true,
+      "peak_dBFS": -4.361345937809865,
+      "samples_abs_ge_one": 0,
+      "last_20ms_peak_dBFS": -85.19730220103713
+    },
+    "doubles": {
+      "frames": 10285140,
+      "finite": true,
+      "peak_dBFS": -17.376006590779532,
+      "samples_abs_ge_one": 0,
+      "last_20ms_peak_dBFS": -300.0
+    },
+    "echo": {
+      "frames": 10285140,
+      "finite": true,
+      "peak_dBFS": -19.51692681946065,
+      "samples_abs_ge_one": 0,
+      "last_20ms_peak_dBFS": -300.0
+    },
+    "shallow": {
+      "frames": 10285140,
+      "finite": true,
+      "peak_dBFS": -31.95401920952572,
+      "samples_abs_ge_one": 0,
+      "last_20ms_peak_dBFS": -300.0
+    },
+    "deep": {
+      "frames": 10285140,
+      "finite": true,
+      "peak_dBFS": -30.225245978796252,
+      "samples_abs_ge_one": 0,
+      "last_20ms_peak_dBFS": -300.0
+    },
+    "core_mix": {
+      "frames": 10285140,
+      "finite": true,
+      "peak_dBFS": -3.9213456329153673,
+      "samples_abs_ge_one": 0,
+      "last_20ms_peak_dBFS": -84.75730190806959
+    },
+    "fx_mix": {
+      "frames": 10285140,
+      "finite": true,
+      "peak_dBFS": -16.32402243300684,
+      "samples_abs_ge_one": 0,
+      "last_20ms_peak_dBFS": -300.0
+    },
+    "vocal": {
+      "frames": 10285140,
+      "finite": true,
+      "peak_dBFS": -3.853608119335342,
+      "samples_abs_ge_one": 0,
+      "last_20ms_peak_dBFS": -84.75730190806959
+    },
+    "premaster": {
+      "frames": 10285140,
+      "finite": true,
+      "peak_dBFS": -0.9397015962496479,
+      "samples_abs_ge_one": 0,
+      "last_20ms_peak_dBFS": -84.75730190806959
+    },
+    "master": {
+      "frames": 10285140,
+      "finite": true,
+      "peak_dBFS": -1.3838465043183192,
+      "samples_abs_ge_one": 0,
+      "last_20ms_peak_dBFS": -78.91150114217379
+    },
+    "harmonic_color_mono": {
+      "frames": 10285140,
+      "finite": true,
+      "peak_dBFS": -27.224922745289575,
+      "samples_abs_ge_one": 0,
+      "last_20ms_peak_dBFS": -300.0
+    }
+  },
+  "sum_identity": {
+    "core_plus_fx_equals_vocal": {
+      "max_abs_sample_error": 5.960464477539063e-08,
+      "error_RMS_dBFS": -169.07732298039008
+    },
+    "vocal_plus_beat_equals_premaster": {
+      "max_abs_sample_error": 0.0,
+      "error_RMS_dBFS": -300.0
+    }
+  },
+  "exports": {
+    "MUSIC_v11_1CALL.wav": {
+      "frames": 10285140,
+      "finite": true,
+      "peak_dBFS": -1.3838465043183192,
+      "samples_abs_ge_one": 0,
+      "last_20ms_peak_dBFS": -78.9193258996544,
+      "sample_rate": 48000,
+      "channels": 2,
+      "quantization_error_vs_float": {
+        "max_abs_sample_error": 1.1897463991772383e-07,
+        "error_RMS_dBFS": -143.88574214897656
+      }
+    },
+    "MUSIC_v11_VOCAL.wav": {
+      "frames": 10285140,
+      "finite": true,
+      "peak_dBFS": -3.8536089261519644,
+      "samples_abs_ge_one": 0,
+      "last_20ms_peak_dBFS": -84.75896323338608,
+      "sample_rate": 48000,
+      "channels": 2,
+      "quantization_error_vs_float": {
+        "max_abs_sample_error": 1.189760041597765e-07,
+        "error_RMS_dBFS": -143.44798826367986
+      }
+    },
+    "MUSIC_v11_VOCAL_CORE.wav": {
+      "frames": 10285140,
+      "finite": true,
+      "peak_dBFS": -3.9213464460486036,
+      "samples_abs_ge_one": 0,
+      "last_20ms_peak_dBFS": -84.75896323338608,
+      "sample_rate": 48000,
+      "channels": 2,
+      "quantization_error_vs_float": {
+        "max_abs_sample_error": 1.189760041597765e-07,
+        "error_RMS_dBFS": -143.44513849570103
+      }
+    },
+    "MUSIC_v11_VOCAL_FX.wav": {
+      "frames": 10285140,
+      "finite": true,
+      "peak_dBFS": -16.32402243300684,
+      "samples_abs_ge_one": 0,
+      "last_20ms_peak_dBFS": -300.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "quantization_error_vs_float": {
+        "max_abs_sample_error": 1.1897645890712738e-07,
+        "error_RMS_dBFS": -143.74657414536586
+      }
+    },
+    "MUSIC_v11_1CALL.mp3": {
+      "frames": 10285140,
+      "finite": true,
+      "peak_dBFS": -1.0423112755601351,
+      "samples_abs_ge_one": 0,
+      "last_20ms_peak_dBFS": -78.6651092385564
+    }
+  },
+  "harmonic_outside_gate_peak_dBFS": -110.68792942777036,
+  "backing_mono_frames": [
+    10285140,
+    10285140
+  ],
+  "master_compatibility": {
+    "approx_4x_peak_dBFS": -1.3684964728341469,
+    "LR_correlation": 0.8759931084945415,
+    "mono_fold_energy_change_dB": -0.2777771240328522,
+    "side_mid_energy_dB": -11.80123519897461
+  },
+  "mp3_decoded_compatibility": {
+    "approx_4x_peak_dBFS": -1.0157171385004389,
+    "LR_correlation": 0.8759445580990455,
+    "mono_fold_energy_change_dB": -0.2779080337308915,
+    "side_mid_energy_dB": -11.799139022827148
+  },
+  "metadata_checks": {
+    "last_master_pass": {
+      "gain_dB": 5.9,
+      "LUFS": -11.52,
+      "dBTP": -1.38
+    },
+    "reported_master": {
+      "WAV_LUFS": -11.52,
+      "WAV_dBTP": -1.38,
+      "MP3_LUFS": -11.52,
+      "MP3_dBTP": -1.02
+    },
+    "passes": 4
+  }
+}

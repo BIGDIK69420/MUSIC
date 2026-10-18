@@ -1,0 +1,87 @@
+{
+  "double_far_outside_gate": {
+    "definition": "control voiced amplitude <= 0.001, >100 ms from any frame above that threshold",
+    "outside_seconds": 139.02497916666667,
+    "selected_vowel_RMS_dBFS": -32.696114986088446,
+    "far_outside_RMS_dBFS": -131.62484823256216,
+    "outside_to_selected_RMS_dB": -98.9287332464737,
+    "outside_peak_dBFS": -89.5049850550134
+  },
+  "bands": {
+    "250-1200": {
+      "active": {
+        "full_vs_core_energy_dB": 0.0629752388946648,
+        "cross_term_vs_core_energy_ratio": -0.003979593090751152
+      },
+      "sustained_vowels": {
+        "full_vs_core_energy_dB": 0.15489393064640916,
+        "cross_term_vs_core_energy_ratio": -0.013274707545156073
+      },
+      "active_far_outside": {
+        "full_vs_core_energy_dB": 0.0015549706874311796,
+        "cross_term_vs_core_energy_ratio": -0.00024254847462474723
+      },
+      "active_40ms_ratio_dB_percentiles": {
+        "0": -3.198425908521703,
+        "1": -1.2304615149406215,
+        "5": -0.48683283875932826,
+        "50": 0.004741545627477756,
+        "95": 0.7422178508061672,
+        "99": 1.4307936885511583,
+        "100": 2.413923034924336
+      },
+      "percent_active_frames_below_minus1dB": 1.551653736218865,
+      "percent_active_frames_below_minus3dB": 0.04083299305839118
+    },
+    "250-600": {
+      "active": {
+        "full_vs_core_energy_dB": 0.02593757138330486,
+        "cross_term_vs_core_energy_ratio": -0.0023674815933362736
+      },
+      "sustained_vowels": {
+        "full_vs_core_energy_dB": 0.07033385700654965,
+        "cross_term_vs_core_energy_ratio": -0.007905454540640306
+      },
+      "active_far_outside": {
+        "full_vs_core_energy_dB": 7.145214164854968e-05,
+        "cross_term_vs_core_energy_ratio": -0.00011264217348006112
+      },
+      "active_40ms_ratio_dB_percentiles": {
+        "0": -1.9048835194969105,
+        "1": -1.0500518701804151,
+        "5": -0.4621274309276417,
+        "50": 0.0016763932316589943,
+        "95": 0.5500322140913733,
+        "99": 1.1761523020139595,
+        "100": 2.023311879212608
+      },
+      "percent_active_frames_below_minus1dB": 1.4291547570436913,
+      "percent_active_frames_below_minus3dB": 0.0
+    },
+    "600-1200": {
+      "active": {
+        "full_vs_core_energy_dB": 0.1217508264439321,
+        "cross_term_vs_core_energy_ratio": -0.007471715694453995
+      },
+      "sustained_vowels": {
+        "full_vs_core_energy_dB": 0.2681260781936999,
+        "cross_term_vs_core_energy_ratio": -0.023074994020947714
+      },
+      "active_far_outside": {
+        "full_vs_core_energy_dB": 0.00445845807868794,
+        "cross_term_vs_core_energy_ratio": -0.0005268283339395694
+      },
+      "active_40ms_ratio_dB_percentiles": {
+        "0": -4.001776322744039,
+        "1": -1.9763265508796595,
+        "5": -0.7383608048950331,
+        "50": 0.01528334759869867,
+        "95": 1.26803542262038,
+        "99": 2.117848327590235,
+        "100": 3.686739494479348
+      },
+      "percent_active_frames_below_minus1dB": 3.2666394446712945,
+      "percent_active_frames_below_minus3dB": 0.2449979583503471
+    }
+  }
+}

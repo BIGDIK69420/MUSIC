@@ -1,0 +1,152 @@
+{
+  "source": "/workspace/audio-v10-pitch/restored_tuned_mono.f32",
+  "approach": "Independent rebuilding from the dry recording, conservative restoration and verified pitch guidance upstream. Printed wet vocal is never mixed into this audio.",
+  "filters": {
+    "HP_Hz": 75,
+    "hum_notch": "100Hz Q20 -4dB",
+    "tone": "equalizer=f=260:t=q:w=0.9:g=-1.0,equalizer=f=520:t=q:w=1.1:g=-1.5,equalizer=f=1700:t=q:w=0.8:g=1.3,equalizer=f=3300:t=q:w=0.9:g=3.2,highshelf=f=6500:t=s:w=1:g=3.0"
+  },
+  "riding": {
+    "reference_band_Hz": [
+      150,
+      4500
+    ],
+    "target_dBFS": -24,
+    "range_dB": [
+      -4,
+      6
+    ],
+    "maximum_slew_dB_per_s": 5,
+    "active_gain_percentiles_dB": {
+      "10": 0.4828865126858312,
+      "50": 4.451843463869981,
+      "90": 5.999999999999999
+    }
+  },
+  "compressor": {
+    "ratio": 2.5,
+    "threshold_dBFS": -26.020599913279625,
+    "attack_ms": 15,
+    "release_ms": 110,
+    "statistics": {
+      "method": "1 ms stereo least-squares gain relative to driven input; active blocks > -50 dBFS. Approximate limiter gain reduction, includes resampling differences.",
+      "gain_reduction_dB_percentiles": {
+        "50": 1.9629656076431274,
+        "90": 5.673943519592285,
+        "95": 6.61641263961792,
+        "99": 8.377050399780273,
+        "99.9": 10.42181396484375,
+        "100": 13.875106811523438
+      },
+      "active_percent_over_1dB": 63.200667689892,
+      "active_percent_over_3dB": 36.81772207408246
+    }
+  },
+  "deesser": {
+    "high_band_Hz": [
+      5000,
+      11000
+    ],
+    "threshold_ratio_dB": -3.8526930809020996,
+    "maximum_shelf_cut_dB": 3
+  },
+  "level": {
+    "initial_makeup_dB": 7.02,
+    "after_peak_and_fx_compensation_dB": 0.010000000000001563,
+    "vocal_LUFS_target": -18.66
+  },
+  "isolated_peak_control": {
+    "method": "1 ms stereo least-squares gain relative to driven input; active blocks > -50 dBFS. Approximate limiter gain reduction, includes resampling differences.",
+    "gain_reduction_dB_percentiles": {
+      "50": 3.106316853518365e-06,
+      "90": 0.0001863809593487531,
+      "95": 0.000458711467217654,
+      "99": 0.0022012011613696814,
+      "99.9": 0.6258453130722046,
+      "100": 3.2746124267578125
+    },
+    "active_percent_over_1dB": 0.057765756459570765,
+    "active_percent_over_3dB": 0.0013591942696369592
+  },
+  "space": {
+    "delay_ms": [
+      444.444,
+      666.667
+    ],
+    "delay_relative_active_RMS_dB": -27,
+    "delay_duck_dB": 7,
+    "diffuse_T60_s": 0.85,
+    "predelay_ms": 55,
+    "diffuse_return_active_RMS_dB": -26,
+    "diffuse_duck_dB": 5
+  },
+  "master": {
+    "WAV_LUFS": -12.11,
+    "WAV_dBTP": -1.4,
+    "MP3_LUFS": -12.11,
+    "MP3_dBTP": -1.15,
+    "limiter": {
+      "method": "1 ms stereo least-squares gain relative to driven input; active blocks > -50 dBFS. Approximate limiter gain reduction, includes resampling differences.",
+      "gain_reduction_dB_percentiles": {
+        "50": 8.283514034701511e-06,
+        "90": 0.16038377583026886,
+        "95": 0.794691264629364,
+        "99": 2.13059401512146,
+        "99.9": 3.767796039581299,
+        "100": 5.58676290512085
+      },
+      "active_percent_over_1dB": 4.008884323069752,
+      "active_percent_over_3dB": 0.285363696030591
+    },
+    "passes": [
+      {
+        "gain_dB": 4.820000000000002,
+        "LUFS": -12.37,
+        "dBTP": -1.4
+      },
+      {
+        "gain_dB": 5.090000000000002,
+        "LUFS": -12.15,
+        "dBTP": -1.4
+      },
+      {
+        "gain_dB": 5.140000000000002,
+        "LUFS": -12.11,
+        "dBTP": -1.4
+      }
+    ],
+    "mono_fold_energy_dB": -0.22738532721996307,
+    "duration_seconds": 214.27375
+  },
+  "comparison": [
+    {
+      "label": "V9_MIX",
+      "start_s": 0.0,
+      "end_s": 16.0,
+      "target_LUFS": -16,
+      "gain_dB": -4.58
+    },
+    {
+      "label": "V10_MIX",
+      "start_s": 16.5,
+      "end_s": 32.5,
+      "target_LUFS": -16,
+      "gain_dB": -4.75
+    },
+    {
+      "label": "V9_VOCAL",
+      "start_s": 33.0,
+      "end_s": 43.0,
+      "target_LUFS": -20,
+      "gain_dB": -2.5500000000000007
+    },
+    {
+      "label": "V10_VOCAL",
+      "start_s": 43.5,
+      "end_s": 53.5,
+      "target_LUFS": -20,
+      "gain_dB": -3.219999999999999
+    }
+  ],
+  "limitations": "No subjective audition. Separation/repair is imperfect and pitch guidance is confidence-limited, not exact reproduction of the original Auto-Tune settings. Cannot guarantee removal of perceived phone-like quality."
+}

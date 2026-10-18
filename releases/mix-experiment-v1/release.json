@@ -1,0 +1,66 @@
+{
+  "release_name": "混音实验 V1",
+  "version": "V1",
+  "previous_experiment_label": "V13",
+  "status": "user_accepted_successful_experiment",
+  "user_acceptance_quote": "v13太棒了，作为混音实验成功的V1吧。把至今为止的经验，总结打包，并让v13成为第一版",
+  "accepted_date": "2026-10-18",
+  "date_timezone": "Asia/Singapore",
+  "source_commit": "7b574ef13b5f1568261e27e34df487b90b6d0fa5",
+  "source_branch": "audio/vocal-v3",
+  "audio_processing_performed_for_release": false,
+  "audio": [
+    {
+      "file": "MUSIC_MIX_EXPERIMENT_V1.wav",
+      "source_file": "exports/vocal-v13/MUSIC_v13_FINISH.wav",
+      "bytes": 61710942,
+      "sha256": "49bf3bb94a3a786a6f777e5c2f025c61b5be639bf3ac7bd5cbc83947aa39099c",
+      "byte_identical_to_V13": true
+    },
+    {
+      "file": "MUSIC_MIX_EXPERIMENT_V1.mp3",
+      "source_file": "exports/vocal-v13/MUSIC_v13_FINISH.mp3",
+      "bytes": 8573804,
+      "sha256": "2aebb9b3526bc22d39dc15eb8fb903b92b829e4cf19795d0c89caa803de1788e",
+      "byte_identical_to_V13": true
+    },
+    {
+      "file": "MUSIC_MIX_EXPERIMENT_V1_VOCAL.wav",
+      "source_file": "exports/vocal-v13/MUSIC_v13_VOCAL.wav",
+      "bytes": 61710942,
+      "sha256": "de369024064ebcb3bcad00cd01e0ce737b6df91876a24ddaf811bd5613112b46",
+      "byte_identical_to_V13": true
+    },
+    {
+      "file": "MUSIC_MIX_EXPERIMENT_V1_VOCAL_CORE.wav",
+      "source_file": "exports/vocal-v13/MUSIC_v13_VOCAL_CORE.wav",
+      "bytes": 61710942,
+      "sha256": "ecc1d45a3daea1ae17cb95e5cc897f37ac9e4cbaacf97eabb19c92cdea9448ec",
+      "byte_identical_to_V13": true
+    },
+    {
+      "file": "MUSIC_MIX_EXPERIMENT_V1_VOCAL_FX.wav",
+      "source_file": "exports/vocal-v13/MUSIC_v13_VOCAL_FX.wav",
+      "bytes": 61710942,
+      "sha256": "3d1b1e7b8feb71b62c51cf13ed2192a7999c24a240c6131f54d35f79f4cce542",
+      "byte_identical_to_V13": true
+    },
+    {
+      "file": "MUSIC_MIX_EXPERIMENT_V1_BEAT.wav",
+      "source_file": "exports/vocal-v13/MUSIC_v13_BEAT.wav",
+      "bytes": 61710942,
+      "sha256": "b1f0372739a5066ac55f118c5ee9a2d78adcf9a3f8e2ad30d1eeae23a39deb0e",
+      "byte_identical_to_V13": true
+    },
+    {
+      "file": "MUSIC_V12_TO_MIX_EXPERIMENT_V1_COMPARE.mp3",
+      "source_file": "exports/vocal-v13/MUSIC_v13_COMPARE.mp3",
+      "bytes": 2802284,
+      "sha256": "6669176f0ee297b7b8e110f9673c3f61c2243de155d1864c2ce4252d3a0911cb",
+      "byte_identical_to_V13": true
+    }
+  ],
+  "archived_non_audio_files": 91,
+  "future_baseline": "Use these unchanged V1 files for subsequent comparisons. A new accepted mix becomes V2; preserve this V1.",
+  "verification_scope": "Byte-identical promotion of previously rendered V13. The user accepted the sound; technical verification alone does not establish professional-record quality."
+}

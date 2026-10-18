@@ -1,0 +1,636 @@
+{
+  "release": "混音实验 V1",
+  "algorithm": "SHA-256",
+  "files": [
+    {
+      "file": "CHAIN_AND_REPRODUCTION.md",
+      "bytes": 12835,
+      "sha256": "6b004820fddbee4fdd7b13b2bd4fb19599e6eef189e8f55c637b0d885f8959ac",
+      "in_package": true
+    },
+    {
+      "file": "CONTINUE_FROM_V1.md",
+      "bytes": 3576,
+      "sha256": "da9019a676cced571cf6af9f63225f32abc825e155e37f52cb204655eeef8ae7",
+      "in_package": true
+    },
+    {
+      "file": "HISTORY_AND_LESSONS.md",
+      "bytes": 13204,
+      "sha256": "04026b16fb92217aba11ed164f9e9074ee9bf0155a6d9812995a8cad45f107f2",
+      "in_package": true
+    },
+    {
+      "file": "MUSIC_MIX_EXPERIMENT_V1.mp3",
+      "bytes": 8573804,
+      "sha256": "2aebb9b3526bc22d39dc15eb8fb903b92b829e4cf19795d0c89caa803de1788e",
+      "in_package": true
+    },
+    {
+      "file": "MUSIC_MIX_EXPERIMENT_V1.wav",
+      "bytes": 61710942,
+      "sha256": "49bf3bb94a3a786a6f777e5c2f025c61b5be639bf3ac7bd5cbc83947aa39099c",
+      "in_package": true
+    },
+    {
+      "file": "MUSIC_MIX_EXPERIMENT_V1_BEAT.wav",
+      "bytes": 61710942,
+      "sha256": "b1f0372739a5066ac55f118c5ee9a2d78adcf9a3f8e2ad30d1eeae23a39deb0e",
+      "in_package": false
+    },
+    {
+      "file": "MUSIC_MIX_EXPERIMENT_V1_VOCAL.wav",
+      "bytes": 61710942,
+      "sha256": "de369024064ebcb3bcad00cd01e0ce737b6df91876a24ddaf811bd5613112b46",
+      "in_package": false
+    },
+    {
+      "file": "MUSIC_MIX_EXPERIMENT_V1_VOCAL_CORE.wav",
+      "bytes": 61710942,
+      "sha256": "ecc1d45a3daea1ae17cb95e5cc897f37ac9e4cbaacf97eabb19c92cdea9448ec",
+      "in_package": false
+    },
+    {
+      "file": "MUSIC_MIX_EXPERIMENT_V1_VOCAL_FX.wav",
+      "bytes": 61710942,
+      "sha256": "3d1b1e7b8feb71b62c51cf13ed2192a7999c24a240c6131f54d35f79f4cce542",
+      "in_package": false
+    },
+    {
+      "file": "MUSIC_V12_TO_MIX_EXPERIMENT_V1_COMPARE.mp3",
+      "bytes": 2802284,
+      "sha256": "6669176f0ee297b7b8e110f9673c3f61c2243de155d1864c2ce4252d3a0911cb",
+      "in_package": true
+    },
+    {
+      "file": "README.md",
+      "bytes": 4013,
+      "sha256": "6716f8f8b3f47cb74651d653d24068f4057fc174b52950e8d268bb23b122c61b",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v10/NOTES.md",
+      "bytes": 6816,
+      "sha256": "8e6db1f5ce34930d486d716b6684810c46c6f1f95abc40787dd9934422e7edcc",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v10/PITCH_METHOD.md",
+      "bytes": 3674,
+      "sha256": "35c7ec22a3eb388797d3e95d70336eba4247dd10b54f3af2f266b0bc9d7c2fcf",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v10/RESTORATION_REPORT.md",
+      "bytes": 3006,
+      "sha256": "5456b650ee31cb623ea29cca9fb4f4d62573cdbe2bd27da9ef03c9817b6f2d1e",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v10/SOURCE_AUDIT.md",
+      "bytes": 6353,
+      "sha256": "8e9723e64a4c7fd020c489376740e78fc2a923bf29abd046317cf851397838d1",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v10/build_v10.py",
+      "bytes": 9893,
+      "sha256": "69a1e756adc22557584a7b4740d37ef12dc54614c5e2ed9288d031d7c71fe6a1",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v10/check_exports.py",
+      "bytes": 3149,
+      "sha256": "8b419a6395939fbf0fff9c77e7e285f8923ef346185d4fd6d86a48ca9843549f",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v10/check_restored_pitch.py",
+      "bytes": 3785,
+      "sha256": "bc94ae4184ec4c7ca9af8b3b8255a19959176c83a41d777b3319a75936469c41",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v10/export-check.json",
+      "bytes": 2018,
+      "sha256": "f3614707ad915830b15a74cb978de7142e13dedabdebe032b4c626aaccd0529c",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v10/final_quality.json",
+      "bytes": 32320,
+      "sha256": "756cdc91e1e036faac494f297e7773aed1fcac5f38b6caa7d1a25acffc9748e7",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v10/final_quality.md",
+      "bytes": 6924,
+      "sha256": "e254ed4a651821b95fae4abd0353c207fae165599907898f569d142b85506779",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v10/final_quality.py",
+      "bytes": 3987,
+      "sha256": "b028fa12abf3d9a6ee0209212450357f91850bd1fa43e54366ff8b650c9efca3",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v10/final_quality_reference.json",
+      "bytes": 15926,
+      "sha256": "c42afd94c1b3b9f99e620b871fb31f14bd1495a658ee8cb5d727d541aac5410d",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v10/final_quality_reference.py",
+      "bytes": 1261,
+      "sha256": "ad331024d8784831d177b28d37a15e212b6703172a0ee64734211d96e213530c",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v10/full_validation.json",
+      "bytes": 2655,
+      "sha256": "55e9b978362a80a017ee6ccf9744521ce0bb1486d1dd0a3a4834c466901a6dd3",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v10/manifest.json",
+      "bytes": 3182,
+      "sha256": "598b7d0f114674d31b4e2b30ac67ea7c24420ddc12bee76c774cec90a13dc490",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v10/provenance.json",
+      "bytes": 917,
+      "sha256": "fa62b8d0537383051e0afd1a92681c95f5c52f3e8c9ba183e50b70d4889e753c",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v10/restored_pitch_alignment.json",
+      "bytes": 4131,
+      "sha256": "675faf038f549cb512f5359b33060f35536a9be66fcd599fbd25665078526771",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v10/source_audit.json",
+      "bytes": 18800,
+      "sha256": "8655d9665b8af9491a349dc344223b7c0978e1c9050bb643ceff8c09e4c39e54",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v10/source_audit.py",
+      "bytes": 3489,
+      "sha256": "9f2e8df9b7da17481ab65a062afb49e719acf55fa1f9dd7d7e9ed3ff2afe332f",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v10/validation.json",
+      "bytes": 4468,
+      "sha256": "e498257683e30bb64dc6608f8efd9c06f625e3e564938779fc55bfb903c8e76c",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v11/IMPLEMENTATION_REVIEW.md",
+      "bytes": 4248,
+      "sha256": "4660a83344346c22359fd8a0fd3fa06f4c2d382bd661fbd4df18a411d516354a",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v11/NOTES.md",
+      "bytes": 6178,
+      "sha256": "bf19189c26995afe9b0b8b90e2addc30a30ac649f6371724fe8f365621e45717",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v11/QUALITY.json",
+      "bytes": 20978,
+      "sha256": "7cb16f5697bd622ab27f456a33d6217fd60c5309cef77222f2113cf60ca60a49",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v11/QUALITY.md",
+      "bytes": 6290,
+      "sha256": "7308c76402773e7f6d6a70b5b67320dba2cb4e1d13472b4e0b23b590a77dddb1",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v11/build_v11.py",
+      "bytes": 15053,
+      "sha256": "9318511a7a5caa87efde3bc58d5623d7a2148e54c243869de52be81cb2c9dfef",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v11/check_comparison.py",
+      "bytes": 1753,
+      "sha256": "96b304bc20050c5054fcc2db5f22f718cc3f40255434408f5f372e8be42dd5bd",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v11/comparison-check.json",
+      "bytes": 1081,
+      "sha256": "a603945faf8f2af570179ed3c0c06e19cdb20302deff05edc7b0121bfcb09930",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v11/manifest.json",
+      "bytes": 2488,
+      "sha256": "d9ca539268d299ee26cd90ea844c3e6df00a3fe02bac701cd7fd7a321ec1af93",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v11/qa_v11.json",
+      "bytes": 5050,
+      "sha256": "5e56cd42e78e8b12d4775d9baec0c7d1e67a69645d50ae9863d52bc77b504abd",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v11/qa_v11.py",
+      "bytes": 4146,
+      "sha256": "2154a0a8ef7bcc6ae00e72f76f481c4b593346cadd2f85f8b82d1248a2e26262",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v11/qa_vowel_and_sum.json",
+      "bytes": 3115,
+      "sha256": "cae92a98c02cbe2e99f9b944ce644955dbc222710400b5cc64576b7d7e7865a9",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v11/qa_vowel_and_sum.py",
+      "bytes": 2502,
+      "sha256": "6a9b74854ba3e8f001e28603e6f28ccb4e34d48565708aaab699bd83b3655705",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v11/quality.py",
+      "bytes": 4124,
+      "sha256": "4aadd531e9d255285eb25216f2854608c0a5e77ef975989248fa614c9173eb38",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v11/validation.json",
+      "bytes": 9382,
+      "sha256": "54d298c7e65f2bd5257a45c176d4cdbb89bfb5c1a1b7899c051df0bf498fbdff",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v12/NOTES.md",
+      "bytes": 4559,
+      "sha256": "65b7944fc840cd7682a3252a0015b5b6ba830928f926472cda4048d73800a662",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v12/build_v12.py",
+      "bytes": 10033,
+      "sha256": "a816ceab3795a44fae7341d12951d91a1ef4ce5668bd49384f0f9bbdc0976018",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v12/manifest.json",
+      "bytes": 1460,
+      "sha256": "c41b4b71594bec77fbac3062524aafe33db49db19fa8d3b58a0c3807c96904bd",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v12/quality-check.json",
+      "bytes": 5740,
+      "sha256": "d50808a8a1ef9f3314af88bdc194236cd23e7777442c7530f3384403e33a7f69",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v12/validation.json",
+      "bytes": 3255,
+      "sha256": "8f79e2042e26e4b760e413552eb6946b17ad3b082f9ce2542d2d547b2741d935",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v12/verify_v12.py",
+      "bytes": 6399,
+      "sha256": "160572d4d459fbe196820fc7718330e0afe87b87ab54a5faf9366fff03e04b96",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v13/NOTES.md",
+      "bytes": 5390,
+      "sha256": "80ba033aec9825d5aba55b1dabbc585c98b017bb4732b3032a43d03c84b9e201",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v13/build_v13.py",
+      "bytes": 9615,
+      "sha256": "d7d01aeea2319247e3327a98841d8aee7bd28651ca18c007baab643a8638574a",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v13/competition.npz",
+      "bytes": 1373378,
+      "sha256": "d69c6c45d6b3012900a5bb3f3c1cd2b540edd236e7273aeea36e1adfa240750d",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v13/controls.npz",
+      "bytes": 1201698,
+      "sha256": "9a13e2a5ddb8f84fdfab2a737feabb4732c14f4a92866c3e56c904f600b1b475",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v13/inspection.json",
+      "bytes": 4245,
+      "sha256": "802defefb7c56943428baf41b7fd3f32601b19ce91af5640f332269f07722e64",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v13/manifest.json",
+      "bytes": 2528,
+      "sha256": "80c7e860bdc9050b7d86d513a63b2ff47c5fd4356c6c1dc27b1d4ae254104a60",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v13/onset_candidates.json",
+      "bytes": 770,
+      "sha256": "47dc324bc86966479b41a128835abf690dd3185c914585835299477dd4f1483c",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v13/quality-check.json",
+      "bytes": 6842,
+      "sha256": "c0351b32c9017ad61495722833735792d9f29324715e03d13d2b3b4896ad47e6",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v13/validation.json",
+      "bytes": 4424,
+      "sha256": "55ffb0a3e98a503d911a96f2ac49f7971e11237904c6dd1c4264c5dcf1ba3ab2",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v13/verify_v13.py",
+      "bytes": 7390,
+      "sha256": "e77fcef3f49fd4d235369191b7c90a1dee206476700ecbb46c2d35dbdc0f0faf",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v3/DELIVERY_NOTES.md",
+      "bytes": 2266,
+      "sha256": "001251dd711c7ef2b4b7fe9c5305a722cd6b11c7f56d0112b79641f802fda8d6",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v3/delivery-manifest.json",
+      "bytes": 591,
+      "sha256": "1d330b3d55d931a6b3e0ce59be3a3857098dfe277238885a929cc08fe5206467",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v3/validation.json",
+      "bytes": 2596,
+      "sha256": "9532d09a9c67604bb1cf30fff1d6d2a3c878edd314f110390f10bfac56d4ba27",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v4/NOTES.md",
+      "bytes": 1517,
+      "sha256": "9cf97733eb67895426957b0ea8a0ebf40757704525fc8cc208fbccaf9dff0bdc",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v4/validation.json",
+      "bytes": 2267,
+      "sha256": "2409cc73d3c3573067fcfcc4bb1f96630e7a81db1a20ad793ea62c7abbb70bcc",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v5/NOTES.md",
+      "bytes": 1738,
+      "sha256": "98891f3f09af4071ae4a924cd4f4a585c7dc0056459e55ff328466b7da86c32a",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v5/validation.json",
+      "bytes": 3510,
+      "sha256": "8af5f6a7af751c69298ecea329ac853da7e34946447361e49dd3855db86738b7",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v6/NOTES.md",
+      "bytes": 3555,
+      "sha256": "991560557dfab89a083078e44010e86ec45281a2823c7ac0dad8dc872732ed38",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v6/build_v6.py",
+      "bytes": 8445,
+      "sha256": "581d5fd07884a5261c5f67e1995717ef50c0d9b6cc8783d9508e2686cfb67d6b",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v6/manifest.json",
+      "bytes": 1443,
+      "sha256": "3933ea69cf615b3787a328aa82354dca9592a6f19d2e9c82d9b1374a62ddd23c",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v6/quality-check.json",
+      "bytes": 2153,
+      "sha256": "50bb60782709a27fef4bf21105e4987002fe570c7aa667294226a461169e134a",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v6/validation.json",
+      "bytes": 7822,
+      "sha256": "3380ecc7da39ac8055d7c7f87d348b73b2798f801156276de7d1d68b768640bf",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v6/verify_v6.py",
+      "bytes": 4540,
+      "sha256": "6e233d71b6ec170013eb1a4a0daafde06d72c82797753f7e47eecb907949ef26",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v7/NOTES.md",
+      "bytes": 2321,
+      "sha256": "9dc99eda1438763f817d25ec3396561216c0e5d2778b33c2f46a8b2e3cb7d56b",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v7/analysis.json",
+      "bytes": 3700,
+      "sha256": "b48fb09444c193003fd34cce4edb7087312935a7a842e2eee76f11d82b9ea574",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v7/analyze.py",
+      "bytes": 1405,
+      "sha256": "1c38e6b46ca71caf3282544106bf5fca1dec5608db32d7f93b67a4d9be19dc91",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v7/build_v7.py",
+      "bytes": 4456,
+      "sha256": "48d559d41563451c1134e0a6fb100d4f79ffec6eddcd4abac4ba3fc42769d9cf",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v7/manifest.json",
+      "bytes": 1300,
+      "sha256": "8ed16810e46ae64fb4db87ee431295f1b26ab566b1578dbfaea9d723779b18a1",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v7/validation.json",
+      "bytes": 1893,
+      "sha256": "f70ae2dcd3d67c0e8930794644ad103c8ba7aea276a387701965dc553e706f29",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v7/width-check.json",
+      "bytes": 178,
+      "sha256": "b34e7bdd1291aacff7bb2fa5aabe8366ac4d2b0b59d56d69ac253aa73d31bdba",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v8/NOTES.md",
+      "bytes": 4076,
+      "sha256": "c02ef39176969d5c4ac01eb10a0e8365b59da9029628cdfb2322fed3d3547199",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v8/REFERENCE_VOCAL_ANALYSIS.md",
+      "bytes": 4040,
+      "sha256": "17803c351e04817445c665a526850b91396c01a278e21088c4759fd71abad4ff",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v8/build_v8.py",
+      "bytes": 9944,
+      "sha256": "5b17aaa2044c0bd5e53e9a6d102dcad6707ac557f4590acca0165631074de31d",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v8/high_band_check.json",
+      "bytes": 3299,
+      "sha256": "156a37f79ca79b3aaca2f209c78afd5b16d0529c0e39f7e9504ce4595799be62",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v8/manifest.json",
+      "bytes": 2134,
+      "sha256": "54c475bbeaec9075a9caecb72e8cf40ab8ab6cb8e4fc8403c29ad91147502f42",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v8/quality-check.json",
+      "bytes": 3968,
+      "sha256": "3a2b1b497b1a502e9672149de50211be6ad7dd23d7fd1f1d299600917ccf971d",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v8/separation_control.json",
+      "bytes": 948,
+      "sha256": "ce37a8806e412f0890321b80c821f8a2d16c32e262106f5bdbf9c8766f71cd87",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v8/separation_metadata.json",
+      "bytes": 574,
+      "sha256": "81d37f14828b813bf4d1851a03429581e502465acacc6a5e9122475a94644f36",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v8/tempo-analysis.json",
+      "bytes": 2943,
+      "sha256": "8cffc3ded6e2cf2dbfd6f81d9c8c9c85f10c656be033eb00b32b9eda33febcc9",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v8/validation.json",
+      "bytes": 3515,
+      "sha256": "3ee8753c36dfbcfc88689de569816c93ab0e163801e7c727e68922e8f7d62ab0",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v8/vocal_comparison.json",
+      "bytes": 4619,
+      "sha256": "43b1611b69d20f0021cebfb382a084f7ddf7951d83ac7b82591483d6bb518c22",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v9/NOTES.md",
+      "bytes": 3569,
+      "sha256": "28bc4a27732cfce39a3b8de3c5290d0fe0f23b9de180e4789fbdfe63f38b6e7b",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v9/audit_v8.json",
+      "bytes": 13686,
+      "sha256": "2d2cccf0add1916d6a85168291f978b9cf92d8e3513b1c3dd1b4be2af004f23e",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v9/build_v9.py",
+      "bytes": 8511,
+      "sha256": "6c58ed4282fe15a73a84150e127fba9768369a4b5509959b08473a2b8e5846d0",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v9/dirty-audit.md",
+      "bytes": 4003,
+      "sha256": "b4e2ff11411de363f56806b69a45205b5095eda5b059aaf9d2193263c24c6ef0",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v9/manifest.json",
+      "bytes": 1965,
+      "sha256": "89c1a26b795fb6c26b605b307ac9d7875f23ee70405f4f32ac4424c31956dcca",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v9/masking-review.md",
+      "bytes": 4149,
+      "sha256": "a448b1a568da38612c0f3e753615e04f39bf940c2dc15decd281a20023a7cc47",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v9/masking.json",
+      "bytes": 72128,
+      "sha256": "b534af3ef2e9b06a4563c68b67f4807bfb9c53e38649048ea62d3a1a0d483db2",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v9/pitch-body-check.json",
+      "bytes": 377,
+      "sha256": "d3f5c19fb51993fe26551bcb162d8095c574e6ac581fb6de3776962bfcad557a",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v9/quality-check.json",
+      "bytes": 4104,
+      "sha256": "8b980ecb02ee475f323850285f6dea3ec7d94b2f41aec4c12a5d307cbf1d5a7e",
+      "in_package": true
+    },
+    {
+      "file": "archive/vocal-v9/validation.json",
+      "bytes": 4567,
+      "sha256": "6ddd0af3e95b0d36fd2691f44cd6fff79c3ae073377bbc736329b61b3b4294e5",
+      "in_package": true
+    },
+    {
+      "file": "release.json",
+      "bytes": 2793,
+      "sha256": "17d9b2e9d5f6059d4e72c0f66b5f5f57716724756f2ea4b9f46c77e0bbab14eb",
+      "in_package": true
+    },
+    {
+      "file": "verify_release.py",
+      "bytes": 1286,
+      "sha256": "10ee11f19e2ae16aeb8395290334a991b5070af3fcee2fb9a4811882552bec70",
+      "in_package": true
+    }
+  ],
+  "manifest_excludes": [
+    "manifest.json",
+    "MUSIC_MIX_EXPERIMENT_V1_PACKAGE.zip",
+    "package-download.json"
+  ],
+  "package_scope": "Main WAV, MP3, matched comparison and all experience/archive documents. Four stems are separate downloads."
+}

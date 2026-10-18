@@ -1,0 +1,13 @@
+{
+  "file": "MUSIC_MIX_EXPERIMENT_V1_PACKAGE.zip",
+  "bytes": 73193952,
+  "sha256": "d89eaa821837e6357d48d4c9a111257290f78575483d6d1519301763c5a29eab",
+  "CRC_and_member_SHA256": "PASS",
+  "included_files": 101,
+  "separate_stems": [
+    "MUSIC_MIX_EXPERIMENT_V1_BEAT.wav",
+    "MUSIC_MIX_EXPERIMENT_V1_VOCAL.wav",
+    "MUSIC_MIX_EXPERIMENT_V1_VOCAL_CORE.wav",
+    "MUSIC_MIX_EXPERIMENT_V1_VOCAL_FX.wav"
+  ]
+}

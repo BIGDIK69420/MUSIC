@@ -1,0 +1,12 @@
+{
+  "method": "Approximate normalized autocorrelation of active dry 96ms frames; harmonic/octave ambiguity remains, not pitch-correction data",
+  "accepted": 2310,
+  "F0_Hz_percentiles": {
+    "10": 137.93103448275863,
+    "25": 153.84615384615384,
+    "50": 186.04651162790697,
+    "75": 222.22222222222223,
+    "90": 250.0
+  },
+  "fraction_below_150Hz": 0.18528138528138527
+}
