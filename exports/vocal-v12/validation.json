@@ -1,0 +1,112 @@
+{
+  "basis": "Direct refinement of approved V11 core and separated V11 effects. Lead tuning, backing pitch/timing and phrase locations preserved; V9 accompaniment unchanged.",
+  "lead": {
+    "held_note_max_lift_dB": 0.9,
+    "lift_target_band_dBFS": -26.349922060501594,
+    "lift_above_025dB_s": 19.240000000000002,
+    "lift_active_percentiles": {
+      "50": 0.00037663918135147703,
+      "90": 0.36169537286564596,
+      "95": 0.5966753167109445,
+      "99": 0.837170988841081
+    },
+    "existing_harmonic_residual_gain_change_dB": 1.5,
+    "edge_band": "6500Hz Q0.9, maximum -1.2dB",
+    "edge_detector_ratio_threshold_dB": -0.8243466289336615,
+    "edge_active_amount_percentiles": {
+      "50": 0.0007402114530645125,
+      "90": 0.2495390350602301,
+      "95": 0.4028683044339036,
+      "99": 0.6553154460140258
+    },
+    "air_shelf": "12500Hz +0.4dB",
+    "core_LUFS_target_relative_V11": 0.2,
+    "core_makeup_dB": 0.11000000000000015
+  },
+  "space": {
+    "existing_double_side_gain_dB": 1.6,
+    "double_mid_gain_dB": 0,
+    "echo_extra_gain_in_gaps_dB": 0.8,
+    "deep_extra_gain_in_gaps_dB": 1.4,
+    "shallow_change_dB": 0,
+    "FX_active_RMS_relative_core_dB": -14.990165353238647,
+    "vocal_side_mid_dB": {
+      "active": -15.845299330401922,
+      "sustained": -12.513779647093086
+    }
+  },
+  "vocal_LUFS": -18.05,
+  "master": {
+    "WAV_LUFS": -11.54,
+    "WAV_dBTP": -1.38,
+    "MP3_LUFS": -11.54,
+    "MP3_dBTP": -0.99,
+    "limiter": {
+      "method": "1 ms least-squares gain relative to driven input; active blocks > -50 dBFS; approximate and includes resampling differences.",
+      "gain_reduction_dB_percentiles": {
+        "50": 8.697729208506644e-05,
+        "90": 1.1378862857818604,
+        "95": 1.8717942237854004,
+        "99": 3.3436391353607178,
+        "99.9": 4.847752571105957,
+        "100": 6.188686370849609
+      },
+      "active_percent_over_3dB": 1.5460512245315032
+    },
+    "passes": [
+      {
+        "gain_dB": 5.050000000000001,
+        "LUFS": -12.01,
+        "dBTP": -1.38
+      },
+      {
+        "gain_dB": 5.540000000000001,
+        "LUFS": -11.67,
+        "dBTP": -1.38
+      },
+      {
+        "gain_dB": 5.690000000000001,
+        "LUFS": -11.57,
+        "dBTP": -1.38
+      },
+      {
+        "gain_dB": 5.740000000000002,
+        "LUFS": -11.54,
+        "dBTP": -1.38
+      }
+    ],
+    "mono_fold_energy_dB": -0.2824815511703491,
+    "duration_seconds": 214.27375
+  },
+  "comparison": [
+    {
+      "label": "V11_MIX",
+      "start_s": 0.0,
+      "end_s": 16.0,
+      "target_LUFS": -16,
+      "gain_dB": -5.1899999999999995
+    },
+    {
+      "label": "V12_MIX",
+      "start_s": 16.5,
+      "end_s": 32.5,
+      "target_LUFS": -16,
+      "gain_dB": -5.210000000000001
+    },
+    {
+      "label": "V11_VOCAL",
+      "start_s": 33.0,
+      "end_s": 43.0,
+      "target_LUFS": -20,
+      "gain_dB": -2.7600000000000016
+    },
+    {
+      "label": "V12_VOCAL",
+      "start_s": 43.5,
+      "end_s": 53.5,
+      "target_LUFS": -20,
+      "gain_dB": -2.879999999999999
+    }
+  ],
+  "limitations": "No subjective audition or claim of perfection. CORE still contains pre-existing printed effects. The new file refines the approved sound; signal metrics cannot certify aesthetic improvement."
+}
