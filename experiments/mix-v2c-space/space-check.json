@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "source_hashes_unchanged": true,
+  "routing_max_float_error": 5.960464477539063e-08,
+  "premaster_sum_error": 0.0,
+  "lead_plus_beat_balance_residual": 5.960464477539063e-08,
+  "active_vocal_band_changes": {
+    "80-250_Hz": {
+      "active_vocal_change_dB": 0.00427332110277429,
+      "new_reverb_RMS_dBFS": -69.6902734358864
+    },
+    "250-700_Hz": {
+      "active_vocal_change_dB": 0.01800106140122416,
+      "new_reverb_RMS_dBFS": -48.15609236599283
+    },
+    "700-1600_Hz": {
+      "active_vocal_change_dB": 0.01780262915612504,
+      "new_reverb_RMS_dBFS": -46.59766882131986
+    },
+    "1600-4000_Hz": {
+      "active_vocal_change_dB": 0.02132963986342148,
+      "new_reverb_RMS_dBFS": -52.75834521875116
+    },
+    "4000-9000_Hz": {
+      "active_vocal_change_dB": 0.0022422538931724367,
+      "new_reverb_RMS_dBFS": -63.96001360958819
+    }
+  },
+  "stereo": {
+    "V2B_vocal": {
+      "mono_fold_energy_change_dB": -0.11635602193823166,
+      "LR_correlation": 0.9470911047193321
+    },
+    "V2C_vocal": {
+      "mono_fold_energy_change_dB": -0.12068019343531167,
+      "LR_correlation": 0.945151655191601
+    },
+    "V2C_reverb": {
+      "mono_fold_energy_change_dB": -1.9466354953725542,
+      "LR_correlation": 0.27759347850420807
+    },
+    "V2B_premaster": {
+      "mono_fold_energy_change_dB": -0.2885448915760136,
+      "LR_correlation": 0.8714038629746551
+    },
+    "V2C_premaster": {
+      "mono_fold_energy_change_dB": -0.290088331956404,
+      "LR_correlation": 0.8707365079233783
+    }
+  },
+  "impulse_responses": {
+    "shallow": {
+      "first_nonzero_ms": 22.020833333333332,
+      "energy_decay_crossing_s": {
+        "-10": 0.14410416666666667,
+        "-30": 0.3904375,
+        "-60": 0.7678541666666666
+      },
+      "LR_correlation": 0.400000000010694
+    },
+    "deep": {
+      "first_nonzero_ms": 48.020833333333336,
+      "energy_decay_crossing_s": {
+        "-10": 0.308375,
+        "-30": 0.8334583333333333,
+        "-60": 1.6206041666666666
+      },
+      "LR_correlation": 0.1499999996489537
+    }
+  },
+  "last_two_seconds_reverb_peak": 1.7426982108002687e-30,
+  "limits": "Only exported external return energy is isolated. CORE includes printed effects. Mono/spectral checks cannot establish the perceived room size, naturalness, masking or artistic fit."
+}

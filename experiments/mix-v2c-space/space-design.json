@@ -1,0 +1,131 @@
+{
+  "version": "V2C space candidate",
+  "base_commit": "9c8f4ee55419e17fb517559cfedf1a63b0cd8d1c",
+  "user_feedback": "V2B balance accepted; more and better reverb requested to seat the vocal.",
+  "routing": "V2 CORE + V2 doubles + V2 echo + new shallow + new deep + exact V2B beat; then master bus.",
+  "unchanged_sources": {
+    "/workspace/audio-v2-candidate/core_mix.f32": "147eea43e21300beb09ce82d32f80603ce8e3af471d2c011fe761bb76c4f7e91",
+    "/workspace/audio-v2-candidate/doubles.f32": "be9b5fe102f180ed2477cb6afe59ed9e3c5daebb70adaf26c7806e52cdb7e900",
+    "/workspace/audio-v2-candidate/echo.f32": "7534b83e2e6255f0bed3cb9644472ff9885fa3d8564ad8815fd26aeaaa7978eb",
+    "/workspace/audio-v2b-balance/beat.f32": "ba6c87705f8e63625a7afcef130dc72b68023953ba565bd1af918634165c5170"
+  },
+  "changed_returns": "External shallow/deep returns replaced, not stacked on their old versions.",
+  "shallow": {
+    "ir": {
+      "lo": 390,
+      "hi": 6500,
+      "decay_low": 0.75,
+      "decay_high": 0.45,
+      "predelay": 0.022,
+      "rise": 0.01,
+      "correlation": 0.4
+    },
+    "active_relative_core_target_dB": -26,
+    "return_duck_max_dB": 2,
+    "extra_phrase_entry_duck_max_dB": 1.0,
+    "calibration_dB": -28.52554583749757
+  },
+  "deep": {
+    "ir": {
+      "lo": 500,
+      "hi": 6500,
+      "decay_low": 1.6,
+      "decay_high": 0.95,
+      "predelay": 0.048,
+      "rise": 0.025,
+      "correlation": 0.15
+    },
+    "active_relative_core_target_dB": -27,
+    "return_duck_max_dB": 4,
+    "extra_phrase_entry_duck_max_dB": 2.5,
+    "calibration_dB": -22.683788699467577
+  },
+  "send": "CORE Mid, bandpass, original-dry-informed activity. Deep weighted 0.35 + 0.65*selected sustained singing with 65/140ms smoothing.",
+  "duck_detector": {
+    "dry_level_range_dBFS": [
+      -44,
+      -34
+    ],
+    "attack_ms": 8,
+    "release_ms": 145
+  },
+  "levels": {
+    "V2B_reverb": {
+      "active": {
+        "RMS_dBFS": -49.18425746973373,
+        "relative_CORE_dB": -28.89628544830048
+      },
+      "sustained": {
+        "RMS_dBFS": -47.98130545616889,
+        "relative_CORE_dB": -27.626303742820216
+      },
+      "entry": {
+        "RMS_dBFS": -54.93791244928721,
+        "relative_CORE_dB": -34.01568806325754
+      },
+      "quiet_after_voice": {
+        "RMS_dBFS": -59.4127788372802,
+        "relative_CORE_dB": -20.192175832602558
+      }
+    },
+    "V2C_reverb": {
+      "active": {
+        "RMS_dBFS": -43.80875187826974,
+        "relative_CORE_dB": -23.52077985683649
+      },
+      "sustained": {
+        "RMS_dBFS": -42.445176049950526,
+        "relative_CORE_dB": -22.090174336601848
+      },
+      "entry": {
+        "RMS_dBFS": -50.11891406763712,
+        "relative_CORE_dB": -29.196689681607456
+      },
+      "quiet_after_voice": {
+        "RMS_dBFS": -57.07596827068996,
+        "relative_CORE_dB": -17.85536526601232
+      }
+    },
+    "V2B_vocal": {
+      "active": {
+        "RMS_dBFS": -20.158559965601462,
+        "relative_CORE_dB": 0.1294120558317926
+      },
+      "sustained": {
+        "RMS_dBFS": -20.03126523337943,
+        "relative_CORE_dB": 0.32373647996924443
+      },
+      "entry": {
+        "RMS_dBFS": -20.92203311809444,
+        "relative_CORE_dB": 0.00019126793522251256
+      },
+      "quiet_after_voice": {
+        "RMS_dBFS": -38.269942928895475,
+        "relative_CORE_dB": 0.9506600757821658
+      }
+    },
+    "V2C_vocal": {
+      "active": {
+        "RMS_dBFS": -20.145588352072764,
+        "relative_CORE_dB": 0.14238366936048985
+      },
+      "sustained": {
+        "RMS_dBFS": -20.023182603539247,
+        "relative_CORE_dB": 0.33181910980942075
+      },
+      "entry": {
+        "RMS_dBFS": -20.913062417949323,
+        "relative_CORE_dB": 0.00916196808033964
+      },
+      "quiet_after_voice": {
+        "RMS_dBFS": -38.22283846435272,
+        "relative_CORE_dB": 0.9977645403249227
+      }
+    }
+  },
+  "active_external_reverb_lift_dB": 5.375505591463991,
+  "duration_s": 214.27375,
+  "sample_rate": 48000,
+  "seed": 2026101903,
+  "limits": "Signal-based production experiment, no subjective audition. CORE has printed ambience; reported reverb levels refer only to the external returns. IR decay constants are synthesis parameters, not room measurements."
+}

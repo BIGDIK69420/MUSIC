@@ -1,0 +1,110 @@
+{
+  "version": "V2C space candidate",
+  "files": [
+    {
+      "file": "MUSIC_MIX_V2C_SPACE.mp3",
+      "bytes": 8573804,
+      "sha256": "60e8dc26a01c5e5d89b6d0f621c86cb443695255d16fdc16178fb3bfe0b2e9d1"
+    },
+    {
+      "file": "MUSIC_MIX_V2C_SPACE.wav",
+      "bytes": 61710942,
+      "sha256": "469d9e009d16f55a7f6b74c9460a46f9c2012c8776e9caf11b319fb33b84e58c"
+    },
+    {
+      "file": "MUSIC_MIX_V2C_SPACE_REVERB.wav",
+      "bytes": 61710942,
+      "sha256": "917e3d2d79e74a7adfeaf652e659b42d08fb68e5ed08a68a39270c96e9699954"
+    },
+    {
+      "file": "MUSIC_MIX_V2C_SPACE_VOCAL.wav",
+      "bytes": 61710942,
+      "sha256": "210ea6c999e02939daca0b3f482a524ddc5023530dc8fb035ced3d837aa04a51"
+    },
+    {
+      "file": "MUSIC_MIX_V2C_SPACE_VOCAL_FX.wav",
+      "bytes": 61710942,
+      "sha256": "3aad763ffda7a925b3dacdb99e356326fc8370fe3b9457e2a4d4e0ea8244b590"
+    },
+    {
+      "file": "MUSIC_V2B_TO_V2C_MIX_COMPARE.mp3",
+      "bytes": 1642604,
+      "sha256": "f8bb786996bf0df87ee9e2d63ad5faac283204bd3ff7c86bd28db5f2257330d4"
+    },
+    {
+      "file": "MUSIC_V2B_TO_V2C_VOCAL_COMPARE.mp3",
+      "bytes": 1642604,
+      "sha256": "4cca6322ba88195808bf8898b9aba827d88a4fbb0841ec3c6e22b70c3e5b7147"
+    },
+    {
+      "file": "NOTES.md",
+      "bytes": 5525,
+      "sha256": "3bef1382f1fe185dc8693c1bff2baff5f5a83fe204066a007600d7b1b2d929d5"
+    },
+    {
+      "file": "baseline-analysis.json",
+      "bytes": 2914,
+      "sha256": "c9b67a95f201ff7841cf507666e8578969a455dacfcb4d6a69268c8e711a6e72"
+    },
+    {
+      "file": "build_space.py",
+      "bytes": 6335,
+      "sha256": "c8a7a8cea0ea94784c09a6c7d36ce6ad707495104f5cb6d275c4806e2f1d8f83"
+    },
+    {
+      "file": "candidate.json",
+      "bytes": 311,
+      "sha256": "db4ebf36dfec208e8e03eded84174abfecee97fa53e72c1c6f16cf5782420cc6"
+    },
+    {
+      "file": "check_exports.py",
+      "bytes": 2918,
+      "sha256": "dcdfda61644448353129251c2f4114019e64a94783ffa259208d7bcf905c7262"
+    },
+    {
+      "file": "check_space.py",
+      "bytes": 3579,
+      "sha256": "a271f9035063a21b8db5ca3536ea2967f72bb6a78b937a58d8b9138887631811"
+    },
+    {
+      "file": "controls.npz",
+      "bytes": 1029296,
+      "sha256": "f4140e16e51f73ed1afdc86e01503249f3a286307e93fd38711047004cfa0d88"
+    },
+    {
+      "file": "deep_ir.f32",
+      "bytes": 748032,
+      "sha256": "67a5f1dbda33c020fbb4783a8997c3ad2ff696e1bb9678cd6e2ae975275d8f69"
+    },
+    {
+      "file": "export-check.json",
+      "bytes": 1945,
+      "sha256": "eb5942898c54c8aef6587cde24c1a8dd711f18be6e94f190dbebe4cf9be239c1"
+    },
+    {
+      "file": "render_exports.py",
+      "bytes": 4675,
+      "sha256": "066dce4d629c1952d90bba78f7414e40416f1c97de679dcdcf5a0b1c0a76705f"
+    },
+    {
+      "file": "shallow_ir.f32",
+      "bytes": 411648,
+      "sha256": "807b25f237dcaddf56c04ca34d50f029e907178df519f34cad03c46997fe5e38"
+    },
+    {
+      "file": "space-check.json",
+      "bytes": 2324,
+      "sha256": "ece256d8c65baef3784f49b04c292e451aed1ca19d50a2f40ce0f4aa1490c5d2"
+    },
+    {
+      "file": "space-design.json",
+      "bytes": 4233,
+      "sha256": "4f46a8e5e4fc66aa70c9a5cd74cc26ce9fb21e3c18de9b122731877b8afbc5ef"
+    },
+    {
+      "file": "validation.json",
+      "bytes": 2196,
+      "sha256": "7f6721b09160e7254afa9e510f8f8a952d88fda81f129580df62e7d80c484198"
+    }
+  ]
+}

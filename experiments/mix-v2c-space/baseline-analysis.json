@@ -1,0 +1,102 @@
+{
+  "controls_keys": [
+    "times",
+    "activity",
+    "voiced",
+    "drydb",
+    "entry",
+    "hf_ratio",
+    "edge",
+    "side_lift_dB",
+    "beat_dip_times",
+    "beat_dip_dB"
+  ],
+  "selection_s": {
+    "active": 104.91,
+    "sustained": 37.15,
+    "entry": 7.86,
+    "gaps_after_voice": 14.05
+  },
+  "layers": {
+    "core_mix": {
+      "active": -20.311103072079195,
+      "sustained": -20.353036243659282,
+      "entry": -20.913458972114952,
+      "gaps_after_voice": -39.177459825941085
+    },
+    "doubles": {
+      "active": -35.51222313678216,
+      "sustained": -31.28712056426766,
+      "entry": -64.80800106182832,
+      "gaps_after_voice": -132.67617406260308,
+      "relative_core_dB": {
+        "active": -15.201120064702971,
+        "sustained": -10.934084320608378,
+        "entry": -43.894542089713504,
+        "gaps_after_voice": -93.49871504093176
+      }
+    },
+    "echo": {
+      "active": -71.72699329588218,
+      "sustained": -66.25018913933944,
+      "entry": -88.47846126803049,
+      "gaps_after_voice": -45.28896494174816,
+      "relative_core_dB": {
+        "active": -51.41589022380363,
+        "sustained": -45.89715289568034,
+        "entry": -67.56500229594613,
+        "gaps_after_voice": -6.111505115807078
+      }
+    },
+    "shallow": {
+      "active": -49.57315135320763,
+      "sustained": -48.57892519586771,
+      "entry": -55.18578842571185,
+      "gaps_after_voice": -73.49663999295808,
+      "relative_core_dB": {
+        "active": -29.262048281128443,
+        "sustained": -28.225888952208436,
+        "entry": -34.27232945359692,
+        "gaps_after_voice": -34.31918016701796
+      },
+      "seconds_above_minus35dB_relative_active_core": 90.88
+    },
+    "deep": {
+      "active": -60.283409012777945,
+      "sustained": -57.09322048979025,
+      "entry": -118.32768814183312,
+      "gaps_after_voice": -59.58951717355086,
+      "relative_core_dB": {
+        "active": -39.9723059406988,
+        "sustained": -36.74018424613098,
+        "entry": -97.41422919926788,
+        "gaps_after_voice": -20.412057347609817
+      },
+      "seconds_above_minus35dB_relative_active_core": 7.16
+    },
+    "fx_mix": {
+      "active": -35.31832687320136,
+      "sustained": -31.183055778308592,
+      "entry": -54.804789745486666,
+      "gaps_after_voice": -45.20962365240315,
+      "relative_core_dB": {
+        "active": -15.007223801122167,
+        "sustained": -10.830019534649306,
+        "entry": -33.89133077337173,
+        "gaps_after_voice": -6.032163826462069
+      }
+    },
+    "vocal": {
+      "active": -20.182107632688332,
+      "sustained": -20.028205767476912,
+      "entry": -20.913497410037124,
+      "gaps_after_voice": -38.23843354495931,
+      "relative_core_dB": {
+        "active": 0.12899543939086092,
+        "sustained": 0.3248304761823705,
+        "entry": -3.8437922168773246e-05,
+        "gaps_after_voice": 0.9390262809817798
+      }
+    }
+  }
+}

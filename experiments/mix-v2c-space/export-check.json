@@ -1,0 +1,77 @@
+{
+  "exports": {
+    "MUSIC_MIX_V2C_SPACE.wav": {
+      "frames": 10285140,
+      "quantization_max_error": 1.1897191143361852e-07,
+      "format": {
+        "codec_name": "pcm_s24le",
+        "sample_rate": "48000",
+        "channels": 2,
+        "bits_per_sample": 24
+      }
+    },
+    "MUSIC_MIX_V2C_SPACE_VOCAL.wav": {
+      "frames": 10285140,
+      "quantization_max_error": 1.189760041597765e-07,
+      "format": {
+        "codec_name": "pcm_s24le",
+        "sample_rate": "48000",
+        "channels": 2,
+        "bits_per_sample": 24
+      }
+    },
+    "MUSIC_MIX_V2C_SPACE_VOCAL_FX.wav": {
+      "frames": 10285140,
+      "quantization_max_error": 1.1897645890712738e-07,
+      "format": {
+        "codec_name": "pcm_s24le",
+        "sample_rate": "48000",
+        "channels": 2,
+        "bits_per_sample": 24
+      }
+    },
+    "MUSIC_MIX_V2C_SPACE_REVERB.wav": {
+      "frames": 10285140,
+      "quantization_max_error": 1.1897645890712738e-07,
+      "format": {
+        "codec_name": "pcm_s24le",
+        "sample_rate": "48000",
+        "channels": 2,
+        "bits_per_sample": 24
+      }
+    },
+    "MUSIC_MIX_V2C_SPACE.mp3": {
+      "frames": 10285140,
+      "sample_peak_dBFS": -1.1039104461669922
+    }
+  },
+  "comparisons": {
+    "MUSIC_V2B_TO_V2C_MIX_COMPARE.mp3": [
+      {
+        "label": "V2B",
+        "decoded_LUFS": -16.02,
+        "decoded_dBTP": -5.86
+      },
+      {
+        "label": "V2C",
+        "decoded_LUFS": -16.01,
+        "decoded_dBTP": -5.79
+      }
+    ],
+    "MUSIC_V2B_TO_V2C_VOCAL_COMPARE.mp3": [
+      {
+        "label": "V2B",
+        "decoded_LUFS": -20.02,
+        "decoded_dBTP": -6.5
+      },
+      {
+        "label": "V2C",
+        "decoded_LUFS": -20.01,
+        "decoded_dBTP": -6.53
+      }
+    ]
+  },
+  "master_mono_fold_dB": -0.3148897569903246,
+  "status": "PASS",
+  "limits": "Export integrity and gross stereo checks; subjective placement and reverb quality require user audition."
+}

@@ -1,0 +1,9 @@
+{
+  "version": "V2C space candidate",
+  "status": "awaiting_user_audition",
+  "user_accepted": "V2B balance",
+  "base_commit": "9c8f4ee55419e17fb517559cfedf1a63b0cd8d1c",
+  "formal_v1": "unchanged",
+  "purpose": "More connected vocal reverb, preserving accepted lead-to-beat balance.",
+  "readme": "NOTES.md"
+}

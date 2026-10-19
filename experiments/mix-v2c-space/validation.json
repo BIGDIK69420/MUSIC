@@ -1,0 +1,104 @@
+{
+  "status": "space_revision_for_user_audition",
+  "master": {
+    "WAV_LUFS": -11.57,
+    "WAV_dBTP": -1.38,
+    "MP3_LUFS": -11.58,
+    "MP3_dBTP": -1.1,
+    "passes": [
+      {
+        "drive_dB": 5.03,
+        "LUFS": -11.57,
+        "dBTP": -1.38
+      }
+    ],
+    "limiter": {
+      "method": "Approximate 1ms least-squares gain; includes resampling differences.",
+      "percentiles_dB": {
+        "50": 7.092783926054835e-05,
+        "90": 1.035372018814087,
+        "95": 1.8406994342803955,
+        "99": 3.3618056774139404,
+        "99.9": 4.716067314147949,
+        "100": 6.1142778396606445
+      },
+      "active_percent_over_3dB": 1.554222129388755
+    },
+    "duration_seconds": 214.27375
+  },
+  "comparisons": {
+    "MUSIC_V2B_TO_V2C_MIX_COMPARE.mp3": [
+      {
+        "label": "V2B",
+        "start_s": 0.0,
+        "end_s": 20.25,
+        "source_intervals_s": [
+          [
+            58,
+            72
+          ],
+          [
+            98,
+            104
+          ]
+        ],
+        "target_LUFS": -16,
+        "gain_dB": -4.720000000000001
+      },
+      {
+        "label": "V2C",
+        "start_s": 20.75,
+        "end_s": 41.0,
+        "source_intervals_s": [
+          [
+            58,
+            72
+          ],
+          [
+            98,
+            104
+          ]
+        ],
+        "target_LUFS": -16,
+        "gain_dB": -4.720000000000001
+      }
+    ],
+    "MUSIC_V2B_TO_V2C_VOCAL_COMPARE.mp3": [
+      {
+        "label": "V2B",
+        "start_s": 0.0,
+        "end_s": 20.25,
+        "source_intervals_s": [
+          [
+            58,
+            72
+          ],
+          [
+            98,
+            104
+          ]
+        ],
+        "target_LUFS": -20,
+        "gain_dB": -2.4200000000000017
+      },
+      {
+        "label": "V2C",
+        "start_s": 20.75,
+        "end_s": 41.0,
+        "source_intervals_s": [
+          [
+            58,
+            72
+          ],
+          [
+            98,
+            104
+          ]
+        ],
+        "target_LUFS": -20,
+        "gain_dB": -2.4299999999999997
+      }
+    ]
+  },
+  "limitations": "Technical verification does not establish subjective naturalness or professional vocal placement."
+}
