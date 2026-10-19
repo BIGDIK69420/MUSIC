@@ -1,0 +1,62 @@
+[
+  {
+    "label": "V1_MIX",
+    "start_s": 0.0,
+    "end_s": 24.25,
+    "source_intervals_s": [
+      [
+        38,
+        50
+      ],
+      [
+        58,
+        70
+      ]
+    ],
+    "target_LUFS": -16,
+    "gain_dB": -4.85
+  },
+  {
+    "label": "V2_CANDIDATE_MIX",
+    "start_s": 24.75,
+    "end_s": 49.0,
+    "source_intervals_s": [
+      [
+        38,
+        50
+      ],
+      [
+        58,
+        70
+      ]
+    ],
+    "target_LUFS": -16,
+    "gain_dB": -4.85
+  },
+  {
+    "label": "V1_VOCAL",
+    "start_s": 49.5,
+    "end_s": 59.5,
+    "source_intervals_s": [
+      [
+        120,
+        130
+      ]
+    ],
+    "target_LUFS": -20,
+    "gain_dB": -2.1400000000000006
+  },
+  {
+    "label": "V2_CANDIDATE_VOCAL",
+    "start_s": 60.0,
+    "end_s": 70.0,
+    "source_intervals_s": [
+      [
+        120,
+        130
+      ]
+    ],
+    "target_LUFS": -20,
+    "gain_dB": -2.1700000000000017
+  }
+]

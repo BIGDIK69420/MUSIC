@@ -1,0 +1,20 @@
+{
+  "version": "V2 candidate",
+  "status": "awaiting_user_audition",
+  "created_date": "2026-10-19",
+  "date_timezone": "Asia/Singapore",
+  "formal_baseline": "Mix Experiment V1",
+  "baseline_tag": "mix-experiment-v1",
+  "baseline_commit": "0a6262808e853353041362dcf9ebffe6b558c83e",
+  "baseline_audio_origin": "Historical V13, commit 7b574ef13b5f1568261e27e34df487b90b6d0fa5",
+  "changes": [
+    "Selective 8kHz edge control on existing CORE",
+    "Modest existing doubles Side support on quieter sustained notes",
+    "Sparse stereo-linked accompaniment peak correction before the existing master limiter"
+  ],
+  "audition": "70-second V1 then candidate, matched-loudness mix pairs followed by matched-loudness vocal pairs",
+  "voice_pitch_and_formants": "unchanged",
+  "reference_audio_in_output": false,
+  "formal_V1_audio_unchanged": true,
+  "approval_rule": "Retain formal V1 until the user accepts a new formal version."
+}

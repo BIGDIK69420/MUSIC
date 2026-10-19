@@ -1,0 +1,355 @@
+{
+  "files": {
+    "core_mix": {
+      "shape_match": true,
+      "finite": true,
+      "peak": 0.6659417748451233,
+      "byte_exact": false,
+      "max_mid_sample_difference": 0.029579192399978638,
+      "mono_fold_energy_change_dB": 0.02078527770936489
+    },
+    "vocal": {
+      "shape_match": true,
+      "finite": true,
+      "peak": 0.6709265112876892,
+      "byte_exact": false,
+      "max_mid_sample_difference": 0.029579222202301025,
+      "mono_fold_energy_change_dB": 0.020526617765426636
+    },
+    "doubles": {
+      "shape_match": true,
+      "finite": true,
+      "peak": 0.15296368300914764,
+      "byte_exact": false,
+      "max_mid_sample_difference": 7.450580596923828e-09,
+      "mono_fold_energy_change_dB": 0.0
+    },
+    "echo": {
+      "shape_match": true,
+      "finite": true,
+      "peak": 0.1170271784067154,
+      "byte_exact": true
+    },
+    "shallow": {
+      "shape_match": true,
+      "finite": true,
+      "peak": 0.0265643410384655,
+      "byte_exact": true
+    },
+    "deep": {
+      "shape_match": true,
+      "finite": true,
+      "peak": 0.032414380460977554,
+      "byte_exact": true
+    },
+    "fx_mix": {
+      "shape_match": true,
+      "finite": true,
+      "peak": 0.16483686864376068,
+      "byte_exact": false,
+      "max_mid_sample_difference": 1.1175870895385742e-08,
+      "mono_fold_energy_change_dB": 0.0
+    }
+  },
+  "states": {
+    "active": {
+      "core_mix_mid_energy_change_dB": 0.02068737894296646,
+      "core_mix_SM_before_dB": -20.527477264404297,
+      "core_mix_SM_after_dB": -20.5179443359375,
+      "core_mix_SM_change_dB": 0.009532928466796875,
+      "core_band_150_400_change_dB": 0.03987433433142503,
+      "core_band_400_1200_change_dB": 0.03956526211589307,
+      "core_band_1200_5000_change_dB": 0.022045583456892018,
+      "core_band_5000_10000_change_dB": -0.13685254564617447,
+      "core_band_10000_16000_change_dB": -0.14840635303017896,
+      "vocal_mid_energy_change_dB": 0.020436959341168404,
+      "vocal_SM_before_dB": -15.772531509399414,
+      "vocal_SM_after_dB": -15.711411476135254,
+      "vocal_SM_change_dB": 0.061120033264160156,
+      "doubles_mid_energy_change_dB": 0.0,
+      "doubles_SM_before_dB": 1.6766836643218994,
+      "doubles_SM_after_dB": 1.7876927852630615,
+      "doubles_SM_change_dB": 0.11100912094116211,
+      "fx_mix_mid_energy_change_dB": 0.0,
+      "fx_mix_SM_before_dB": 1.6506160497665405,
+      "fx_mix_SM_after_dB": 1.7565193176269531,
+      "fx_mix_SM_change_dB": 0.1059032678604126
+    },
+    "voiced": {
+      "core_mix_mid_energy_change_dB": 0.03764951974153519,
+      "core_mix_SM_before_dB": -20.717998504638672,
+      "core_mix_SM_after_dB": -20.717208862304688,
+      "core_mix_SM_change_dB": 0.000789642333984375,
+      "core_band_150_400_change_dB": 0.03996399941458517,
+      "core_band_400_1200_change_dB": 0.03991045670680014,
+      "core_band_1200_5000_change_dB": 0.03763729490439936,
+      "core_band_5000_10000_change_dB": 0.0026668273735096937,
+      "core_band_10000_16000_change_dB": 0.007163435949201747,
+      "vocal_mid_energy_change_dB": 0.03651765361428261,
+      "vocal_SM_before_dB": -12.462137222290039,
+      "vocal_SM_after_dB": -12.39676570892334,
+      "vocal_SM_change_dB": 0.06537151336669922,
+      "doubles_mid_energy_change_dB": 0.0,
+      "doubles_SM_before_dB": 1.7001519203186035,
+      "doubles_SM_after_dB": 1.8146528005599976,
+      "doubles_SM_change_dB": 0.11450088024139404,
+      "fx_mix_mid_energy_change_dB": 0.0,
+      "fx_mix_SM_before_dB": 1.7057836055755615,
+      "fx_mix_SM_after_dB": 1.8177714347839355,
+      "fx_mix_SM_change_dB": 0.11198782920837402
+    },
+    "weak_voiced": {
+      "core_mix_mid_energy_change_dB": 0.03430543094873428,
+      "core_mix_SM_before_dB": -20.871395111083984,
+      "core_mix_SM_after_dB": -20.869544982910156,
+      "core_mix_SM_change_dB": 0.001850128173828125,
+      "core_band_150_400_change_dB": 0.03992799475468937,
+      "core_band_400_1200_change_dB": 0.039742338759038764,
+      "core_band_1200_5000_change_dB": 0.0315029212152963,
+      "core_band_5000_10000_change_dB": -0.04164609709972983,
+      "core_band_10000_16000_change_dB": -0.024945113866872592,
+      "vocal_mid_energy_change_dB": 0.03370083123445511,
+      "vocal_SM_before_dB": -14.384566307067871,
+      "vocal_SM_after_dB": -14.105369567871094,
+      "vocal_SM_change_dB": 0.27919673919677734,
+      "doubles_mid_energy_change_dB": 0.0,
+      "doubles_SM_before_dB": 1.7138152122497559,
+      "doubles_SM_after_dB": 2.1165590286254883,
+      "doubles_SM_change_dB": 0.4027438163757324,
+      "fx_mix_mid_energy_change_dB": 0.0,
+      "fx_mix_SM_before_dB": 1.7547153234481812,
+      "fx_mix_SM_after_dB": 2.1459462642669678,
+      "fx_mix_SM_change_dB": 0.3912309408187866
+    },
+    "strong_voiced": {
+      "core_mix_mid_energy_change_dB": 0.0399431437253952,
+      "core_mix_SM_before_dB": -20.511465072631836,
+      "core_mix_SM_after_dB": -20.511474609375,
+      "core_mix_SM_change_dB": -9.5367431640625e-06,
+      "core_band_150_400_change_dB": 0.03999786949272551,
+      "core_band_400_1200_change_dB": 0.039978334294617196,
+      "core_band_1200_5000_change_dB": 0.039909468476976025,
+      "core_band_5000_10000_change_dB": 0.03928653343726066,
+      "core_band_10000_16000_change_dB": 0.039431377855256196,
+      "vocal_mid_energy_change_dB": 0.03818172588944435,
+      "vocal_SM_before_dB": -10.888973236083984,
+      "vocal_SM_after_dB": -10.919055938720703,
+      "vocal_SM_change_dB": -0.03008270263671875,
+      "doubles_mid_energy_change_dB": 0.0,
+      "doubles_SM_before_dB": 1.6999214887619019,
+      "doubles_SM_after_dB": 1.7043111324310303,
+      "doubles_SM_change_dB": 0.004389643669128418,
+      "fx_mix_mid_energy_change_dB": 0.0,
+      "fx_mix_SM_before_dB": 1.669042706489563,
+      "fx_mix_SM_after_dB": 1.6733038425445557,
+      "fx_mix_SM_change_dB": 0.004261136054992676
+    },
+    "entry": {
+      "core_mix_mid_energy_change_dB": 0.030381975695490837,
+      "core_mix_SM_before_dB": -24.483531951904297,
+      "core_mix_SM_after_dB": -24.482147216796875,
+      "core_mix_SM_change_dB": 0.001384735107421875,
+      "core_band_150_400_change_dB": 0.03991361790554885,
+      "core_band_400_1200_change_dB": 0.0397058325285548,
+      "core_band_1200_5000_change_dB": 0.033260838737610134,
+      "core_band_5000_10000_change_dB": -0.05283825977881301,
+      "core_band_10000_16000_change_dB": -0.07320284456313128,
+      "vocal_mid_energy_change_dB": 0.030375290662050247,
+      "vocal_SM_before_dB": -23.97901725769043,
+      "vocal_SM_after_dB": -23.98046112060547,
+      "vocal_SM_change_dB": -0.0014438629150390625,
+      "doubles_mid_energy_change_dB": 0.0,
+      "doubles_SM_before_dB": 1.3278089761734009,
+      "doubles_SM_after_dB": 1.3438270092010498,
+      "doubles_SM_change_dB": 0.016018033027648926,
+      "fx_mix_mid_energy_change_dB": 0.0,
+      "fx_mix_SM_before_dB": 0.8045986890792847,
+      "fx_mix_SM_after_dB": 0.8104579448699951,
+      "fx_mix_SM_change_dB": 0.005859255790710449
+    },
+    "gap": {
+      "core_mix_mid_energy_change_dB": 0.028436144813895226,
+      "core_mix_SM_before_dB": -14.382898330688477,
+      "core_mix_SM_after_dB": -14.37288761138916,
+      "core_mix_SM_change_dB": 0.010010719299316406,
+      "core_band_150_400_change_dB": 0.03992035456470831,
+      "core_band_400_1200_change_dB": 0.03973452016670913,
+      "core_band_1200_5000_change_dB": 0.032476876255093386,
+      "core_band_5000_10000_change_dB": -0.014214233257130867,
+      "core_band_10000_16000_change_dB": -0.011656796976706074,
+      "vocal_mid_energy_change_dB": 0.027438722550868988,
+      "vocal_SM_before_dB": -12.933328628540039,
+      "vocal_SM_after_dB": -12.93443489074707,
+      "vocal_SM_change_dB": -0.00110626220703125,
+      "doubles_mid_energy_change_dB": 0.0,
+      "doubles_SM_before_dB": 1.0137040615081787,
+      "doubles_SM_after_dB": 1.024125337600708,
+      "doubles_SM_change_dB": 0.010421276092529297,
+      "fx_mix_mid_energy_change_dB": 0.0,
+      "fx_mix_SM_before_dB": -3.3085761070251465,
+      "fx_mix_SM_after_dB": -3.3085737228393555,
+      "fx_mix_SM_change_dB": 2.384185791015625e-06
+    }
+  },
+  "alignment": [
+    {
+      "start_seconds": 7,
+      "best_lag_samples": 0,
+      "zero_lag_correlation": 0.9999999999999982
+    },
+    {
+      "start_seconds": 38,
+      "best_lag_samples": 0,
+      "zero_lag_correlation": 0.9999301178634386
+    },
+    {
+      "start_seconds": 61,
+      "best_lag_samples": 0,
+      "zero_lag_correlation": 0.9999976778904885
+    },
+    {
+      "start_seconds": 106,
+      "best_lag_samples": 0,
+      "zero_lag_correlation": 0.999999999999999
+    },
+    {
+      "start_seconds": 143,
+      "best_lag_samples": 0,
+      "zero_lag_correlation": 0.9999301388965335
+    },
+    {
+      "start_seconds": 175,
+      "best_lag_samples": 0,
+      "zero_lag_correlation": 0.9998195837523925
+    }
+  ],
+  "controls": {
+    "active": {
+      "edge_p50_p90_p95_p99": [
+        0.004282283902568921,
+        0.41690223557251893,
+        0.7158970974005642,
+        0.9876484096102159
+      ],
+      "edge_over_025_seconds": 19.96,
+      "side_lift_p50_p90_p95_p99": [
+        2.1354318199994894e-09,
+        0.2314113327355244,
+        0.4479221741323996,
+        0.7650129437589062
+      ],
+      "side_lift_above_025_seconds": 12.44
+    },
+    "voiced": {
+      "edge_p50_p90_p95_p99": [
+        6.007893762416973e-05,
+        0.07900440436126231,
+        0.2067521803501347,
+        0.527582750017027
+      ],
+      "edge_over_025_seconds": 1.36,
+      "side_lift_p50_p90_p95_p99": [
+        0.047385818004941155,
+        0.6419191294226496,
+        0.7458789667061391,
+        0.7983673784464901
+      ],
+      "side_lift_above_025_seconds": 11.76
+    },
+    "weak_voiced": {
+      "edge_p50_p90_p95_p99": [
+        0.003943443997478485,
+        0.23882864109316715,
+        0.3664684004400941,
+        0.7199616114246788
+      ],
+      "edge_over_025_seconds": 1.36,
+      "side_lift_p50_p90_p95_p99": [
+        0.39786807860648804,
+        0.7589833767756642,
+        0.789386190615216,
+        0.799511752830997
+      ],
+      "side_lift_above_025_seconds": 10.68
+    },
+    "strong_voiced": {
+      "edge_p50_p90_p95_p99": [
+        5.8007274581210085e-06,
+        0.0023535471686996078,
+        0.007927390311929954,
+        0.030573474221343332
+      ],
+      "edge_over_025_seconds": 0.0,
+      "side_lift_p50_p90_p95_p99": [
+        6.433276877084278e-06,
+        0.013615240450818604,
+        0.04476134871921977,
+        0.12683656561108259
+      ],
+      "side_lift_above_025_seconds": 0.0
+    },
+    "entry": {
+      "edge_p50_p90_p95_p99": [
+        0.0008015194294842184,
+        0.2252230650902859,
+        0.3884249769182226,
+        0.7347493934007626
+      ],
+      "edge_over_025_seconds": 0.8,
+      "side_lift_p50_p90_p95_p99": [
+        5.21685023894361e-26,
+        1.8352697391023259e-06,
+        0.0018522673191961286,
+        0.03203649891187958
+      ],
+      "side_lift_above_025_seconds": 0.0
+    },
+    "gap": {
+      "edge_p50_p90_p95_p99": [
+        3.4332597306185965e-23,
+        0.0013963868721374752,
+        0.01031319192527877,
+        0.09217808574860104
+      ],
+      "edge_over_025_seconds": 0.24,
+      "side_lift_p50_p90_p95_p99": [
+        3.352378708811375e-52,
+        4.290298453587994e-08,
+        1.2929652382480991e-05,
+        0.001198507496375254
+      ],
+      "side_lift_above_025_seconds": 0.0
+    }
+  },
+  "limitations": "Same V1 masks and 40 ms windows as initial review. Spectral/routing checks are not subjective listening.",
+  "core_dynamics": {
+    "40_70": {
+      "p90_p10_before": 13.368919372558594,
+      "p90_p10_after": 13.366781234741211,
+      "p95_p50_before": 2.4377193450927734,
+      "p95_p50_after": 2.4377193450927734
+    },
+    "100_130": {
+      "p90_p10_before": 10.974555969238281,
+      "p90_p10_after": 10.915048599243164,
+      "p95_p50_before": 1.899679183959961,
+      "p95_p50_after": 1.9096107482910156
+    }
+  },
+  "routing": {
+    "core_plus_fx_vocal_max_abs_error": 0.0,
+    "layer_sum_fx_max_abs_error": 0.0
+  },
+  "checks": {
+    "all_finite_and_shapes": true,
+    "three_returns_exact": true,
+    "doubles_mid_roundoff_only": true,
+    "fx_mid_roundoff_only": true,
+    "all_lead_lags_zero": true,
+    "active_HF_change_small": true,
+    "strong_vowel_HF_preserved": true,
+    "strong_width_preserved": true,
+    "mono_change_small": true
+  },
+  "pass": true
+}

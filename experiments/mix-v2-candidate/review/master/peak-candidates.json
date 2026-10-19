@@ -1,0 +1,698 @@
+{
+  "method": "Candidate-only diagnostics, not audio processing. Existing full-mix 1ms approximate limiter-GR local peaks >=4.3dB, separation150ms, prominence0.75dB; locate actual beat sample peak +/-10ms. Gate on 50ms beat/vocal RMS >=3dB and causal 140Hz lowpass/full beat power >=0.3. Vocal estimated by exact premaster minus beat, without separated commercial content. LF fraction is context, not causal proof.",
+  "event_count_before_gates": 37,
+  "event_count_after_gates": 28,
+  "candidates": [
+    {
+      "known_limiter_peak_time_s": 11.1845,
+      "limiter_estimated_GR_dB": 6.0222015380859375,
+      "beat_actual_sample_peak_time_s": 11.1778125,
+      "beat_actual_sample_peak_dBFS": -8.919272489598063,
+      "context50ms": {
+        "beat_rms_dBFS": -12.806313212085392,
+        "beat_over_vocal_dB": 8.110994186361994,
+        "lowpass140_fraction": 0.7941566463581408
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -12.061535230395295,
+        "beat_over_vocal_dB": 8.528242238157912,
+        "lowpass140_fraction": 0.9289865332919237
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.6944403076171876
+    },
+    {
+      "known_limiter_peak_time_s": 38.2975,
+      "limiter_estimated_GR_dB": 5.509095191955566,
+      "beat_actual_sample_peak_time_s": 38.30077083333333,
+      "beat_actual_sample_peak_dBFS": -8.162174161690741,
+      "context50ms": {
+        "beat_rms_dBFS": -11.897400956742166,
+        "beat_over_vocal_dB": 10.04174148397137,
+        "lowpass140_fraction": 0.9179585536374701
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -12.020430519567693,
+        "beat_over_vocal_dB": 9.030759209115807,
+        "lowpass140_fraction": 0.9509958932456132
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.5918190383911133
+    },
+    {
+      "known_limiter_peak_time_s": 45.3995,
+      "limiter_estimated_GR_dB": 4.496533393859863,
+      "beat_actual_sample_peak_time_s": 45.39429166666667,
+      "beat_actual_sample_peak_dBFS": -7.4200267697381594,
+      "context50ms": {
+        "beat_rms_dBFS": -12.43002118830698,
+        "beat_over_vocal_dB": 6.748007608994737,
+        "lowpass140_fraction": 0.7396018059683144
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -11.507469532418934,
+        "beat_over_vocal_dB": 7.544275062305662,
+        "lowpass140_fraction": 0.8403258474795217
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.38930667877197267
+    },
+    {
+      "known_limiter_peak_time_s": 49.1775,
+      "limiter_estimated_GR_dB": 5.639805793762207,
+      "beat_actual_sample_peak_time_s": 49.1841875,
+      "beat_actual_sample_peak_dBFS": -7.477956080675762,
+      "context50ms": {
+        "beat_rms_dBFS": -12.043591312920643,
+        "beat_over_vocal_dB": 6.1364485291421635,
+        "lowpass140_fraction": 0.8814139079667405
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -12.337946899841166,
+        "beat_over_vocal_dB": 4.753554251415651,
+        "lowpass140_fraction": 1.0826949343747427
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.6179611587524414
+    },
+    {
+      "known_limiter_peak_time_s": 49.4285,
+      "limiter_estimated_GR_dB": 5.257513999938965,
+      "beat_actual_sample_peak_time_s": 49.41952083333333,
+      "beat_actual_sample_peak_dBFS": -6.621405990059736,
+      "context50ms": {
+        "beat_rms_dBFS": -12.663734831405547,
+        "beat_over_vocal_dB": 6.1185135608125325,
+        "lowpass140_fraction": 0.8094870816947966
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -12.02010386374398,
+        "beat_over_vocal_dB": 7.2886392591317515,
+        "lowpass140_fraction": 0.7265340235499127
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.541502799987793
+    },
+    {
+      "known_limiter_peak_time_s": 53.8645,
+      "limiter_estimated_GR_dB": 4.998936176300049,
+      "beat_actual_sample_peak_time_s": 53.86504166666667,
+      "beat_actual_sample_peak_dBFS": -7.413399015606697,
+      "context50ms": {
+        "beat_rms_dBFS": -12.388323410905668,
+        "beat_over_vocal_dB": 8.653990206631605,
+        "lowpass140_fraction": 0.9891876320234908
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -11.835231810186123,
+        "beat_over_vocal_dB": 7.815485675418929,
+        "lowpass140_fraction": 0.8343491891093496
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.4897872352600098
+    },
+    {
+      "known_limiter_peak_time_s": 67.4005,
+      "limiter_estimated_GR_dB": 4.655928134918213,
+      "beat_actual_sample_peak_time_s": 67.39985416666667,
+      "beat_actual_sample_peak_dBFS": -7.134340006977365,
+      "context50ms": {
+        "beat_rms_dBFS": -12.206097814687515,
+        "beat_over_vocal_dB": 8.858093158145778,
+        "lowpass140_fraction": 0.8173467482155261
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -11.746258315513636,
+        "beat_over_vocal_dB": 8.87255789986871,
+        "lowpass140_fraction": 0.9681858225011303
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.4211856269836426
+    },
+    {
+      "known_limiter_peak_time_s": 71.6165,
+      "limiter_estimated_GR_dB": 4.396158218383789,
+      "beat_actual_sample_peak_time_s": 71.6230625,
+      "beat_actual_sample_peak_dBFS": -7.485503471648954,
+      "context50ms": {
+        "beat_rms_dBFS": -12.418300926147236,
+        "beat_over_vocal_dB": 5.797125314605461,
+        "lowpass140_fraction": 0.8254756876094277
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -12.086923395674955,
+        "beat_over_vocal_dB": 5.57373988054879,
+        "lowpass140_fraction": 1.0027404770485149
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.3692316436767578
+    },
+    {
+      "known_limiter_peak_time_s": 72.3165,
+      "limiter_estimated_GR_dB": 4.711719036102295,
+      "beat_actual_sample_peak_time_s": 72.30997916666666,
+      "beat_actual_sample_peak_dBFS": -7.755033074030183,
+      "context50ms": {
+        "beat_rms_dBFS": -12.325158208626911,
+        "beat_over_vocal_dB": 6.793875598793587,
+        "lowpass140_fraction": 0.9989992453070289
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -11.834572224704232,
+        "beat_over_vocal_dB": 7.178029210926779,
+        "lowpass140_fraction": 0.9304088171769839
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.432343807220459
+    },
+    {
+      "known_limiter_peak_time_s": 78.7695,
+      "limiter_estimated_GR_dB": 5.933147430419922,
+      "beat_actual_sample_peak_time_s": 78.76116666666667,
+      "beat_actual_sample_peak_dBFS": -7.6532091069560035,
+      "context50ms": {
+        "beat_rms_dBFS": -13.02127743219841,
+        "beat_over_vocal_dB": 7.770599355385517,
+        "lowpass140_fraction": 0.9755736454321003
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -12.009600096725535,
+        "beat_over_vocal_dB": 8.185811180817172,
+        "lowpass140_fraction": 0.8450506492385959
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.6766294860839844
+    },
+    {
+      "known_limiter_peak_time_s": 82.2815,
+      "limiter_estimated_GR_dB": 4.8961381912231445,
+      "beat_actual_sample_peak_time_s": 82.29010416666667,
+      "beat_actual_sample_peak_dBFS": -7.513255000351039,
+      "context50ms": {
+        "beat_rms_dBFS": -12.092649656365008,
+        "beat_over_vocal_dB": 7.479072084599059,
+        "lowpass140_fraction": 0.8297509848848325
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -11.76744393437974,
+        "beat_over_vocal_dB": 8.761022981911871,
+        "lowpass140_fraction": 1.0641630822733388
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.46922763824462893
+    },
+    {
+      "known_limiter_peak_time_s": 85.8375,
+      "limiter_estimated_GR_dB": 4.861387252807617,
+      "beat_actual_sample_peak_time_s": 85.83977083333333,
+      "beat_actual_sample_peak_dBFS": -7.462475093853885,
+      "context50ms": {
+        "beat_rms_dBFS": -12.442983478146147,
+        "beat_over_vocal_dB": 6.701878262520165,
+        "lowpass140_fraction": 0.7104050675925236
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -12.005071334058828,
+        "beat_over_vocal_dB": 6.796476529118463,
+        "lowpass140_fraction": 0.8789088049295849
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.4622774505615235
+    },
+    {
+      "known_limiter_peak_time_s": 92.0565,
+      "limiter_estimated_GR_dB": 4.672817707061768,
+      "beat_actual_sample_peak_time_s": 92.04820833333333,
+      "beat_actual_sample_peak_dBFS": -5.936571788266356,
+      "context50ms": {
+        "beat_rms_dBFS": -14.270522283731449,
+        "beat_over_vocal_dB": 5.1997785413502315,
+        "lowpass140_fraction": 0.4530562317235397
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -13.449352924506117,
+        "beat_over_vocal_dB": 6.591198602369892,
+        "lowpass140_fraction": 0.2783316924138805
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.42456354141235353
+    },
+    {
+      "known_limiter_peak_time_s": 92.9915,
+      "limiter_estimated_GR_dB": 5.312902927398682,
+      "beat_actual_sample_peak_time_s": 92.98295833333333,
+      "beat_actual_sample_peak_dBFS": -7.953910266993307,
+      "context50ms": {
+        "beat_rms_dBFS": -13.002961921966962,
+        "beat_over_vocal_dB": 7.7905144513277715,
+        "lowpass140_fraction": 1.0001862207022187
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -12.135819005291635,
+        "beat_over_vocal_dB": 7.454834058269625,
+        "lowpass140_fraction": 0.8547725653096732
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.5525805854797363
+    },
+    {
+      "known_limiter_peak_time_s": 95.1845,
+      "limiter_estimated_GR_dB": 5.95707368850708,
+      "beat_actual_sample_peak_time_s": 95.18458333333334,
+      "beat_actual_sample_peak_dBFS": -8.31040175636181,
+      "context50ms": {
+        "beat_rms_dBFS": -12.134681540626548,
+        "beat_over_vocal_dB": 7.289001207134691,
+        "lowpass140_fraction": 0.9128835458010915
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -12.195424679205761,
+        "beat_over_vocal_dB": 7.098390800639707,
+        "lowpass140_fraction": 1.088814971315083
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.681414737701416
+    },
+    {
+      "known_limiter_peak_time_s": 96.4875,
+      "limiter_estimated_GR_dB": 5.336752414703369,
+      "beat_actual_sample_peak_time_s": 96.48541666666667,
+      "beat_actual_sample_peak_dBFS": -8.457156231058814,
+      "context50ms": {
+        "beat_rms_dBFS": -14.85392306619155,
+        "beat_over_vocal_dB": 8.207753098082652,
+        "lowpass140_fraction": 0.5637704369376706
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -14.798730516013489,
+        "beat_over_vocal_dB": 9.22073467993915,
+        "lowpass140_fraction": 0.23017360433556203
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.5573504829406739
+    },
+    {
+      "known_limiter_peak_time_s": 120.4925,
+      "limiter_estimated_GR_dB": 4.599907875061035,
+      "beat_actual_sample_peak_time_s": 120.49264583333333,
+      "beat_actual_sample_peak_dBFS": -4.967694599490225,
+      "context50ms": {
+        "beat_rms_dBFS": -14.024493459515423,
+        "beat_over_vocal_dB": 5.009732024141659,
+        "lowpass140_fraction": 0.4746106590466379
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -13.339814118617586,
+        "beat_over_vocal_dB": 5.459400783097099,
+        "lowpass140_fraction": 0.29289415033875227
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.40998157501220706
+    },
+    {
+      "known_limiter_peak_time_s": 121.4285,
+      "limiter_estimated_GR_dB": 4.802056312561035,
+      "beat_actual_sample_peak_time_s": 121.42016666666666,
+      "beat_actual_sample_peak_dBFS": -7.147386713088854,
+      "context50ms": {
+        "beat_rms_dBFS": -12.644700975505296,
+        "beat_over_vocal_dB": 5.345388352975323,
+        "lowpass140_fraction": 0.9526515337408841
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -12.114971161900513,
+        "beat_over_vocal_dB": 5.59613987720645,
+        "lowpass140_fraction": 0.8248105526937177
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.45041126251220703
+    },
+    {
+      "known_limiter_peak_time_s": 123.6105,
+      "limiter_estimated_GR_dB": 4.480472564697266,
+      "beat_actual_sample_peak_time_s": 123.6074375,
+      "beat_actual_sample_peak_dBFS": -7.756767218317426,
+      "context50ms": {
+        "beat_rms_dBFS": -13.130605074503132,
+        "beat_over_vocal_dB": 7.3445274754917005,
+        "lowpass140_fraction": 0.6776812514188195
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -12.11742022651881,
+        "beat_over_vocal_dB": 8.162453112573655,
+        "lowpass140_fraction": 0.4505403521680291
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.3860945129394531
+    },
+    {
+      "known_limiter_peak_time_s": 124.3025,
+      "limiter_estimated_GR_dB": 4.922298908233643,
+      "beat_actual_sample_peak_time_s": 124.3103125,
+      "beat_actual_sample_peak_dBFS": -8.16249613319896,
+      "context50ms": {
+        "beat_rms_dBFS": -12.414516095666778,
+        "beat_over_vocal_dB": 6.780620979353471,
+        "lowpass140_fraction": 1.0066512412798032
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -11.719877770107377,
+        "beat_over_vocal_dB": 7.58007074173249,
+        "lowpass140_fraction": 0.9636245170488602
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.47445978164672853
+    },
+    {
+      "known_limiter_peak_time_s": 142.7285,
+      "limiter_estimated_GR_dB": 4.332418918609619,
+      "beat_actual_sample_peak_time_s": 142.72833333333332,
+      "beat_actual_sample_peak_dBFS": -7.661206181211621,
+      "context50ms": {
+        "beat_rms_dBFS": -12.488630774990552,
+        "beat_over_vocal_dB": 5.502940188292778,
+        "lowpass140_fraction": 0.7095454374520673
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -12.18526630270613,
+        "beat_over_vocal_dB": 5.964573992765613,
+        "lowpass140_fraction": 0.8905071481772199
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.35648378372192385
+    },
+    {
+      "known_limiter_peak_time_s": 144.9615,
+      "limiter_estimated_GR_dB": 4.529273986816406,
+      "beat_actual_sample_peak_time_s": 144.9620625,
+      "beat_actual_sample_peak_dBFS": -7.833124143723479,
+      "context50ms": {
+        "beat_rms_dBFS": -11.962236244767492,
+        "beat_over_vocal_dB": 8.670097435970161,
+        "lowpass140_fraction": 0.8921612217154637
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -11.923542619186083,
+        "beat_over_vocal_dB": 9.044842465842514,
+        "lowpass140_fraction": 1.0600396893315784
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.3958547973632813
+    },
+    {
+      "known_limiter_peak_time_s": 145.6305,
+      "limiter_estimated_GR_dB": 5.146849155426025,
+      "beat_actual_sample_peak_time_s": 145.62254166666668,
+      "beat_actual_sample_peak_dBFS": -7.436363288589588,
+      "context50ms": {
+        "beat_rms_dBFS": -11.951711582681897,
+        "beat_over_vocal_dB": 8.119984616822313,
+        "lowpass140_fraction": 0.8379353719471881
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -11.472709995572586,
+        "beat_over_vocal_dB": 8.724176823004036,
+        "lowpass140_fraction": 1.044128406694818
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.5193698310852051
+    },
+    {
+      "known_limiter_peak_time_s": 146.2825,
+      "limiter_estimated_GR_dB": 5.751482963562012,
+      "beat_actual_sample_peak_time_s": 146.2788125,
+      "beat_actual_sample_peak_dBFS": -8.00098058532545,
+      "context50ms": {
+        "beat_rms_dBFS": -12.674161404827263,
+        "beat_over_vocal_dB": 9.16565966645062,
+        "lowpass140_fraction": 0.6796382790072668
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -11.991002024388939,
+        "beat_over_vocal_dB": 8.274931717637074,
+        "lowpass140_fraction": 0.6964914602360656
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.6402965927124024
+    },
+    {
+      "known_limiter_peak_time_s": 148.9605,
+      "limiter_estimated_GR_dB": 5.221352577209473,
+      "beat_actual_sample_peak_time_s": 148.95508333333333,
+      "beat_actual_sample_peak_dBFS": -5.955003646646175,
+      "context50ms": {
+        "beat_rms_dBFS": -12.97287999370592,
+        "beat_over_vocal_dB": 6.485723421127707,
+        "lowpass140_fraction": 0.6617234842237509
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -12.913571755837905,
+        "beat_over_vocal_dB": 6.440191449424235,
+        "lowpass140_fraction": 0.7849622425061022
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.5342705154418945
+    },
+    {
+      "known_limiter_peak_time_s": 149.8955,
+      "limiter_estimated_GR_dB": 4.300771713256836,
+      "beat_actual_sample_peak_time_s": 149.89066666666668,
+      "beat_actual_sample_peak_dBFS": -8.957193868371835,
+      "context50ms": {
+        "beat_rms_dBFS": -14.436740144634143,
+        "beat_over_vocal_dB": 6.590030896973518,
+        "lowpass140_fraction": 1.011311903674011
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -14.917200047155866,
+        "beat_over_vocal_dB": 5.3820102704526125,
+        "lowpass140_fraction": 1.0951721786131108
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.3501543426513672
+    },
+    {
+      "known_limiter_peak_time_s": 152.0515,
+      "limiter_estimated_GR_dB": 5.043749809265137,
+      "beat_actual_sample_peak_time_s": 152.04475,
+      "beat_actual_sample_peak_dBFS": -7.904943986455124,
+      "context50ms": {
+        "beat_rms_dBFS": -13.989314898016163,
+        "beat_over_vocal_dB": 5.677307763706528,
+        "lowpass140_fraction": 0.5775142991733196
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -13.541537092702875,
+        "beat_over_vocal_dB": 5.516608201135789,
+        "lowpass140_fraction": 0.3040526244351337
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.49874996185302733
+    },
+    {
+      "known_limiter_peak_time_s": 166.3085,
+      "limiter_estimated_GR_dB": 4.664700508117676,
+      "beat_actual_sample_peak_time_s": 166.31014583333334,
+      "beat_actual_sample_peak_dBFS": -8.001105443733913,
+      "context50ms": {
+        "beat_rms_dBFS": -12.605924073220843,
+        "beat_over_vocal_dB": 7.195421173228612,
+        "lowpass140_fraction": 0.990513052699293
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -12.0854675773513,
+        "beat_over_vocal_dB": 5.569619741903612,
+        "lowpass140_fraction": 0.9406947750566057
+      },
+      "candidate": true,
+      "suggested_maximum_dip_dB": 0.4229401016235352
+    }
+  ],
+  "rejected_context_events": [
+    {
+      "known_limiter_peak_time_s": 35.1485,
+      "limiter_estimated_GR_dB": 6.003883361816406,
+      "beat_actual_sample_peak_time_s": 35.148583333333335,
+      "beat_actual_sample_peak_dBFS": -6.309811858408832,
+      "context50ms": {
+        "beat_rms_dBFS": -16.00821103843569,
+        "beat_over_vocal_dB": 2.484796518620447,
+        "lowpass140_fraction": 0.32373798612802507
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -16.737849367450405,
+        "beat_over_vocal_dB": -0.11499511259768656,
+        "lowpass140_fraction": 0.11688228338738177
+      },
+      "candidate": false,
+      "suggested_maximum_dip_dB": 0
+    },
+    {
+      "known_limiter_peak_time_s": 42.2855,
+      "limiter_estimated_GR_dB": 5.014904022216797,
+      "beat_actual_sample_peak_time_s": 42.288020833333334,
+      "beat_actual_sample_peak_dBFS": -6.038881171072279,
+      "context50ms": {
+        "beat_rms_dBFS": -17.945441734110666,
+        "beat_over_vocal_dB": 0.6717522265861442,
+        "lowpass140_fraction": 0.009299443693637829
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -17.19581877843211,
+        "beat_over_vocal_dB": 1.9034262276881404,
+        "lowpass140_fraction": 0.008905497093927125
+      },
+      "candidate": false,
+      "suggested_maximum_dip_dB": 0
+    },
+    {
+      "known_limiter_peak_time_s": 74.2885,
+      "limiter_estimated_GR_dB": 4.425368785858154,
+      "beat_actual_sample_peak_time_s": 74.28802083333333,
+      "beat_actual_sample_peak_dBFS": -5.375279132334759,
+      "context50ms": {
+        "beat_rms_dBFS": -17.626907369364318,
+        "beat_over_vocal_dB": 1.1974699887422713,
+        "lowpass140_fraction": 0.07334874508266946
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -16.913837960928454,
+        "beat_over_vocal_dB": 1.9001325319561362,
+        "lowpass140_fraction": 0.05746347255272962
+      },
+      "candidate": false,
+      "suggested_maximum_dip_dB": 0
+    },
+    {
+      "known_limiter_peak_time_s": 76.0585,
+      "limiter_estimated_GR_dB": 4.961699962615967,
+      "beat_actual_sample_peak_time_s": 76.06583333333333,
+      "beat_actual_sample_peak_dBFS": -7.186868051952423,
+      "context50ms": {
+        "beat_rms_dBFS": -18.11582839358829,
+        "beat_over_vocal_dB": 2.9141331602746385,
+        "lowpass140_fraction": 0.10238338724045616
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -17.420246561115025,
+        "beat_over_vocal_dB": 4.654910481317014,
+        "lowpass140_fraction": 0.11535545237792218
+      },
+      "candidate": false,
+      "suggested_maximum_dip_dB": 0
+    },
+    {
+      "known_limiter_peak_time_s": 79.6245,
+      "limiter_estimated_GR_dB": 5.942594528198242,
+      "beat_actual_sample_peak_time_s": 79.62177083333333,
+      "beat_actual_sample_peak_dBFS": -5.8226752838679685,
+      "context50ms": {
+        "beat_rms_dBFS": -17.678880244020224,
+        "beat_over_vocal_dB": 2.7371597158784526,
+        "lowpass140_fraction": 0.1294017561280856
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -16.623474305137037,
+        "beat_over_vocal_dB": 7.52881351166062,
+        "lowpass140_fraction": 0.16425261062755203
+      },
+      "candidate": false,
+      "suggested_maximum_dip_dB": 0
+    },
+    {
+      "known_limiter_peak_time_s": 118.7345,
+      "limiter_estimated_GR_dB": 4.363220691680908,
+      "beat_actual_sample_peak_time_s": 118.731125,
+      "beat_actual_sample_peak_dBFS": -5.512661481716162,
+      "context50ms": {
+        "beat_rms_dBFS": -18.01782490846729,
+        "beat_over_vocal_dB": 0.5616470148175676,
+        "lowpass140_fraction": 0.11325589794317029
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -17.17343892992205,
+        "beat_over_vocal_dB": 1.5017223210705664,
+        "lowpass140_fraction": 0.1163790264638683
+      },
+      "candidate": false,
+      "suggested_maximum_dip_dB": 0
+    },
+    {
+      "known_limiter_peak_time_s": 122.2885,
+      "limiter_estimated_GR_dB": 5.447170734405518,
+      "beat_actual_sample_peak_time_s": 122.2884375,
+      "beat_actual_sample_peak_dBFS": -5.657993945728981,
+      "context50ms": {
+        "beat_rms_dBFS": -17.64820602991333,
+        "beat_over_vocal_dB": 2.0611479462709252,
+        "lowpass140_fraction": 0.12649162988120843
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -16.470105366079274,
+        "beat_over_vocal_dB": 3.1715495320946046,
+        "lowpass140_fraction": 0.16531031835626023
+      },
+      "candidate": false,
+      "suggested_maximum_dip_dB": 0
+    },
+    {
+      "known_limiter_peak_time_s": 152.4955,
+      "limiter_estimated_GR_dB": 5.4553632736206055,
+      "beat_actual_sample_peak_time_s": 152.495375,
+      "beat_actual_sample_peak_dBFS": -6.51508164159429,
+      "context50ms": {
+        "beat_rms_dBFS": -18.38204516459333,
+        "beat_over_vocal_dB": -0.9014355802354008,
+        "lowpass140_fraction": 0.1368965148260017
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -17.736997142922355,
+        "beat_over_vocal_dB": -0.4931120751836827,
+        "lowpass140_fraction": 0.16842438312077787
+      },
+      "candidate": false,
+      "suggested_maximum_dip_dB": 0
+    },
+    {
+      "known_limiter_peak_time_s": 170.4865,
+      "limiter_estimated_GR_dB": 4.7663164138793945,
+      "beat_actual_sample_peak_time_s": 170.4919375,
+      "beat_actual_sample_peak_dBFS": -10.53821930204943,
+      "context50ms": {
+        "beat_rms_dBFS": -21.852291560748327,
+        "beat_over_vocal_dB": -1.887584348860805,
+        "lowpass140_fraction": 0.0013684733756020285
+      },
+      "context20ms": {
+        "beat_rms_dBFS": -21.427131846384412,
+        "beat_over_vocal_dB": -1.4128463247792218,
+        "lowpass140_fraction": 0.000899411133642733
+      },
+      "candidate": false,
+      "suggested_maximum_dip_dB": 0
+    }
+  ],
+  "recommended_design": {
+    "linked_stereo": true,
+    "finite_lookahead_ms": [
+      5,
+      8
+    ],
+    "minimum_attack_smoothing_ms": [
+      3,
+      5
+    ],
+    "short_hold_ms": [
+      2,
+      5
+    ],
+    "release_ms": [
+      35,
+      60
+    ],
+    "maximum_gain_dip_dB": 0.75,
+    "not_a_hard_clipper": true,
+    "control_resolution": "Use actual stereo sample-peak envelope or oversampled peak with finite lookahead; interpolate/smooth gain continuously. RMS only gates candidate context, never sets the transient location.",
+    "calibration": "These times are from V1. Recheck pressure and sample peak against the changed V2 premaster before finalizing. Gate can change if vocal level changes."
+  }
+}

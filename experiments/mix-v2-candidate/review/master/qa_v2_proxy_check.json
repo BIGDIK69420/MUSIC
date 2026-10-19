@@ -1,0 +1,1668 @@
+{
+  "method": "Independent of least-squares gain proxy: stereo input/output power ratios in overlapping 5/10/20ms windows with1ms hop, and actual driven premaster sample peaks, in each repair center -30/+150ms. These are effective energy attenuations, not limiter internal state. Input/output filtering and within-window gain weighting remain relevant. No subjective audition.",
+  "summary": {
+    "driven_peak_change": {
+      "minimum_dB": -0.31372711016828836,
+      "median_dB": -0.18584466339183536,
+      "maximum_dB": 0.009667652980581476,
+      "number_decreased_over005dB": 25,
+      "number_increased_over005dB": 0
+    },
+    "whole_event_energy_attenuation_change": {
+      "minimum_dB": -0.15426751862053534,
+      "median_dB": -0.08933199139551729,
+      "maximum_dB": -0.026003959961152345,
+      "number_decreased_over005dB": 25,
+      "number_increased_over005dB": 0
+    },
+    "short_window_maximum_energy_attenuation_change": {
+      "5": {
+        "minimum_dB": -0.2766558723664927,
+        "median_dB": -0.1750463825619195,
+        "maximum_dB": 0.010691442125936312,
+        "number_decreased_over005dB": 25,
+        "number_increased_over005dB": 0
+      },
+      "10": {
+        "minimum_dB": -0.2610688741256162,
+        "median_dB": -0.16439296308148688,
+        "maximum_dB": 0.012557942537988254,
+        "number_decreased_over005dB": 25,
+        "number_increased_over005dB": 0
+      },
+      "20": {
+        "minimum_dB": -0.2307357873636855,
+        "median_dB": -0.15090648115784755,
+        "maximum_dB": 0.01905150156573221,
+        "number_decreased_over005dB": 26,
+        "number_increased_over005dB": 0
+      }
+    }
+  },
+  "events": [
+    {
+      "center_s": 11.1778125,
+      "window_s": [
+        11.1478125,
+        11.3278125
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 4.652302302799073,
+        "output_sample_peak_dBFS": -1.4017828394405318,
+        "whole_event_input_output_energy_attenuation_dB": 2.983822728829908,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 5.951445574327345,
+            "p95_dB": 5.636331703597178,
+            "median_dB": 2.4784681106919932
+          },
+          "10": {
+            "maximum_dB": 5.815445510017405,
+            "p95_dB": 5.648091833765901,
+            "median_dB": 2.597156398049166
+          },
+          "20": {
+            "maximum_dB": 5.689961926277577,
+            "p95_dB": 5.523000157136361,
+            "median_dB": 2.728682521347224
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 4.534586962581414,
+        "output_sample_peak_dBFS": -1.401949540470577,
+        "whole_event_input_output_energy_attenuation_dB": 2.851611164905505,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 5.779680800322012,
+            "p95_dB": 5.535471221848616,
+            "median_dB": 2.4105878992813103
+          },
+          "10": {
+            "maximum_dB": 5.637615992158912,
+            "p95_dB": 5.523217156399736,
+            "median_dB": 2.5397552889958828
+          },
+          "20": {
+            "maximum_dB": 5.552030220781741,
+            "p95_dB": 5.364571874774108,
+            "median_dB": 2.6697959227594485
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.11771534021765895,
+      "whole_event_attenuation_change_dB": -0.13221156392440303,
+      "maximum_energy_attenuation_change_dB": {
+        "5": -0.1717647740053332,
+        "10": -0.177829517858493,
+        "20": -0.137931705495836
+      }
+    },
+    {
+      "center_s": 38.30077083333333,
+      "window_s": [
+        38.27077083333333,
+        38.45077083333333
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 4.095115894701231,
+        "output_sample_peak_dBFS": -1.4324261753976983,
+        "whole_event_input_output_energy_attenuation_dB": 1.8247658507566678,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 5.35917712653602,
+            "p95_dB": 4.8049308194245866,
+            "median_dB": 0.7163625550077336
+          },
+          "10": {
+            "maximum_dB": 5.175208939652961,
+            "p95_dB": 4.735072198476954,
+            "median_dB": 0.8018446133162054
+          },
+          "20": {
+            "maximum_dB": 4.849767706758985,
+            "p95_dB": 4.5611583743680955,
+            "median_dB": 1.1535141395041606
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 3.9093093265100975,
+        "output_sample_peak_dBFS": -1.4325324103981194,
+        "whole_event_input_output_energy_attenuation_dB": 1.691400469486851,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 5.192891419303031,
+            "p95_dB": 4.624536889041461,
+            "median_dB": 0.6834255486713897
+          },
+          "10": {
+            "maximum_dB": 5.01330333139931,
+            "p95_dB": 4.548677499736816,
+            "median_dB": 0.7652671442590191
+          },
+          "20": {
+            "maximum_dB": 4.6565047694513115,
+            "p95_dB": 4.344271934806736,
+            "median_dB": 1.1012106052680999
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.18580656819113361,
+      "whole_event_attenuation_change_dB": -0.13336538126981679,
+      "maximum_energy_attenuation_change_dB": {
+        "5": -0.16628570723298886,
+        "10": -0.16190560825365097,
+        "20": -0.19326293730767308
+      }
+    },
+    {
+      "center_s": 45.39429166666667,
+      "window_s": [
+        45.36429166666667,
+        45.544291666666666
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 3.14264853860596,
+        "output_sample_peak_dBFS": -1.399407393213711,
+        "whole_event_input_output_energy_attenuation_dB": 2.4581390413923536,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.479446735010325,
+            "p95_dB": 4.330548032781636,
+            "median_dB": 1.6456369619557267
+          },
+          "10": {
+            "maximum_dB": 4.313147766604594,
+            "p95_dB": 4.223997111409895,
+            "median_dB": 1.7284555355147773
+          },
+          "20": {
+            "maximum_dB": 4.291254213154214,
+            "p95_dB": 4.066746389590961,
+            "median_dB": 1.9745468556171484
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 2.972363568128223,
+        "output_sample_peak_dBFS": -1.399407393213711,
+        "whole_event_input_output_energy_attenuation_dB": 2.370189536591134,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.3134411063103535,
+            "p95_dB": 4.190426716325072,
+            "median_dB": 1.6551338201856702
+          },
+          "10": {
+            "maximum_dB": 4.190187618715253,
+            "p95_dB": 4.093883516860395,
+            "median_dB": 1.7244211195500232
+          },
+          "20": {
+            "maximum_dB": 4.1461146935705875,
+            "p95_dB": 3.946957915851158,
+            "median_dB": 1.9272983441930391
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.17028497047773694,
+      "whole_event_attenuation_change_dB": -0.08794950480121955,
+      "maximum_energy_attenuation_change_dB": {
+        "5": -0.16600562869997137,
+        "10": -0.12296014788934073,
+        "20": -0.14513951958362625
+      }
+    },
+    {
+      "center_s": 49.1841875,
+      "window_s": [
+        49.1541875,
+        49.3341875
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 4.076982862477088,
+        "output_sample_peak_dBFS": -1.3903264660388681,
+        "whole_event_input_output_energy_attenuation_dB": 3.088217148409776,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 5.605830219241818,
+            "p95_dB": 5.0482222329274755,
+            "median_dB": 2.2477125102024984
+          },
+          "10": {
+            "maximum_dB": 5.493560342974513,
+            "p95_dB": 5.151550199286446,
+            "median_dB": 2.2532903798470887
+          },
+          "20": {
+            "maximum_dB": 5.125623739756525,
+            "p95_dB": 5.000295713983461,
+            "median_dB": 2.196057339662463
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 3.9646207931225086,
+        "output_sample_peak_dBFS": -1.390203733692944,
+        "whole_event_input_output_energy_attenuation_dB": 2.9975026704199608,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 5.500985927723016,
+            "p95_dB": 4.974816924302948,
+            "median_dB": 2.1463539447908118
+          },
+          "10": {
+            "maximum_dB": 5.400241454425866,
+            "p95_dB": 5.063488546245835,
+            "median_dB": 2.150676636373131
+          },
+          "20": {
+            "maximum_dB": 5.042932499342699,
+            "p95_dB": 4.919901203094153,
+            "median_dB": 2.095975224842547
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.11236206935457949,
+      "whole_event_attenuation_change_dB": -0.09071447798981502,
+      "maximum_energy_attenuation_change_dB": {
+        "5": -0.10484429151880192,
+        "10": -0.09331888854864712,
+        "20": -0.08269124041382625
+      }
+    },
+    {
+      "center_s": 49.41952083333333,
+      "window_s": [
+        49.38952083333333,
+        49.56952083333333
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 3.899400631666359,
+        "output_sample_peak_dBFS": -1.397761082221085,
+        "whole_event_input_output_energy_attenuation_dB": 3.2441619731207165,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 5.2252682988382055,
+            "p95_dB": 4.65188295330723,
+            "median_dB": 2.378156156687564
+          },
+          "10": {
+            "maximum_dB": 4.955714961068415,
+            "p95_dB": 4.562892625176863,
+            "median_dB": 2.410274195427747
+          },
+          "20": {
+            "maximum_dB": 4.670724995245039,
+            "p95_dB": 4.380115777757908,
+            "median_dB": 2.481768377038529
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 3.658986687039283,
+        "output_sample_peak_dBFS": -1.39777871744198,
+        "whole_event_input_output_energy_attenuation_dB": 3.1431023712182076,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.989668369935348,
+            "p95_dB": 4.610583308515865,
+            "median_dB": 2.2943111712995106
+          },
+          "10": {
+            "maximum_dB": 4.732478052229462,
+            "p95_dB": 4.480661443830021,
+            "median_dB": 2.3259495077719263
+          },
+          "20": {
+            "maximum_dB": 4.459578142364665,
+            "p95_dB": 4.195732804384723,
+            "median_dB": 2.3924639597660136
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.24041394462707633,
+      "whole_event_attenuation_change_dB": -0.10105960190250896,
+      "maximum_energy_attenuation_change_dB": {
+        "5": -0.23559992890285741,
+        "10": -0.22323690883895253,
+        "20": -0.21114685288037371
+      }
+    },
+    {
+      "center_s": 53.86504166666667,
+      "window_s": [
+        53.83504166666667,
+        54.01504166666667
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 3.4929879335479903,
+        "output_sample_peak_dBFS": -1.4039788040315266,
+        "whole_event_input_output_energy_attenuation_dB": 2.6749227929343307,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.930448863948742,
+            "p95_dB": 4.45587124950299,
+            "median_dB": 1.6840056235468828
+          },
+          "10": {
+            "maximum_dB": 4.853282081963798,
+            "p95_dB": 4.523071119199187,
+            "median_dB": 1.639641536948607
+          },
+          "20": {
+            "maximum_dB": 4.546593973563349,
+            "p95_dB": 4.416160579296391,
+            "median_dB": 1.6088024576591686
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 3.307457005820567,
+        "output_sample_peak_dBFS": -1.4039806296694624,
+        "whole_event_input_output_energy_attenuation_dB": 2.602455027387043,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.748014642176509,
+            "p95_dB": 4.322381179231108,
+            "median_dB": 1.6595712904548172
+          },
+          "10": {
+            "maximum_dB": 4.6839995324362,
+            "p95_dB": 4.366634103137459,
+            "median_dB": 1.6406034681943449
+          },
+          "20": {
+            "maximum_dB": 4.39162187232211,
+            "p95_dB": 4.288533280866258,
+            "median_dB": 1.6268083993436249
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.1855309277274233,
+      "whole_event_attenuation_change_dB": -0.07246776554728784,
+      "maximum_energy_attenuation_change_dB": {
+        "5": -0.18243422177223323,
+        "10": -0.16928254952759758,
+        "20": -0.1549721012412384
+      }
+    },
+    {
+      "center_s": 67.39985416666667,
+      "window_s": [
+        67.36985416666667,
+        67.54985416666668
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 3.2624837105044184,
+        "output_sample_peak_dBFS": -1.4139257034106547,
+        "whole_event_input_output_energy_attenuation_dB": 2.131412621024074,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.583017567114181,
+            "p95_dB": 4.155132372177792,
+            "median_dB": 1.1455141776312265
+          },
+          "10": {
+            "maximum_dB": 4.420709431782209,
+            "p95_dB": 4.045209532418866,
+            "median_dB": 1.230645362903375
+          },
+          "20": {
+            "maximum_dB": 4.134018241566894,
+            "p95_dB": 3.766114211171609,
+            "median_dB": 1.4204772498035103
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 3.026066550334054,
+        "output_sample_peak_dBFS": -1.415233237745048,
+        "whole_event_input_output_energy_attenuation_dB": 2.018323955485943,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.357181107870172,
+            "p95_dB": 3.9554734388049897,
+            "median_dB": 1.1114578408811298
+          },
+          "10": {
+            "maximum_dB": 4.205403702867969,
+            "p95_dB": 3.85011051234421,
+            "median_dB": 1.1881476433292288
+          },
+          "20": {
+            "maximum_dB": 3.9326347380206017,
+            "p95_dB": 3.5859603760470584,
+            "median_dB": 1.361741635345009
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.2364171601703644,
+      "whole_event_attenuation_change_dB": -0.11308866553813113,
+      "maximum_energy_attenuation_change_dB": {
+        "5": -0.2258364592440092,
+        "10": -0.21530572891423994,
+        "20": -0.2013835035462921
+      }
+    },
+    {
+      "center_s": 71.6230625,
+      "window_s": [
+        71.5930625,
+        71.77306250000001
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 2.9562612603838625,
+        "output_sample_peak_dBFS": -1.4503065906605006,
+        "whole_event_input_output_energy_attenuation_dB": 2.382739391025996,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.2975416121187315,
+            "p95_dB": 3.8983493183896085,
+            "median_dB": 1.6159450256059114
+          },
+          "10": {
+            "maximum_dB": 4.141861512324657,
+            "p95_dB": 3.840707831256669,
+            "median_dB": 1.6153814584428325
+          },
+          "20": {
+            "maximum_dB": 3.9485727509993502,
+            "p95_dB": 3.7351484122325878,
+            "median_dB": 1.657876048787455
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 2.9477976049821235,
+        "output_sample_peak_dBFS": -1.4504112091550827,
+        "whole_event_input_output_energy_attenuation_dB": 2.301825204911464,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.289801070900057,
+            "p95_dB": 3.863903850502042,
+            "median_dB": 1.5487774203102171
+          },
+          "10": {
+            "maximum_dB": 4.13565450511723,
+            "p95_dB": 3.785839344167802,
+            "median_dB": 1.5484396804695577
+          },
+          "20": {
+            "maximum_dB": 3.8970284939259185,
+            "p95_dB": 3.6894688368667836,
+            "median_dB": 1.592258195508093
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.00846365540173899,
+      "whole_event_attenuation_change_dB": -0.08091418611453216,
+      "maximum_energy_attenuation_change_dB": {
+        "5": -0.007740541218674402,
+        "10": -0.006207007207426507,
+        "20": -0.05154425707343169
+      }
+    },
+    {
+      "center_s": 72.30997916666666,
+      "window_s": [
+        72.27997916666666,
+        72.45997916666667
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 3.3076234058331826,
+        "output_sample_peak_dBFS": -1.4562430825482386,
+        "whole_event_input_output_energy_attenuation_dB": 2.706097170324295,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.680327962751108,
+            "p95_dB": 4.3276492526383885,
+            "median_dB": 1.3842978032598796
+          },
+          "10": {
+            "maximum_dB": 4.509676375296882,
+            "p95_dB": 4.2450244737496465,
+            "median_dB": 1.3246825672877707
+          },
+          "20": {
+            "maximum_dB": 4.2718475446065485,
+            "p95_dB": 4.062972298453822,
+            "median_dB": 1.4003583134396203
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 3.111454847921042,
+        "output_sample_peak_dBFS": -1.4559180005211678,
+        "whole_event_input_output_energy_attenuation_dB": 2.650607385108791,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.490155071936829,
+            "p95_dB": 4.299931525140171,
+            "median_dB": 1.3377607323485305
+          },
+          "10": {
+            "maximum_dB": 4.340098886581594,
+            "p95_dB": 4.241320007990501,
+            "median_dB": 1.2797590770169718
+          },
+          "20": {
+            "maximum_dB": 4.106227876764256,
+            "p95_dB": 4.0146261341977985,
+            "median_dB": 1.3512140737521512
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.1961685579121406,
+      "whole_event_attenuation_change_dB": -0.05548978521550385,
+      "maximum_energy_attenuation_change_dB": {
+        "5": -0.19017289081427968,
+        "10": -0.1695774887152881,
+        "20": -0.1656196678422921
+      }
+    },
+    {
+      "center_s": 78.76116666666667,
+      "window_s": [
+        78.73116666666667,
+        78.91116666666667
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 4.509371238925627,
+        "output_sample_peak_dBFS": -1.400633662821848,
+        "whole_event_input_output_energy_attenuation_dB": 1.2234528079827698,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 5.739544346382694,
+            "p95_dB": 4.966536103999268,
+            "median_dB": 0.3101343785032153
+          },
+          "10": {
+            "maximum_dB": 5.585363103016622,
+            "p95_dB": 4.979852862634821,
+            "median_dB": 0.32246004374184123
+          },
+          "20": {
+            "maximum_dB": 5.074340188544975,
+            "p95_dB": 4.7726331354863385,
+            "median_dB": 0.5372423201552861
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 4.268580290807033,
+        "output_sample_peak_dBFS": -1.4581674989764415,
+        "whole_event_input_output_energy_attenuation_dB": 1.1398707232913479,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 5.511899798275214,
+            "p95_dB": 4.77748634479964,
+            "median_dB": 0.29523269944788644
+          },
+          "10": {
+            "maximum_dB": 5.369620725932985,
+            "p95_dB": 4.773651289888487,
+            "median_dB": 0.305309630805507
+          },
+          "20": {
+            "maximum_dB": 4.8787817131543205,
+            "p95_dB": 4.592357340134307,
+            "median_dB": 0.5203781452458838
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.24079094811859392,
+      "whole_event_attenuation_change_dB": -0.08358208469142192,
+      "maximum_energy_attenuation_change_dB": {
+        "5": -0.22764454810748003,
+        "10": -0.21574237708363686,
+        "20": -0.19555847539065407
+      }
+    },
+    {
+      "center_s": 82.29010416666667,
+      "window_s": [
+        82.26010416666666,
+        82.44010416666667
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 3.36401568145338,
+        "output_sample_peak_dBFS": -1.3999037195808652,
+        "whole_event_input_output_energy_attenuation_dB": 2.548148895611914,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.765189844346415,
+            "p95_dB": 4.291810413315299,
+            "median_dB": 1.5501323565470257
+          },
+          "10": {
+            "maximum_dB": 4.597420862851403,
+            "p95_dB": 4.3112412165842136,
+            "median_dB": 1.6644203949954872
+          },
+          "20": {
+            "maximum_dB": 4.285319946578975,
+            "p95_dB": 4.172737128522877,
+            "median_dB": 1.9901425787139981
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 3.3620696009442863,
+        "output_sample_peak_dBFS": -1.3999846186008265,
+        "whole_event_input_output_energy_attenuation_dB": 2.4696456101959052,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.7654611718359545,
+            "p95_dB": 4.287155397103603,
+            "median_dB": 1.514034812338073
+          },
+          "10": {
+            "maximum_dB": 4.6013597412515335,
+            "p95_dB": 4.3115677865080855,
+            "median_dB": 1.6283273653798207
+          },
+          "20": {
+            "maximum_dB": 4.291681876078513,
+            "p95_dB": 4.165128272201718,
+            "median_dB": 1.9729341643320857
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.0019460805090938393,
+      "whole_event_attenuation_change_dB": -0.0785032854160086,
+      "maximum_energy_attenuation_change_dB": {
+        "5": 0.00027132748953917485,
+        "10": 0.003938878400130186,
+        "20": 0.006361929499538732
+      }
+    },
+    {
+      "center_s": 85.83977083333333,
+      "window_s": [
+        85.80977083333333,
+        85.98977083333334
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 3.2711619952352993,
+        "output_sample_peak_dBFS": -1.399645212725681,
+        "whole_event_input_output_energy_attenuation_dB": 2.8100978725284653,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.784905060777872,
+            "p95_dB": 4.5359765091797675,
+            "median_dB": 2.7103495773217783
+          },
+          "10": {
+            "maximum_dB": 4.67397196595684,
+            "p95_dB": 4.574361300205491,
+            "median_dB": 2.737903208320075
+          },
+          "20": {
+            "maximum_dB": 4.5593816111635,
+            "p95_dB": 4.541592198487849,
+            "median_dB": 2.7436026449298643
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 3.199837628869628,
+        "output_sample_peak_dBFS": -1.4002242787665398,
+        "whole_event_input_output_energy_attenuation_dB": 2.7165136438151953,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.667176052652435,
+            "p95_dB": 4.535957645591167,
+            "median_dB": 2.6754549383063164
+          },
+          "10": {
+            "maximum_dB": 4.590841692919809,
+            "p95_dB": 4.513874332802272,
+            "median_dB": 2.6628733924569263
+          },
+          "20": {
+            "maximum_dB": 4.503138426702161,
+            "p95_dB": 4.473383012992497,
+            "median_dB": 2.6679313820877093
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.0713243663656713,
+      "whole_event_attenuation_change_dB": -0.09358422871326999,
+      "maximum_energy_attenuation_change_dB": {
+        "5": -0.11772900812543696,
+        "10": -0.08313027303703091,
+        "20": -0.0562431844613398
+      }
+    },
+    {
+      "center_s": 92.04820833333333,
+      "window_s": [
+        92.01820833333333,
+        92.19820833333334
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 3.2435967890453368,
+        "output_sample_peak_dBFS": -1.3975512866502002,
+        "whole_event_input_output_energy_attenuation_dB": 2.6808919817037946,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.58250223596454,
+            "p95_dB": 4.176643867497541,
+            "median_dB": 2.147945960639251
+          },
+          "10": {
+            "maximum_dB": 4.452255362333143,
+            "p95_dB": 4.159560723654089,
+            "median_dB": 2.277291279335247
+          },
+          "20": {
+            "maximum_dB": 4.158073293301009,
+            "p95_dB": 4.06885958297612,
+            "median_dB": 2.552659944940343
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 3.048359088995618,
+        "output_sample_peak_dBFS": -1.3975482461719315,
+        "whole_event_input_output_energy_attenuation_dB": 2.5807763861709936,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.3993648307932816,
+            "p95_dB": 4.013798602834269,
+            "median_dB": 2.1362219658706167
+          },
+          "10": {
+            "maximum_dB": 4.272728115819515,
+            "p95_dB": 3.9957720709516065,
+            "median_dB": 2.253491807321585
+          },
+          "20": {
+            "maximum_dB": 3.990156430932486,
+            "p95_dB": 3.8829396513571632,
+            "median_dB": 2.499684750317787
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.19523770004971874,
+      "whole_event_attenuation_change_dB": -0.10011559553280103,
+      "maximum_energy_attenuation_change_dB": {
+        "5": -0.18313740517125865,
+        "10": -0.1795272465136284,
+        "20": -0.1679168623685232
+      }
+    },
+    {
+      "center_s": 92.98295833333333,
+      "window_s": [
+        92.95295833333333,
+        93.13295833333333
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 3.9482245649830823,
+        "output_sample_peak_dBFS": -1.4157127975713428,
+        "whole_event_input_output_energy_attenuation_dB": 1.2730510932628079,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 5.157163993822093,
+            "p95_dB": 4.519210415272287,
+            "median_dB": 0.6926775146027826
+          },
+          "10": {
+            "maximum_dB": 5.036125552907542,
+            "p95_dB": 4.440591892386853,
+            "median_dB": 0.7006422815413226
+          },
+          "20": {
+            "maximum_dB": 4.580520919604167,
+            "p95_dB": 4.292398490916221,
+            "median_dB": 0.7779764185852911
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 3.7838770922718523,
+        "output_sample_peak_dBFS": -1.4158748911236025,
+        "whole_event_input_output_energy_attenuation_dB": 1.1909118316793657,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.998839827853762,
+            "p95_dB": 4.368234973928726,
+            "median_dB": 0.6833719556974445
+          },
+          "10": {
+            "maximum_dB": 4.885039525515263,
+            "p95_dB": 4.30170076198942,
+            "median_dB": 0.6879271139267203
+          },
+          "20": {
+            "maximum_dB": 4.44050308570491,
+            "p95_dB": 4.154712928397799,
+            "median_dB": 0.7019318997056109
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.16434747271122996,
+      "whole_event_attenuation_change_dB": -0.0821392615834422,
+      "maximum_energy_attenuation_change_dB": {
+        "5": -0.158324165968331,
+        "10": -0.15108602739227894,
+        "20": -0.1400178338992566
+      }
+    },
+    {
+      "center_s": 95.18458333333334,
+      "window_s": [
+        95.15458333333333,
+        95.33458333333334
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 4.475541751624546,
+        "output_sample_peak_dBFS": -1.442805487126935,
+        "whole_event_input_output_energy_attenuation_dB": 3.9018489729401473,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 5.891933826179951,
+            "p95_dB": 5.44419175778316,
+            "median_dB": 2.0667024872534894
+          },
+          "10": {
+            "maximum_dB": 5.698626311587782,
+            "p95_dB": 5.428068044871257,
+            "median_dB": 2.124752532777209
+          },
+          "20": {
+            "maximum_dB": 5.459376933247173,
+            "p95_dB": 5.397780810653031,
+            "median_dB": 2.124828391389138
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 4.1992403483997425,
+        "output_sample_peak_dBFS": -1.4428048758546996,
+        "whole_event_input_output_energy_attenuation_dB": 3.790269445983985,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 5.629449123996368,
+            "p95_dB": 5.432345731145742,
+            "median_dB": 1.981425568787354
+          },
+          "10": {
+            "maximum_dB": 5.476219936720186,
+            "p95_dB": 5.302481586076553,
+            "median_dB": 2.0358249942785127
+          },
+          "20": {
+            "maximum_dB": 5.365644117481367,
+            "p95_dB": 5.235879630643202,
+            "median_dB": 2.035893586432336
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.2763014032248039,
+      "whole_event_attenuation_change_dB": -0.11157952695616213,
+      "maximum_energy_attenuation_change_dB": {
+        "5": -0.262484702183583,
+        "10": -0.22240637486759596,
+        "20": -0.09373281576580528
+      }
+    },
+    {
+      "center_s": 96.48541666666667,
+      "window_s": [
+        96.45541666666666,
+        96.63541666666667
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 3.9090835921191784,
+        "output_sample_peak_dBFS": -1.4185645011901082,
+        "whole_event_input_output_energy_attenuation_dB": 2.9372325259935854,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 5.2119954029170446,
+            "p95_dB": 4.539788533724341,
+            "median_dB": 2.051042015874986
+          },
+          "10": {
+            "maximum_dB": 4.983865945700047,
+            "p95_dB": 4.436985023267684,
+            "median_dB": 2.174357306618621
+          },
+          "20": {
+            "maximum_dB": 4.461928023138353,
+            "p95_dB": 4.154964286717271,
+            "median_dB": 2.4479504981149622
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 3.7608765185378665,
+        "output_sample_peak_dBFS": -1.417979334980466,
+        "whole_event_input_output_energy_attenuation_dB": 2.8439733067990542,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 5.074193110223137,
+            "p95_dB": 4.434688652320962,
+            "median_dB": 2.0297478968376326
+          },
+          "10": {
+            "maximum_dB": 4.853147034672095,
+            "p95_dB": 4.318546573984802,
+            "median_dB": 2.149796094009515
+          },
+          "20": {
+            "maximum_dB": 4.342800609565899,
+            "p95_dB": 4.044438997552203,
+            "median_dB": 2.407430087998663
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.1482070735813119,
+      "whole_event_attenuation_change_dB": -0.09325921919453117,
+      "maximum_energy_attenuation_change_dB": {
+        "5": -0.13780229269390798,
+        "10": -0.13071891102795163,
+        "20": -0.11912741357245427
+      }
+    },
+    {
+      "center_s": 120.49264583333333,
+      "window_s": [
+        120.46264583333333,
+        120.64264583333333
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 3.183386798550005,
+        "output_sample_peak_dBFS": -1.418769928260468,
+        "whole_event_input_output_energy_attenuation_dB": 2.6436997581406185,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.496436730522949,
+            "p95_dB": 4.139014274076471,
+            "median_dB": 2.3016359147043173
+          },
+          "10": {
+            "maximum_dB": 4.403145046785105,
+            "p95_dB": 4.231833256120648,
+            "median_dB": 2.4092780742144795
+          },
+          "20": {
+            "maximum_dB": 4.2359579352968355,
+            "p95_dB": 4.131606919471805,
+            "median_dB": 2.548142684772669
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 2.8696596883817165,
+        "output_sample_peak_dBFS": -1.4184041861098824,
+        "whole_event_input_output_energy_attenuation_dB": 2.540556088807615,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.219780858156456,
+            "p95_dB": 3.9355047422069016,
+            "median_dB": 2.2215534000380046
+          },
+          "10": {
+            "maximum_dB": 4.142076172659489,
+            "p95_dB": 4.0209448817059545,
+            "median_dB": 2.3382749836132577
+          },
+          "20": {
+            "maximum_dB": 4.00522214793315,
+            "p95_dB": 3.9051396945041215,
+            "median_dB": 2.465192649459552
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.31372711016828836,
+      "whole_event_attenuation_change_dB": -0.10314366933300345,
+      "maximum_energy_attenuation_change_dB": {
+        "5": -0.2766558723664927,
+        "10": -0.2610688741256162,
+        "20": -0.2307357873636855
+      }
+    },
+    {
+      "center_s": 121.42016666666666,
+      "window_s": [
+        121.39016666666666,
+        121.57016666666667
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 3.4183879595842277,
+        "output_sample_peak_dBFS": -1.4111656609998064,
+        "whole_event_input_output_energy_attenuation_dB": 3.069569540216558,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.746164098725259,
+            "p95_dB": 4.24511789884693,
+            "median_dB": 2.690175999834032
+          },
+          "10": {
+            "maximum_dB": 4.534406793330825,
+            "p95_dB": 4.166251048151926,
+            "median_dB": 2.683539391158435
+          },
+          "20": {
+            "maximum_dB": 4.318213112024311,
+            "p95_dB": 4.009380094931683,
+            "median_dB": 2.712323811384092
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 3.2286528571369293,
+        "output_sample_peak_dBFS": -1.4129960480279,
+        "whole_event_input_output_energy_attenuation_dB": 3.019996019012892,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.566846521581619,
+            "p95_dB": 4.094650586301019,
+            "median_dB": 2.6760920059168476
+          },
+          "10": {
+            "maximum_dB": 4.376025930708478,
+            "p95_dB": 4.008395594293197,
+            "median_dB": 2.6202263850483902
+          },
+          "20": {
+            "maximum_dB": 4.1626427418691945,
+            "p95_dB": 3.8631606181621794,
+            "median_dB": 2.6909030617487364
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.1897351024472984,
+      "whole_event_attenuation_change_dB": -0.04957352120366609,
+      "maximum_energy_attenuation_change_dB": {
+        "5": -0.1793175771436406,
+        "10": -0.15838086262234707,
+        "20": -0.15557037015511632
+      }
+    },
+    {
+      "center_s": 123.6074375,
+      "window_s": [
+        123.5774375,
+        123.75743750000001
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 3.0513000820526557,
+        "output_sample_peak_dBFS": -1.3990868641738285,
+        "whole_event_input_output_energy_attenuation_dB": 1.9292882481501685,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.4298536186830475,
+            "p95_dB": 3.946450557763859,
+            "median_dB": 0.9883225991459393
+          },
+          "10": {
+            "maximum_dB": 4.230519785835648,
+            "p95_dB": 3.8160047996367332,
+            "median_dB": 0.9913765925824118
+          },
+          "20": {
+            "maximum_dB": 3.94577685869265,
+            "p95_dB": 3.6227458703736173,
+            "median_dB": 1.0541288678077079
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 2.862672114847988,
+        "output_sample_peak_dBFS": -1.3990862559705752,
+        "whole_event_input_output_energy_attenuation_dB": 1.8443575868003115,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.250227432364667,
+            "p95_dB": 3.788584748836104,
+            "median_dB": 0.9672545744482346
+          },
+          "10": {
+            "maximum_dB": 4.0600184668252846,
+            "p95_dB": 3.664812121209787,
+            "median_dB": 0.9955618920915195
+          },
+          "20": {
+            "maximum_dB": 3.788160036325281,
+            "p95_dB": 3.4797883482833116,
+            "median_dB": 1.0599284649476797
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.1886279672046678,
+      "whole_event_attenuation_change_dB": -0.08493066134985705,
+      "maximum_energy_attenuation_change_dB": {
+        "5": -0.17962618631838012,
+        "10": -0.1705013190103637,
+        "20": -0.15761682236736885
+      }
+    },
+    {
+      "center_s": 124.3103125,
+      "window_s": [
+        124.2803125,
+        124.4603125
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 3.427686926130247,
+        "output_sample_peak_dBFS": -1.3991963414532214,
+        "whole_event_input_output_energy_attenuation_dB": 2.877610849622345,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.904487852329011,
+            "p95_dB": 4.344838734034791,
+            "median_dB": 1.9694922527776035
+          },
+          "10": {
+            "maximum_dB": 4.718327970396427,
+            "p95_dB": 4.325579848645797,
+            "median_dB": 2.0715364146325355
+          },
+          "20": {
+            "maximum_dB": 4.3440224855545,
+            "p95_dB": 4.288070515934897,
+            "median_dB": 2.06898088256348
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 3.4373545791108286,
+        "output_sample_peak_dBFS": -1.3992048564105648,
+        "whole_event_input_output_energy_attenuation_dB": 2.8322921683268087,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.915179294454948,
+            "p95_dB": 4.352633738144191,
+            "median_dB": 1.9132122010880273
+          },
+          "10": {
+            "maximum_dB": 4.730885912934415,
+            "p95_dB": 4.333865209780613,
+            "median_dB": 2.0112356066592163
+          },
+          "20": {
+            "maximum_dB": 4.363073987120233,
+            "p95_dB": 4.29388561282987,
+            "median_dB": 2.008922071334818
+          }
+        }
+      },
+      "driven_peak_change_dB": 0.009667652980581476,
+      "whole_event_attenuation_change_dB": -0.0453186812955364,
+      "maximum_energy_attenuation_change_dB": {
+        "5": 0.010691442125936312,
+        "10": 0.012557942537988254,
+        "20": 0.01905150156573221
+      }
+    },
+    {
+      "center_s": 142.72833333333332,
+      "window_s": [
+        142.69833333333332,
+        142.87833333333333
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 2.9807682570231027,
+        "output_sample_peak_dBFS": -1.3999943508645287,
+        "whole_event_input_output_energy_attenuation_dB": 2.8966520003294463,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.266182351807125,
+            "p95_dB": 3.9933917737881504,
+            "median_dB": 2.3453676976570605
+          },
+          "10": {
+            "maximum_dB": 4.140970575291644,
+            "p95_dB": 3.9167880796295687,
+            "median_dB": 2.3326369837121956
+          },
+          "20": {
+            "maximum_dB": 3.9039109889609107,
+            "p95_dB": 3.8010412368159847,
+            "median_dB": 2.4364360672987706
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 2.798561144258933,
+        "output_sample_peak_dBFS": -1.4001853487466414,
+        "whole_event_input_output_energy_attenuation_dB": 2.818559483661003,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.096990844998957,
+            "p95_dB": 3.871755323717167,
+            "median_dB": 2.3212378527651696
+          },
+          "10": {
+            "maximum_dB": 3.974090257382321,
+            "p95_dB": 3.7975628991642516,
+            "median_dB": 2.312825892891715
+          },
+          "20": {
+            "maximum_dB": 3.7560714735406737,
+            "p95_dB": 3.686104304533006,
+            "median_dB": 2.36544192025662
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.18220711276416957,
+      "whole_event_attenuation_change_dB": -0.07809251666844341,
+      "maximum_energy_attenuation_change_dB": {
+        "5": -0.1691915068081684,
+        "10": -0.16688031790932278,
+        "20": -0.147839515420237
+      }
+    },
+    {
+      "center_s": 144.9620625,
+      "window_s": [
+        144.9320625,
+        145.1120625
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 3.138197952964499,
+        "output_sample_peak_dBFS": -1.4347520421887325,
+        "whole_event_input_output_energy_attenuation_dB": 2.5117070211545522,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.488077946172661,
+            "p95_dB": 4.090827130072684,
+            "median_dB": 1.648570661636247
+          },
+          "10": {
+            "maximum_dB": 4.288133512219999,
+            "p95_dB": 3.989219610674579,
+            "median_dB": 1.7610369369241297
+          },
+          "20": {
+            "maximum_dB": 3.9813790787779975,
+            "p95_dB": 3.9266080327169,
+            "median_dB": 1.7932444724752896
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 2.952315194371962,
+        "output_sample_peak_dBFS": -1.4352772650180858,
+        "whole_event_input_output_energy_attenuation_dB": 2.4330305595812103,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.309749955054155,
+            "p95_dB": 3.9309822056338897,
+            "median_dB": 1.6107141863543297
+          },
+          "10": {
+            "maximum_dB": 4.131853731902498,
+            "p95_dB": 3.8623557837511484,
+            "median_dB": 1.7424762253716912
+          },
+          "20": {
+            "maximum_dB": 3.8395212704544046,
+            "p95_dB": 3.807542495088988,
+            "median_dB": 1.751281421815583
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.1858827585925371,
+      "whole_event_attenuation_change_dB": -0.07867646157334196,
+      "maximum_energy_attenuation_change_dB": {
+        "5": -0.17832799111850584,
+        "10": -0.1562797803175009,
+        "20": -0.14185780832359285
+      }
+    },
+    {
+      "center_s": 145.62254166666668,
+      "window_s": [
+        145.59254166666668,
+        145.77254166666668
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 3.6663946166965666,
+        "output_sample_peak_dBFS": -1.400199947483656,
+        "whole_event_input_output_energy_attenuation_dB": 3.0419015912583456,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 5.077187920682706,
+            "p95_dB": 4.706595882979051,
+            "median_dB": 2.4667546382880783
+          },
+          "10": {
+            "maximum_dB": 4.9009544560652305,
+            "p95_dB": 4.649463702572442,
+            "median_dB": 2.468837907370979
+          },
+          "20": {
+            "maximum_dB": 4.618957799624079,
+            "p95_dB": 4.589097888993596,
+            "median_dB": 2.6786726223043598
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 3.4329751720114703,
+        "output_sample_peak_dBFS": -1.4002613841041633,
+        "whole_event_input_output_energy_attenuation_dB": 2.940827185745712,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.858798771612797,
+            "p95_dB": 4.5061503158362655,
+            "median_dB": 2.4168769143455062
+          },
+          "10": {
+            "maximum_dB": 4.6955983771513194,
+            "p95_dB": 4.459383375594124,
+            "median_dB": 2.419129865405335
+          },
+          "20": {
+            "maximum_dB": 4.430834077341787,
+            "p95_dB": 4.409025841148836,
+            "median_dB": 2.6399414471619838
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.23341944468509634,
+      "whole_event_attenuation_change_dB": -0.1010744055126338,
+      "maximum_energy_attenuation_change_dB": {
+        "5": -0.21838914906990947,
+        "10": -0.20535607891391106,
+        "20": -0.1881237222822918
+      }
+    },
+    {
+      "center_s": 146.2788125,
+      "window_s": [
+        146.24881249999999,
+        146.4288125
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 4.404871716403689,
+        "output_sample_peak_dBFS": -1.3948596638093216,
+        "whole_event_input_output_energy_attenuation_dB": 2.746015361980205,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 5.64715197764568,
+            "p95_dB": 4.989583384119252,
+            "median_dB": 1.674358283750676
+          },
+          "10": {
+            "maximum_dB": 5.400534271596272,
+            "p95_dB": 4.829785558886809,
+            "median_dB": 1.8053884445372925
+          },
+          "20": {
+            "maximum_dB": 4.992567725307237,
+            "p95_dB": 4.498813860980552,
+            "median_dB": 2.1054749276548788
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 4.1885703020254414,
+        "output_sample_peak_dBFS": -1.3948377791722968,
+        "whole_event_input_output_energy_attenuation_dB": 2.615791222470399,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 5.439936157926928,
+            "p95_dB": 4.8104595199370985,
+            "median_dB": 1.6501899452649378
+          },
+          "10": {
+            "maximum_dB": 5.2024150944125385,
+            "p95_dB": 4.6608647968710235,
+            "median_dB": 1.7363615997440145
+          },
+          "20": {
+            "maximum_dB": 4.809898495921821,
+            "p95_dB": 4.339934650824134,
+            "median_dB": 2.045053268310823
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.2163014143782478,
+      "whole_event_attenuation_change_dB": -0.1302241395098056,
+      "maximum_energy_attenuation_change_dB": {
+        "5": -0.20721581971875214,
+        "10": -0.19811917718373362,
+        "20": -0.1826692293854153
+      }
+    },
+    {
+      "center_s": 148.95508333333333,
+      "window_s": [
+        148.92508333333333,
+        149.10508333333334
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 3.8017940449239744,
+        "output_sample_peak_dBFS": -1.3980554126647156,
+        "whole_event_input_output_energy_attenuation_dB": 3.1206840346003313,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 5.109196722432694,
+            "p95_dB": 4.877430401524238,
+            "median_dB": 2.315019700859592
+          },
+          "10": {
+            "maximum_dB": 4.964850415645575,
+            "p95_dB": 4.782068451254364,
+            "median_dB": 2.4828465948898986
+          },
+          "20": {
+            "maximum_dB": 4.6466067186091555,
+            "p95_dB": 4.5556125914840315,
+            "median_dB": 2.846994805174783
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 3.5486029942565196,
+        "output_sample_peak_dBFS": -1.3980481150951232,
+        "whole_event_input_output_energy_attenuation_dB": 3.0106320089246967,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.877569630287336,
+            "p95_dB": 4.722692799931327,
+            "median_dB": 2.2927814198690446
+          },
+          "10": {
+            "maximum_dB": 4.791880851678768,
+            "p95_dB": 4.585175856278984,
+            "median_dB": 2.4347568158319453
+          },
+          "20": {
+            "maximum_dB": 4.425876256227835,
+            "p95_dB": 4.4033148952674175,
+            "median_dB": 2.81222379426261
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.25319105066745484,
+      "whole_event_attenuation_change_dB": -0.11005202567563455,
+      "maximum_energy_attenuation_change_dB": {
+        "5": -0.2316270921453576,
+        "10": -0.17296956396680674,
+        "20": -0.22073046238132044
+      }
+    },
+    {
+      "center_s": 149.89066666666668,
+      "window_s": [
+        149.86066666666667,
+        150.04066666666668
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 2.940031744522135,
+        "output_sample_peak_dBFS": -1.3978419612872246,
+        "whole_event_input_output_energy_attenuation_dB": 1.0496627944055212,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.177585729020496,
+            "p95_dB": 3.6997135454462633,
+            "median_dB": 0.8869773500477846
+          },
+          "10": {
+            "maximum_dB": 4.085768006456406,
+            "p95_dB": 3.6137626544166825,
+            "median_dB": 1.0136949350001434
+          },
+          "20": {
+            "maximum_dB": 3.792922504469355,
+            "p95_dB": 3.4372864143799,
+            "median_dB": 1.172321780803789
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 2.8642413166742497,
+        "output_sample_peak_dBFS": -1.3978942594301713,
+        "whole_event_input_output_energy_attenuation_dB": 1.023658834444369,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.106246865740724,
+            "p95_dB": 3.6378196575092483,
+            "median_dB": 0.8802641499046316
+          },
+          "10": {
+            "maximum_dB": 4.015977084293101,
+            "p95_dB": 3.5524054157341656,
+            "median_dB": 1.0075844409038606
+          },
+          "20": {
+            "maximum_dB": 3.7273797190603917,
+            "p95_dB": 3.3786892897893757,
+            "median_dB": 1.151349038159482
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.07579042784788514,
+      "whole_event_attenuation_change_dB": -0.026003959961152345,
+      "maximum_energy_attenuation_change_dB": {
+        "5": -0.07133886327977201,
+        "10": -0.06979092216330507,
+        "20": -0.06554278540896341
+      }
+    },
+    {
+      "center_s": 152.04475,
+      "window_s": [
+        152.01475,
+        152.19475
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 3.7083803104946207,
+        "output_sample_peak_dBFS": -1.3977586497796337,
+        "whole_event_input_output_energy_attenuation_dB": 2.491189060130089,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.9605031778048065,
+            "p95_dB": 4.389619113363189,
+            "median_dB": 1.4823347107569225
+          },
+          "10": {
+            "maximum_dB": 4.786530589843929,
+            "p95_dB": 4.4123359886625195,
+            "median_dB": 1.4940858836686015
+          },
+          "20": {
+            "maximum_dB": 4.430855767217448,
+            "p95_dB": 4.237877945030515,
+            "median_dB": 1.4625874328081911
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 3.5405970352413165,
+        "output_sample_peak_dBFS": -1.3971268461800483,
+        "whole_event_input_output_energy_attenuation_dB": 2.407548500754918,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.801477694808775,
+            "p95_dB": 4.263125836571009,
+            "median_dB": 1.4431420577565068
+          },
+          "10": {
+            "maximum_dB": 4.634279388697648,
+            "p95_dB": 4.280831865190417,
+            "median_dB": 1.4543576415275203
+          },
+          "20": {
+            "maximum_dB": 4.291543243795746,
+            "p95_dB": 4.124654353158408,
+            "median_dB": 1.4224523676853749
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.16778327525330416,
+      "whole_event_attenuation_change_dB": -0.08364055937517056,
+      "maximum_energy_attenuation_change_dB": {
+        "5": -0.15902548299603136,
+        "10": -0.15225120114628155,
+        "20": -0.13931252342170186
+      }
+    },
+    {
+      "center_s": 166.31014583333334,
+      "window_s": [
+        166.28014583333334,
+        166.46014583333334
+      ],
+      "V1": {
+        "driven_input_sample_peak_dBFS": 3.2776851298811756,
+        "output_sample_peak_dBFS": -1.399480380606684,
+        "whole_event_input_output_energy_attenuation_dB": 2.519860042461252,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.640160490478475,
+            "p95_dB": 4.3376927783921255,
+            "median_dB": 1.1739128298262747
+          },
+          "10": {
+            "maximum_dB": 4.529249849415519,
+            "p95_dB": 4.283526108407339,
+            "median_dB": 1.194426352745835
+          },
+          "20": {
+            "maximum_dB": 4.340820646277525,
+            "p95_dB": 4.1607791968513625,
+            "median_dB": 1.1800800271498597
+          }
+        }
+      },
+      "V2": {
+        "driven_input_sample_peak_dBFS": 3.087210902448227,
+        "output_sample_peak_dBFS": -1.399135520572095,
+        "whole_event_input_output_energy_attenuation_dB": 2.3655925238407165,
+        "short_window_energy_attenuation": {
+          "5": {
+            "maximum_dB": 4.478340218911159,
+            "p95_dB": 4.241605348532268,
+            "median_dB": 0.9149439120900122
+          },
+          "10": {
+            "maximum_dB": 4.378213378607607,
+            "p95_dB": 4.137669132629244,
+            "median_dB": 0.9104648963600936
+          },
+          "20": {
+            "maximum_dB": 4.186847199382067,
+            "p95_dB": 3.95907260422911,
+            "median_dB": 0.895029300582121
+          }
+        }
+      },
+      "driven_peak_change_dB": -0.1904742274329485,
+      "whole_event_attenuation_change_dB": -0.15426751862053534,
+      "maximum_energy_attenuation_change_dB": {
+        "5": -0.16182027156731582,
+        "10": -0.15103647080791216,
+        "20": -0.1539734468954581
+      }
+    }
+  ]
+}

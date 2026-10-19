@@ -1,0 +1,99 @@
+{
+  "status": "candidate_for_user_audition",
+  "base": "Formal V1, identical to historical V13; no retuning or formant shifting.",
+  "core": {
+    "bell_Hz": 8000,
+    "Q": 0.8,
+    "max_cut_dB": 0.8,
+    "detector_bands_Hz": [
+      [
+        5000,
+        9500
+      ],
+      [
+        700,
+        4000
+      ]
+    ],
+    "ratio_thresholds_dB": [
+      -2,
+      4
+    ],
+    "attack_ms": 5,
+    "release_ms": 75,
+    "core_makeup_dB": 0.03999999999999915,
+    "edge_above_025dB_s": 16.965,
+    "edge_dose_active_percentiles": {
+      "50": 0.004125704428741456,
+      "90": 0.4158117706746737,
+      "95": 0.7188005924442304,
+      "99": 0.9925898877871996
+    }
+  },
+  "doubles": {
+    "max_extra_side_dB": 0.8,
+    "weak_dry_threshold_dBFS": -30.752319216726654,
+    "attack_ms": 180,
+    "release_ms": 230,
+    "actual_maximum_extra_side_dB": 0.7997974205848976,
+    "side_lift_above_025dB_s": 12.425,
+    "mid": "preserved",
+    "timing_and_pitch": "preserved",
+    "other_returns": "unchanged"
+  },
+  "beat_repair": {
+    "events": 28,
+    "peak_center_source": "peak-candidates.json",
+    "maximum_dip_dB": 0.6944403052330017,
+    "lookahead_ms": 8,
+    "ramp_ms": 5,
+    "hold_through_after_peak_ms": 4,
+    "release_time_constant_ms": 50,
+    "smooth_tail_end_ms": 354,
+    "beat_dip_above_01dB_s": 2.5011666666666668,
+    "stereo": "linked scalar gain, no frequency split"
+  },
+  "master": {
+    "WAV_LUFS": -11.56,
+    "WAV_dBTP": -1.38,
+    "MP3_LUFS": -11.56,
+    "MP3_dBTP": -1.06,
+    "limiter": {
+      "method": "Approximate 1ms least-squares gain, driven input > -50dBFS; includes resampling differences.",
+      "gain_reduction_dB_percentiles": {
+        "50": 8.542411524103954e-05,
+        "90": 1.1086719036102295,
+        "95": 1.8346320390701294,
+        "99": 3.2887074947357178,
+        "99.9": 4.704076766967773,
+        "100": 6.014280319213867
+      },
+      "active_percent_over_3dB": 1.468617218467505
+    },
+    "passes": [
+      {
+        "gain_dB": 5.050000000000001,
+        "LUFS": -12.03,
+        "dBTP": -1.38
+      },
+      {
+        "gain_dB": 5.529999999999999,
+        "LUFS": -11.7,
+        "dBTP": -1.38
+      },
+      {
+        "gain_dB": 5.679999999999998,
+        "LUFS": -11.6,
+        "dBTP": -1.38
+      },
+      {
+        "gain_dB": 5.729999999999997,
+        "LUFS": -11.56,
+        "dBTP": -1.38
+      }
+    ],
+    "mono_fold_energy_dB": -0.28420543670654297,
+    "duration_seconds": 214.27375
+  },
+  "limitations": "No subjective audition. This is a small refinement of an approved sound, not voice identity replication or proof of commercial-record quality. Estimated reference stems were analysed only, never mixed into outputs."
+}

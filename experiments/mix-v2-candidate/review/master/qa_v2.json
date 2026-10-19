@@ -1,0 +1,739 @@
+{
+  "scope": "Independent verification of new sparse accompaniment peak repairs and their master interaction. No new rendering and no subjective audition. Limiter gain is approximate 1ms least-squares and includes resampling. V2 includes separate vocal changes, so final-master differences are not uniquely attributable to beat repair.",
+  "source_transform": {
+    "frames": 10285140,
+    "exact_scalar_gain_max_error": 0.0,
+    "unaffected_samples_max_error": 0.0,
+    "stereo_cross_product_max_error": 2.9802322387695312e-08,
+    "finite": true,
+    "sample_alignment": "Source verified as identical sample positions times known common stereo gain; no added delay."
+  },
+  "gain_envelope": {
+    "maximum_dip_dB": 0.6944403052330017,
+    "above_01dB_seconds": 2.5011666666666668,
+    "largest_sample_step_dB": 0.004326313734054565,
+    "largest_sample_gain_step_linear": 0.00047892332077026367,
+    "envelope_power_above500Hz_relative_dB": -77.49898501617943,
+    "envelope_power_above1kHz_relative_dB": -126.63175496634246,
+    "beat_residual_relative_energy_dB": -39.59366587042558
+  },
+  "paired_events": [
+    {
+      "center_s": 11.1778125,
+      "dip_dB": 0.6944403076171876,
+      "window_s": [
+        11.1478125,
+        11.3278125
+      ],
+      "V1_GR_max_dB": 6.0222015380859375,
+      "V1_GR_mean_dB": 2.5871760845184326,
+      "V2_GR_max_dB": 5.884777069091797,
+      "V2_GR_mean_dB": 2.531733274459839,
+      "GR_max_change_dB": -0.13742446899414062,
+      "GR_mean_change_dB": -0.05544281005859375,
+      "beat_20ms_crest_change_dB": 0.5225503430584624,
+      "master_20ms_crest_change_dB": 0.3031911799285236,
+      "beat_50ms_crest_change_dB": -0.0740286032968509,
+      "master_50ms_crest_change_dB": 0.1569742203437734,
+      "beat_200ms_crest_change_dB": -0.11713426112010339,
+      "master_200ms_crest_change_dB": 0.11951241476482366
+    },
+    {
+      "center_s": 38.30077083333333,
+      "dip_dB": 0.5918190383911133,
+      "window_s": [
+        38.27077083333333,
+        38.45077083333333
+      ],
+      "V1_GR_max_dB": 5.509095191955566,
+      "V1_GR_mean_dB": 1.4474716186523438,
+      "V2_GR_max_dB": 5.329156875610352,
+      "V2_GR_mean_dB": 1.3841593265533447,
+      "GR_max_change_dB": -0.17993831634521484,
+      "GR_mean_change_dB": -0.06331229209899902,
+      "beat_20ms_crest_change_dB": -0.1266982807376511,
+      "master_20ms_crest_change_dB": 0.226047271008337,
+      "beat_50ms_crest_change_dB": 0.2848566468220426,
+      "master_50ms_crest_change_dB": 0.09363547261166527,
+      "beat_200ms_crest_change_dB": 0.22501703238103854,
+      "master_200ms_crest_change_dB": 0.05937057510749533
+    },
+    {
+      "center_s": 45.39429166666667,
+      "dip_dB": 0.38930667877197267,
+      "window_s": [
+        45.36429166666667,
+        45.544291666666666
+      ],
+      "V1_GR_max_dB": 4.496533393859863,
+      "V1_GR_mean_dB": 1.692586898803711,
+      "V2_GR_max_dB": 4.326695919036865,
+      "V2_GR_mean_dB": 1.6527018547058105,
+      "GR_max_change_dB": -0.16983747482299805,
+      "GR_mean_change_dB": -0.03988504409790039,
+      "beat_20ms_crest_change_dB": -0.08129754475558837,
+      "master_20ms_crest_change_dB": 0.14922238536203913,
+      "beat_50ms_crest_change_dB": -0.1465610004497906,
+      "master_50ms_crest_change_dB": 0.1049948368048721,
+      "beat_200ms_crest_change_dB": -0.0077820128644106035,
+      "master_200ms_crest_change_dB": 0.07452050066086358
+    },
+    {
+      "center_s": 49.1841875,
+      "dip_dB": 0.6179611587524414,
+      "window_s": [
+        49.1541875,
+        49.3341875
+      ],
+      "V1_GR_max_dB": 5.639805793762207,
+      "V1_GR_mean_dB": 2.149822235107422,
+      "V2_GR_max_dB": 5.532024383544922,
+      "V2_GR_mean_dB": 2.0944838523864746,
+      "GR_max_change_dB": -0.10778141021728516,
+      "GR_mean_change_dB": -0.055338382720947266,
+      "beat_20ms_crest_change_dB": -0.14875734266621699,
+      "master_20ms_crest_change_dB": 0.2733495143730309,
+      "beat_50ms_crest_change_dB": 0.19722986811503773,
+      "master_50ms_crest_change_dB": 0.20397130314530365,
+      "beat_200ms_crest_change_dB": 0.13882552636557755,
+      "master_200ms_crest_change_dB": 0.11444163437834298
+    },
+    {
+      "center_s": 49.41952083333333,
+      "dip_dB": 0.541502799987793,
+      "window_s": [
+        49.38952083333333,
+        49.56952083333333
+      ],
+      "V1_GR_max_dB": 5.257513999938965,
+      "V1_GR_mean_dB": 2.254711866378784,
+      "V2_GR_max_dB": 5.020451545715332,
+      "V2_GR_mean_dB": 2.1889610290527344,
+      "GR_max_change_dB": -0.2370624542236328,
+      "GR_mean_change_dB": -0.0657508373260498,
+      "beat_20ms_crest_change_dB": 0.3870945219835704,
+      "master_20ms_crest_change_dB": 0.19984471082077437,
+      "beat_50ms_crest_change_dB": 0.2693236743442551,
+      "master_50ms_crest_change_dB": 0.11829175074724674,
+      "beat_200ms_crest_change_dB": 0.18788830065414963,
+      "master_200ms_crest_change_dB": 0.05576537861203512
+    },
+    {
+      "center_s": 53.86504166666667,
+      "dip_dB": 0.4897872352600098,
+      "window_s": [
+        53.83504166666667,
+        54.01504166666667
+      ],
+      "V1_GR_max_dB": 4.998936176300049,
+      "V1_GR_mean_dB": 2.1088364124298096,
+      "V2_GR_max_dB": 4.816755294799805,
+      "V2_GR_mean_dB": 2.080197811126709,
+      "GR_max_change_dB": -0.18218088150024414,
+      "GR_mean_change_dB": -0.028638601303100586,
+      "beat_20ms_crest_change_dB": -0.12522310026372185,
+      "master_20ms_crest_change_dB": 0.19040717154420506,
+      "beat_50ms_crest_change_dB": -0.24550744112502354,
+      "master_50ms_crest_change_dB": 0.12051858280639927,
+      "beat_200ms_crest_change_dB": -0.11208620745216535,
+      "master_200ms_crest_change_dB": 0.06701584945935579
+    },
+    {
+      "center_s": 67.39985416666667,
+      "dip_dB": 0.4211856269836426,
+      "window_s": [
+        67.36985416666667,
+        67.54985416666668
+      ],
+      "V1_GR_max_dB": 4.655928134918213,
+      "V1_GR_mean_dB": 1.4174442291259766,
+      "V2_GR_max_dB": 4.423933982849121,
+      "V2_GR_mean_dB": 1.3596597909927368,
+      "GR_max_change_dB": -0.2319941520690918,
+      "GR_mean_change_dB": -0.057784438133239746,
+      "beat_20ms_crest_change_dB": -0.10031150182088666,
+      "master_20ms_crest_change_dB": 0.11405091613872553,
+      "beat_50ms_crest_change_dB": -0.1826232756835573,
+      "master_50ms_crest_change_dB": 0.07752579269852955,
+      "beat_200ms_crest_change_dB": -0.2117724039191593,
+      "master_200ms_crest_change_dB": 0.05198820353808031
+    },
+    {
+      "center_s": 71.6230625,
+      "dip_dB": 0.3692316436767578,
+      "window_s": [
+        71.5930625,
+        71.77306250000001
+      ],
+      "V1_GR_max_dB": 4.396158218383789,
+      "V1_GR_mean_dB": 1.8034415245056152,
+      "V2_GR_max_dB": 4.387716770172119,
+      "V2_GR_mean_dB": 1.7541399002075195,
+      "GR_max_change_dB": -0.008441448211669922,
+      "GR_mean_change_dB": -0.0493016242980957,
+      "beat_20ms_crest_change_dB": -0.021641425158017036,
+      "master_20ms_crest_change_dB": 0.15725512445560774,
+      "beat_50ms_crest_change_dB": -0.08809215079106547,
+      "master_50ms_crest_change_dB": 0.06596202957335784,
+      "beat_200ms_crest_change_dB": -0.11532058143488655,
+      "master_200ms_crest_change_dB": 0.02680636592702257
+    },
+    {
+      "center_s": 72.30997916666666,
+      "dip_dB": 0.432343807220459,
+      "window_s": [
+        72.27997916666666,
+        72.45997916666667
+      ],
+      "V1_GR_max_dB": 4.711719036102295,
+      "V1_GR_mean_dB": 1.9116624593734741,
+      "V2_GR_max_dB": 4.522006988525391,
+      "V2_GR_mean_dB": 1.876510739326477,
+      "GR_max_change_dB": -0.1897120475769043,
+      "GR_mean_change_dB": -0.03515172004699707,
+      "beat_20ms_crest_change_dB": 0.3125442659682367,
+      "master_20ms_crest_change_dB": 0.22311427028438935,
+      "beat_50ms_crest_change_dB": 0.20748553494397548,
+      "master_50ms_crest_change_dB": 0.13021743409272268,
+      "beat_200ms_crest_change_dB": 0.13965974131611247,
+      "master_200ms_crest_change_dB": 0.05291624540486417
+    },
+    {
+      "center_s": 78.76116666666667,
+      "dip_dB": 0.6766294860839844,
+      "window_s": [
+        78.73116666666667,
+        78.91116666666667
+      ],
+      "V1_GR_max_dB": 5.933147430419922,
+      "V1_GR_mean_dB": 1.329361915588379,
+      "V2_GR_max_dB": 5.694676399230957,
+      "V2_GR_mean_dB": 1.2685363292694092,
+      "GR_max_change_dB": -0.23847103118896484,
+      "GR_mean_change_dB": -0.06082558631896973,
+      "beat_20ms_crest_change_dB": 0.3908735806404646,
+      "master_20ms_crest_change_dB": 0.23115131220269092,
+      "beat_50ms_crest_change_dB": 0.2587052523840754,
+      "master_50ms_crest_change_dB": 0.10877781598739844,
+      "beat_200ms_crest_change_dB": 0.18254160942502295,
+      "master_200ms_crest_change_dB": 0.020296809063927057
+    },
+    {
+      "center_s": 82.29010416666667,
+      "dip_dB": 0.46922763824462893,
+      "window_s": [
+        82.26010416666666,
+        82.44010416666667
+      ],
+      "V1_GR_max_dB": 4.8961381912231445,
+      "V1_GR_mean_dB": 1.813023328781128,
+      "V2_GR_max_dB": 4.894909381866455,
+      "V2_GR_mean_dB": 1.780660629272461,
+      "GR_max_change_dB": -0.0012288093566894531,
+      "GR_mean_change_dB": -0.03236269950866699,
+      "beat_20ms_crest_change_dB": -0.12891120379035748,
+      "master_20ms_crest_change_dB": 0.30851887763487795,
+      "beat_50ms_crest_change_dB": -0.11446342137710808,
+      "master_50ms_crest_change_dB": 0.14974473324426185,
+      "beat_200ms_crest_change_dB": -0.14271445473067068,
+      "master_200ms_crest_change_dB": 0.09013507466001514
+    },
+    {
+      "center_s": 85.83977083333333,
+      "dip_dB": 0.4622774505615235,
+      "window_s": [
+        85.80977083333333,
+        85.98977083333334
+      ],
+      "V1_GR_max_dB": 4.861387252807617,
+      "V1_GR_mean_dB": 2.3104264736175537,
+      "V2_GR_max_dB": 4.730429172515869,
+      "V2_GR_mean_dB": 2.259284257888794,
+      "GR_max_change_dB": -0.13095808029174805,
+      "GR_mean_change_dB": -0.051142215728759766,
+      "beat_20ms_crest_change_dB": -0.09237494807313684,
+      "master_20ms_crest_change_dB": 0.20529403949338487,
+      "beat_50ms_crest_change_dB": -0.026533360359485947,
+      "master_50ms_crest_change_dB": 0.14528128354560543,
+      "beat_200ms_crest_change_dB": -0.03156416445447263,
+      "master_200ms_crest_change_dB": 0.08195037703647934
+    },
+    {
+      "center_s": 92.04820833333333,
+      "dip_dB": 0.42456354141235353,
+      "window_s": [
+        92.01820833333333,
+        92.19820833333334
+      ],
+      "V1_GR_max_dB": 4.672817707061768,
+      "V1_GR_mean_dB": 1.9818692207336426,
+      "V2_GR_max_dB": 4.486093044281006,
+      "V2_GR_mean_dB": 1.9240657091140747,
+      "GR_max_change_dB": -0.18672466278076172,
+      "GR_mean_change_dB": -0.05780351161956787,
+      "beat_20ms_crest_change_dB": -0.08991117606555932,
+      "master_20ms_crest_change_dB": 0.1134571388214809,
+      "beat_50ms_crest_change_dB": -0.013589311010278493,
+      "master_50ms_crest_change_dB": 0.08197635738265241,
+      "beat_200ms_crest_change_dB": -0.1094530588307343,
+      "master_200ms_crest_change_dB": 0.05166871372235704
+    },
+    {
+      "center_s": 92.98295833333333,
+      "dip_dB": 0.5525805854797363,
+      "window_s": [
+        92.95295833333333,
+        93.13295833333333
+      ],
+      "V1_GR_max_dB": 5.312902927398682,
+      "V1_GR_mean_dB": 1.325762391090393,
+      "V2_GR_max_dB": 5.153316974639893,
+      "V2_GR_mean_dB": 1.279487133026123,
+      "GR_max_change_dB": -0.15958595275878906,
+      "GR_mean_change_dB": -0.04627525806427002,
+      "beat_20ms_crest_change_dB": 0.269376044042561,
+      "master_20ms_crest_change_dB": 0.14686671136772933,
+      "beat_50ms_crest_change_dB": 0.26547356771844655,
+      "master_50ms_crest_change_dB": 0.091300115930526,
+      "beat_200ms_crest_change_dB": 0.15134213199205782,
+      "master_200ms_crest_change_dB": 0.04283226710698429
+    },
+    {
+      "center_s": 95.18458333333334,
+      "dip_dB": 0.681414737701416,
+      "window_s": [
+        95.15458333333333,
+        95.33458333333334
+      ],
+      "V1_GR_max_dB": 5.95707368850708,
+      "V1_GR_mean_dB": 2.353239059448242,
+      "V2_GR_max_dB": 5.688605785369873,
+      "V2_GR_mean_dB": 2.286249876022339,
+      "GR_max_change_dB": -0.26846790313720703,
+      "GR_mean_change_dB": -0.06698918342590332,
+      "beat_20ms_crest_change_dB": -0.15577344421944161,
+      "master_20ms_crest_change_dB": 0.27027560211195834,
+      "beat_50ms_crest_change_dB": 0.3492967502415194,
+      "master_50ms_crest_change_dB": 0.19075988358791385,
+      "beat_200ms_crest_change_dB": 0.2824833377806151,
+      "master_200ms_crest_change_dB": 0.09987469585126263
+    },
+    {
+      "center_s": 96.48541666666667,
+      "dip_dB": 0.5573504829406739,
+      "window_s": [
+        96.45541666666666,
+        96.63541666666667
+      ],
+      "V1_GR_max_dB": 5.336752414703369,
+      "V1_GR_mean_dB": 2.1540939807891846,
+      "V2_GR_max_dB": 5.193238735198975,
+      "V2_GR_mean_dB": 2.111002206802368,
+      "GR_max_change_dB": -0.14351367950439453,
+      "GR_mean_change_dB": -0.043091773986816406,
+      "beat_20ms_crest_change_dB": -0.037890511004253113,
+      "master_20ms_crest_change_dB": 0.3708040675469011,
+      "beat_50ms_crest_change_dB": -0.0013869600079257083,
+      "master_50ms_crest_change_dB": 0.28200374559591346,
+      "beat_200ms_crest_change_dB": -0.16819450278689096,
+      "master_200ms_crest_change_dB": 0.13993173118505986
+    },
+    {
+      "center_s": 120.49264583333333,
+      "dip_dB": 0.40998157501220706,
+      "window_s": [
+        120.46264583333333,
+        120.64264583333333
+      ],
+      "V1_GR_max_dB": 4.599907875061035,
+      "V1_GR_mean_dB": 2.0889153480529785,
+      "V2_GR_max_dB": 4.2963032722473145,
+      "V2_GR_mean_dB": 2.0270490646362305,
+      "GR_max_change_dB": -0.3036046028137207,
+      "GR_mean_change_dB": -0.06186628341674805,
+      "beat_20ms_crest_change_dB": -0.077852463054505,
+      "master_20ms_crest_change_dB": 0.048586795465332955,
+      "beat_50ms_crest_change_dB": -0.11125508247795501,
+      "master_50ms_crest_change_dB": 0.06652425489832225,
+      "beat_200ms_crest_change_dB": -0.20207253660191782,
+      "master_200ms_crest_change_dB": 0.036336257232443714
+    },
+    {
+      "center_s": 121.42016666666666,
+      "dip_dB": 0.45041126251220703,
+      "window_s": [
+        121.39016666666666,
+        121.57016666666667
+      ],
+      "V1_GR_max_dB": 4.802056312561035,
+      "V1_GR_mean_dB": 2.8346471786499023,
+      "V2_GR_max_dB": 4.616146564483643,
+      "V2_GR_mean_dB": 2.7951090335845947,
+      "GR_max_change_dB": -0.18590974807739258,
+      "GR_mean_change_dB": -0.03953814506530762,
+      "beat_20ms_crest_change_dB": -0.12283863830989272,
+      "master_20ms_crest_change_dB": 0.20919780063584703,
+      "beat_50ms_crest_change_dB": -0.23241610353954467,
+      "master_50ms_crest_change_dB": 0.12443054680729304,
+      "beat_200ms_crest_change_dB": -0.23131904210803889,
+      "master_200ms_crest_change_dB": 0.046879131995089196
+    },
+    {
+      "center_s": 123.6074375,
+      "dip_dB": 0.3860945129394531,
+      "window_s": [
+        123.5774375,
+        123.75743750000001
+      ],
+      "V1_GR_max_dB": 4.480472564697266,
+      "V1_GR_mean_dB": 1.394007921218872,
+      "V2_GR_max_dB": 4.297360897064209,
+      "V2_GR_mean_dB": 1.3526915311813354,
+      "GR_max_change_dB": -0.18311166763305664,
+      "GR_mean_change_dB": -0.04131639003753662,
+      "beat_20ms_crest_change_dB": -0.07704689627166061,
+      "master_20ms_crest_change_dB": 0.17702512953640515,
+      "beat_50ms_crest_change_dB": -0.11526706008853616,
+      "master_50ms_crest_change_dB": 0.1276792891291727,
+      "beat_200ms_crest_change_dB": -0.002175614169061646,
+      "master_200ms_crest_change_dB": 0.08300569376835298
+    },
+    {
+      "center_s": 124.3103125,
+      "dip_dB": 0.47445978164672853,
+      "window_s": [
+        124.2803125,
+        124.4603125
+      ],
+      "V1_GR_max_dB": 4.922298908233643,
+      "V1_GR_mean_dB": 2.0306198596954346,
+      "V2_GR_max_dB": 4.932385444641113,
+      "V2_GR_mean_dB": 2.007925510406494,
+      "GR_max_change_dB": 0.010086536407470703,
+      "GR_mean_change_dB": -0.02269434928894043,
+      "beat_20ms_crest_change_dB": -0.12516526153708796,
+      "master_20ms_crest_change_dB": 0.316516349904326,
+      "beat_50ms_crest_change_dB": -0.23194858503331162,
+      "master_50ms_crest_change_dB": 0.1945215982593087,
+      "beat_200ms_crest_change_dB": 0.16005475460122298,
+      "master_200ms_crest_change_dB": 0.0764260073211549
+    },
+    {
+      "center_s": 142.72833333333332,
+      "dip_dB": 0.35648378372192385,
+      "window_s": [
+        142.69833333333332,
+        142.87833333333333
+      ],
+      "V1_GR_max_dB": 4.332418918609619,
+      "V1_GR_mean_dB": 2.460392951965332,
+      "V2_GR_max_dB": 4.158237457275391,
+      "V2_GR_mean_dB": 2.4119083881378174,
+      "GR_max_change_dB": -0.17418146133422852,
+      "GR_mean_change_dB": -0.04848456382751465,
+      "beat_20ms_crest_change_dB": -0.07299703418308656,
+      "master_20ms_crest_change_dB": 0.12666117311961855,
+      "beat_50ms_crest_change_dB": -0.14475314391400484,
+      "master_50ms_crest_change_dB": 0.07242077888086929,
+      "beat_200ms_crest_change_dB": -0.023776973910834442,
+      "master_200ms_crest_change_dB": 0.039311439425363304
+    },
+    {
+      "center_s": 144.9620625,
+      "dip_dB": 0.3958547973632813,
+      "window_s": [
+        144.9320625,
+        145.1120625
+      ],
+      "V1_GR_max_dB": 4.529273986816406,
+      "V1_GR_mean_dB": 1.701878309249878,
+      "V2_GR_max_dB": 4.351285934448242,
+      "V2_GR_mean_dB": 1.6603013277053833,
+      "GR_max_change_dB": -0.17798805236816406,
+      "GR_mean_change_dB": -0.04157698154449463,
+      "beat_20ms_crest_change_dB": -0.09779311285014991,
+      "master_20ms_crest_change_dB": 0.17277672158159518,
+      "beat_50ms_crest_change_dB": 0.20664715070738104,
+      "master_50ms_crest_change_dB": 0.10066802811088404,
+      "beat_200ms_crest_change_dB": 0.17085753905477752,
+      "master_200ms_crest_change_dB": 0.05297878934010036
+    },
+    {
+      "center_s": 145.62254166666668,
+      "dip_dB": 0.5193698310852051,
+      "window_s": [
+        145.59254166666668,
+        145.77254166666668
+      ],
+      "V1_GR_max_dB": 5.146849155426025,
+      "V1_GR_mean_dB": 2.288259983062744,
+      "V2_GR_max_dB": 4.922040939331055,
+      "V2_GR_mean_dB": 2.227773427963257,
+      "GR_max_change_dB": -0.2248082160949707,
+      "GR_mean_change_dB": -0.060486555099487305,
+      "beat_20ms_crest_change_dB": -0.12451361023725216,
+      "master_20ms_crest_change_dB": 0.19827057325079345,
+      "beat_50ms_crest_change_dB": -0.10779263215263235,
+      "master_50ms_crest_change_dB": 0.11874726311706674,
+      "beat_200ms_crest_change_dB": -0.14555523758604672,
+      "master_200ms_crest_change_dB": 0.06878484601601187
+    },
+    {
+      "center_s": 146.2788125,
+      "dip_dB": 0.6402965927124024,
+      "window_s": [
+        146.24881249999999,
+        146.4288125
+      ],
+      "V1_GR_max_dB": 5.751482963562012,
+      "V1_GR_mean_dB": 2.1865108013153076,
+      "V2_GR_max_dB": 5.5381975173950195,
+      "V2_GR_mean_dB": 2.1229617595672607,
+      "GR_max_change_dB": -0.2132854461669922,
+      "GR_mean_change_dB": -0.06354904174804688,
+      "beat_20ms_crest_change_dB": 0.2380399075623547,
+      "master_20ms_crest_change_dB": 0.285056982128574,
+      "beat_50ms_crest_change_dB": 0.10744074926223224,
+      "master_50ms_crest_change_dB": 0.22084118045387235,
+      "beat_200ms_crest_change_dB": -0.04319306711975557,
+      "master_200ms_crest_change_dB": 0.13822092492422478
+    },
+    {
+      "center_s": 148.95508333333333,
+      "dip_dB": 0.5342705154418945,
+      "window_s": [
+        148.92508333333333,
+        149.10508333333334
+      ],
+      "V1_GR_max_dB": 5.221352577209473,
+      "V1_GR_mean_dB": 2.555509328842163,
+      "V2_GR_max_dB": 4.985894680023193,
+      "V2_GR_mean_dB": 2.4943668842315674,
+      "GR_max_change_dB": -0.2354578971862793,
+      "GR_mean_change_dB": -0.0611424446105957,
+      "beat_20ms_crest_change_dB": 0.23362926489949665,
+      "master_20ms_crest_change_dB": 0.2005743275224532,
+      "beat_50ms_crest_change_dB": 0.29555304185794107,
+      "master_50ms_crest_change_dB": 0.11232545977174979,
+      "beat_200ms_crest_change_dB": 0.2416097623997615,
+      "master_200ms_crest_change_dB": 0.05998957300297292
+    },
+    {
+      "center_s": 149.89066666666668,
+      "dip_dB": 0.3501543426513672,
+      "window_s": [
+        149.86066666666667,
+        150.04066666666668
+      ],
+      "V1_GR_max_dB": 4.300771713256836,
+      "V1_GR_mean_dB": 1.2428361177444458,
+      "V2_GR_max_dB": 4.226442337036133,
+      "V2_GR_mean_dB": 1.2236382961273193,
+      "GR_max_change_dB": -0.07432937622070312,
+      "GR_mean_change_dB": -0.019197821617126465,
+      "beat_20ms_crest_change_dB": 0.0684815181175189,
+      "master_20ms_crest_change_dB": 0.18907926109763373,
+      "beat_50ms_crest_change_dB": 0.13679975841799674,
+      "master_50ms_crest_change_dB": 0.08022083117580525,
+      "beat_200ms_crest_change_dB": 0.058557905107154085,
+      "master_200ms_crest_change_dB": 0.03062816493229903
+    },
+    {
+      "center_s": 152.04475,
+      "dip_dB": 0.49874996185302733,
+      "window_s": [
+        152.01475,
+        152.19475
+      ],
+      "V1_GR_max_dB": 5.043749809265137,
+      "V1_GR_mean_dB": 1.602773904800415,
+      "V2_GR_max_dB": 4.879508972167969,
+      "V2_GR_mean_dB": 1.5711833238601685,
+      "GR_max_change_dB": -0.16424083709716797,
+      "GR_mean_change_dB": -0.03159058094024658,
+      "beat_20ms_crest_change_dB": -0.08278545811474292,
+      "master_20ms_crest_change_dB": 0.2442576319400409,
+      "beat_50ms_crest_change_dB": -0.0009902496071756417,
+      "master_50ms_crest_change_dB": 0.20294120463814203,
+      "beat_200ms_crest_change_dB": -0.12532074834314422,
+      "master_200ms_crest_change_dB": 0.12309513405936912
+    },
+    {
+      "center_s": 166.31014583333334,
+      "dip_dB": 0.4229401016235352,
+      "window_s": [
+        166.28014583333334,
+        166.46014583333334
+      ],
+      "V1_GR_max_dB": 4.664700508117676,
+      "V1_GR_mean_dB": 1.6868499517440796,
+      "V2_GR_max_dB": 4.477550983428955,
+      "V2_GR_mean_dB": 1.5577425956726074,
+      "GR_max_change_dB": -0.1871495246887207,
+      "GR_mean_change_dB": -0.12910735607147217,
+      "beat_20ms_crest_change_dB": -0.12275393840895354,
+      "master_20ms_crest_change_dB": 0.08877427863106391,
+      "beat_50ms_crest_change_dB": -0.06574574396632471,
+      "master_50ms_crest_change_dB": 0.034580162831341354,
+      "beat_200ms_crest_change_dB": -0.032294563733570314,
+      "master_200ms_crest_change_dB": -0.005374364570922552
+    }
+  ],
+  "aggregate": {
+    "events": 28,
+    "max_GR_delta_percentiles_dB": {
+      "50": -0.1810595989227295,
+      "90": -0.05456299781799312,
+      "95": -0.0037532329559326273,
+      "99": 0.007031393051147466,
+      "99.9": 0.009781022071838407,
+      "100": 0.010086536407470703
+    },
+    "mean_GR_delta_percentiles_dB": {
+      "50": -0.050221920013427734,
+      "90": -0.03070498704910278,
+      "95": -0.024774837493896494,
+      "99": -0.020141884088516235,
+      "99.9": -0.019292227864265432,
+      "100": -0.019197821617126465
+    },
+    "event_max_GR_improved_more_than005dB": 25,
+    "event_max_GR_worsened_more_than005dB": 0,
+    "beat_50ms_crest_change_percentiles_dB": {
+      "50": -0.02006133568488222,
+      "90": 0.27398356608759133,
+      "95": 0.2918093035953766,
+      "99": 0.3347859489779533,
+      "99.9": 0.34784567011516293,
+      "100": 0.3492967502415194
+    },
+    "master_50ms_crest_change_percentiles_dB": {
+      "50": 0.11851950693215674,
+      "90": 0.2032502341902905,
+      "95": 0.21493672339587327,
+      "99": 0.2654898530075624,
+      "99.9": 0.2803523563370785,
+      "100": 0.28200374559591346
+    }
+  },
+  "normal_segments": {
+    "V1": {
+      "GR_dB_percentiles": {
+        "50": 7.144556730054319e-05,
+        "90": 0.9062998294830322,
+        "95": 1.5755655765533447,
+        "99": 2.8514461517333984,
+        "99.9": 3.921541929244995,
+        "100": 6.003883361816406
+      },
+      "percent_over3dB": 0.7879538798664728
+    },
+    "V2": {
+      "GR_dB_percentiles": {
+        "50": 7.092783926054835e-05,
+        "90": 0.9053763151168823,
+        "95": 1.570647954940796,
+        "99": 2.851294755935669,
+        "99.9": 3.9109842777252197,
+        "100": 6.014280319213867
+      },
+      "percent_over3dB": 0.7946097605930902
+    }
+  },
+  "normal_40ms_crest_change_dB_percentiles": {
+    "50": 1.52587890625e-05,
+    "90": 0.007414623163640499,
+    "95": 0.01199660450220108,
+    "99": 0.04395713657140732,
+    "99.9": 0.15526814758777618,
+    "100": 0.21589088439941406
+  },
+  "long_term_band_energy_change_dB": {
+    "beat": {
+      "25-70": -0.03645566423003255,
+      "70-140": -0.02851988558242921,
+      "140-300": -0.006781016808446401
+    },
+    "master": {
+      "25-70": -0.012374039537998476,
+      "70-140": -0.0018030091576944172,
+      "140-300": 0.02656012399621676
+    }
+  },
+  "stereo": {
+    "V1": {
+      "beat": {
+        "side_mid_dB": -10.277930578021133,
+        "mono_fold_energy_dB": -0.3893827096755417,
+        "LR_correlation": 0.8284303793199619
+      },
+      "master": {
+        "side_mid_dB": -11.706549779603401,
+        "mono_fold_energy_dB": -0.28370492076876447,
+        "LR_correlation": 0.873501222041124
+      }
+    },
+    "V2": {
+      "beat": {
+        "side_mid_dB": -10.259848489088911,
+        "mono_fold_energy_dB": -0.3909363268270244,
+        "LR_correlation": 0.8277774130291491
+      },
+      "master": {
+        "side_mid_dB": -11.698631510136545,
+        "mono_fold_energy_dB": -0.2842060799863533,
+        "LR_correlation": 0.8732876126288592
+      }
+    }
+  },
+  "master_drive_dB": {
+    "V1": 5.74,
+    "V2": 5.729999999999997
+  },
+  "master_LUFS": {
+    "V1": -11.55,
+    "V2": -11.56
+  },
+  "interpretation": "The unchanged or slightly lower master drive cannot compensate away the source repair. Small modulation of the selected beat peaks is intentional; smooth common gain avoids channel decorrelation or frequency-split phase shifts. Whether microdynamics sound preferable still requires audition.",
+  "status": "PASS",
+  "independent_energy_and_peak_cross_check": {
+    "driven_peak_change": {
+      "minimum_dB": -0.31372711016828836,
+      "median_dB": -0.18584466339183536,
+      "maximum_dB": 0.009667652980581476,
+      "number_decreased_over005dB": 25,
+      "number_increased_over005dB": 0
+    },
+    "whole_event_energy_attenuation_change": {
+      "minimum_dB": -0.15426751862053534,
+      "median_dB": -0.08933199139551729,
+      "maximum_dB": -0.026003959961152345,
+      "number_decreased_over005dB": 25,
+      "number_increased_over005dB": 0
+    },
+    "short_window_maximum_energy_attenuation_change": {
+      "5": {
+        "minimum_dB": -0.2766558723664927,
+        "median_dB": -0.1750463825619195,
+        "maximum_dB": 0.010691442125936312,
+        "number_decreased_over005dB": 25,
+        "number_increased_over005dB": 0
+      },
+      "10": {
+        "minimum_dB": -0.2610688741256162,
+        "median_dB": -0.16439296308148688,
+        "maximum_dB": 0.012557942537988254,
+        "number_decreased_over005dB": 25,
+        "number_increased_over005dB": 0
+      },
+      "20": {
+        "minimum_dB": -0.2307357873636855,
+        "median_dB": -0.15090648115784755,
+        "maximum_dB": 0.01905150156573221,
+        "number_decreased_over005dB": 26,
+        "number_increased_over005dB": 0
+      }
+    }
+  },
+  "independent_cross_check_source": "qa_v2_proxy_check.py/json"
+}

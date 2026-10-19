@@ -1,0 +1,170 @@
+{
+  "version": "V2 candidate",
+  "files": [
+    {
+      "file": "MUSIC_MIX_V2_CANDIDATE.mp3",
+      "bytes": 8573804,
+      "sha256": "285c1fb16796625cd11236386b12c4787fb1b2b9d38536972fd187a6bdc8f8cf"
+    },
+    {
+      "file": "MUSIC_MIX_V2_CANDIDATE.wav",
+      "bytes": 61710942,
+      "sha256": "4d35da3a807c5eff4fd6bfc0c4720eb10d20251d45c6eae2cb658fffec5f7b81"
+    },
+    {
+      "file": "MUSIC_MIX_V2_CANDIDATE_BEAT.wav",
+      "bytes": 61710942,
+      "sha256": "6b473402ea917b999934bbc5e19159cd60b733ad98a44356c5770fa9a4b95b2f"
+    },
+    {
+      "file": "MUSIC_MIX_V2_CANDIDATE_VOCAL.wav",
+      "bytes": 61710942,
+      "sha256": "40671e75d747528729470454e4caf9a73d15721aa2f83af6351419b912aec528"
+    },
+    {
+      "file": "MUSIC_MIX_V2_CANDIDATE_VOCAL_CORE.wav",
+      "bytes": 61710942,
+      "sha256": "3c5e31921c1fe3a471ee3ba16d925119fbc0ffa935551cac4cfe0b8290d5be11"
+    },
+    {
+      "file": "MUSIC_MIX_V2_CANDIDATE_VOCAL_FX.wav",
+      "bytes": 61710942,
+      "sha256": "95e47cfe70695885074fb947231873813b583213bdec100bd432cf72ff3a347e"
+    },
+    {
+      "file": "MUSIC_V1_TO_V2_CANDIDATE_COMPARE.mp3",
+      "bytes": 2802284,
+      "sha256": "deef73685c9a6a126a6d02761d59fba3d24bb1acc1b68520fa5845934d1ac1c2"
+    },
+    {
+      "file": "NOTES.md",
+      "bytes": 6886,
+      "sha256": "021a215fee1b06a88aa50713588411911c9a25bbaa4360a8adab46f8d9f80073"
+    },
+    {
+      "file": "build_v2.py",
+      "bytes": 9194,
+      "sha256": "e5d7a4a9c6a013c0c2c1d74e7e0a49286b845ea4b083a01c32397f9a2631c33e"
+    },
+    {
+      "file": "candidate.json",
+      "bytes": 930,
+      "sha256": "fca0883d65570338414363116dcd60d3f2ab633f3b5dde8061ae9e48971d561f"
+    },
+    {
+      "file": "check_exports.py",
+      "bytes": 4014,
+      "sha256": "5189b8b76c4a4904b2a1c266944cfb94a4b286f82caa3f9b35bc6316dc5f3a08"
+    },
+    {
+      "file": "comparison.json",
+      "bytes": 904,
+      "sha256": "379a53ec1908bcab43eda3a68b352745e11f9b263bb8c43739ffc8df98f13965"
+    },
+    {
+      "file": "controls.npz",
+      "bytes": 6173602,
+      "sha256": "365e36539a990ef3e1532aad6d537822f385bcbc01041eba898e308246fde6de"
+    },
+    {
+      "file": "export-check.json",
+      "bytes": 3790,
+      "sha256": "25d3b5d107e2c4df6abadc95db09e8f55c3ab8c87134e0e38fdbee2eca06d5b1"
+    },
+    {
+      "file": "export_comparison.py",
+      "bytes": 1837,
+      "sha256": "3f09c74f26c3360ed55f8d31e8293157ccfc96b9abee824c91173c0d0b69c76d"
+    },
+    {
+      "file": "peak-candidates.json",
+      "bytes": 25436,
+      "sha256": "c13b38d3ad1034020f9820ce3ed6ea6faf6c27872a437891a662f9a557e11e16"
+    },
+    {
+      "file": "review/master/QA_V2.md",
+      "bytes": 4597,
+      "sha256": "6d71e20a42ad4909080cff35b41a25b9c0a215baec41fd02c3133151d684c4d2"
+    },
+    {
+      "file": "review/master/RECOMMENDATIONS.md",
+      "bytes": 6793,
+      "sha256": "a95c86ac7da5e60eebe9627d40863cfa522dc740b7a3a06a58b432bf9193f3b1"
+    },
+    {
+      "file": "review/master/analyze_master.py",
+      "bytes": 4918,
+      "sha256": "a20c87f8d665331895a1fe3e996de89661f58935f314966f08b378badc7d347a"
+    },
+    {
+      "file": "review/master/derive_peak_candidates.py",
+      "bytes": 3367,
+      "sha256": "0d52e100b79d6897c8d70e845709ee982ac61f94cb60366b5f31cba4da2665a6"
+    },
+    {
+      "file": "review/master/master-analysis.json",
+      "bytes": 18585,
+      "sha256": "1fc3ed2bdb0baa4ccb26578b6be3c617e540008b19ac74f53b4110aa5cea64e7"
+    },
+    {
+      "file": "review/master/peak-candidates.json",
+      "bytes": 25436,
+      "sha256": "c13b38d3ad1034020f9820ce3ed6ea6faf6c27872a437891a662f9a557e11e16"
+    },
+    {
+      "file": "review/master/qa_v2.json",
+      "bytes": 27655,
+      "sha256": "e30960c2dcb2345de8e126efda112591df64a5e6ecadd6d326039ec86d9fd44a"
+    },
+    {
+      "file": "review/master/qa_v2.py",
+      "bytes": 7071,
+      "sha256": "b0bb7023b6e29e47d9d0cfe7edb0f11befbb5a2728bd5a3ac883cc07a6eaed80"
+    },
+    {
+      "file": "review/master/qa_v2_proxy_check.json",
+      "bytes": 55195,
+      "sha256": "d5941e3f39e398db6c74ee922e071c6d49fc254e784aa7b11e4a33b8aaecb9a5"
+    },
+    {
+      "file": "review/master/qa_v2_proxy_check.py",
+      "bytes": 2964,
+      "sha256": "1e4fb1cca30e7e7bbaa067ad1990f926eff1e5d644c0683a59521b7347b4e25a"
+    },
+    {
+      "file": "review/vocal/QA_V2.md",
+      "bytes": 1810,
+      "sha256": "893c3aa9c039364d3e20856ab09a38707e627d1b7fa73635c9639bff6d259dfe"
+    },
+    {
+      "file": "review/vocal/REVIEW.md",
+      "bytes": 4190,
+      "sha256": "65ba302e1a5ef678735f4670b9d924735443d3d5fd9de0a7b4456885c2d4394d"
+    },
+    {
+      "file": "review/vocal/analysis.json",
+      "bytes": 10168,
+      "sha256": "e4be72fefc762f1bcadf9944313307e0bd45b7406e76756115cd2dbfeeb0044a"
+    },
+    {
+      "file": "review/vocal/analyze.py",
+      "bytes": 3892,
+      "sha256": "18207c45f6cd5c7eb12e21a9830626519dafecb18ddfd063afa674e96cbc4447"
+    },
+    {
+      "file": "review/vocal/qa_v2.json",
+      "bytes": 12440,
+      "sha256": "48c92d713c03ce004edf030008fef1df5326503d18415d6f97434a7bc5cf1efc"
+    },
+    {
+      "file": "review/vocal/qa_v2.py",
+      "bytes": 5335,
+      "sha256": "92f09e039b8b8627ea8ae7bbca8d5f4148f75254da3cf27ba58fed0605fefd60"
+    },
+    {
+      "file": "validation.json",
+      "bytes": 2691,
+      "sha256": "ec7fe129632fe984e4ccf389a60a2da1b8952b8b4319441879e24c7eace5ff69"
+    }
+  ]
+}
