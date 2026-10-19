@@ -1,0 +1,61 @@
+{
+  "version": "V2B balance revision",
+  "source_commit": "d1bace0e573b575f3869a5bb5cd452989b820abf",
+  "files": [
+    {
+      "file": "MUSIC_MIX_V2B_BALANCE.mp3",
+      "bytes": 8573804,
+      "sha256": "259c6dad9aced6fb9eb42a63f3fc8ff1b3181f627c43f1c0cd7e33268025ad20"
+    },
+    {
+      "file": "MUSIC_MIX_V2B_BALANCE.wav",
+      "bytes": 61710942,
+      "sha256": "59415dcae213d0664ab252284a85f99843676f55158485095aeb682eb20cd0b0"
+    },
+    {
+      "file": "MUSIC_MIX_V2B_BEAT.wav",
+      "bytes": 61710942,
+      "sha256": "04e06d1bb129abf93593b54a6f97d6e6455cff7d15701df73d1366cdb5bd8466"
+    },
+    {
+      "file": "MUSIC_V2_TO_V2B_COMPARE.mp3",
+      "bytes": 1962284,
+      "sha256": "cfce7deff0e8dc2c023ce152bebe22e7c8db8a57ae2aa5042e7e0f191bf3783b"
+    },
+    {
+      "file": "NOTES.md",
+      "bytes": 2272,
+      "sha256": "c1b4d4f72bbb56b5a736e867e70f31ffae144afe2ad5ed42f6baee7b7e1e40b0"
+    },
+    {
+      "file": "balance-review.json",
+      "bytes": 3030,
+      "sha256": "6cfa1ecae0d0d6fe18b54aa4ee2353b0ba77cba5263af09ba5fec1ab4157a705"
+    },
+    {
+      "file": "balance-review.md",
+      "bytes": 1154,
+      "sha256": "84d534c3020c354642297bb71ea4b4a3c7ef410d8e1240a3e3f3909ec47924c3"
+    },
+    {
+      "file": "build_balance.py",
+      "bytes": 4963,
+      "sha256": "27b4bc3a8a4cab9d6c40deb1d1d8dc647408c8b5b8dee45c2016b472f50ece6a"
+    },
+    {
+      "file": "check_exports.py",
+      "bytes": 2430,
+      "sha256": "87044742d8d9d08bc7c45af280c288896da84d68fd31bd3f621451188d64bd9c"
+    },
+    {
+      "file": "export-check.json",
+      "bytes": 979,
+      "sha256": "a5b4f5d0643362524a0d3268c2472b45f09677d68295c65df16b86405673806a"
+    },
+    {
+      "file": "validation.json",
+      "bytes": 2024,
+      "sha256": "0c4a0695b61a98a4f771186bceb04a99d1096f32910c3af0e6df38f91614c7b9"
+    }
+  ]
+}

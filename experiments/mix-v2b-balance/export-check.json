@@ -1,0 +1,42 @@
+{
+  "exports": {
+    "MUSIC_MIX_V2B_BALANCE.wav": {
+      "frames": 10285140,
+      "quantization_max_error": 1.1897191143361852e-07,
+      "format": {
+        "codec_name": "pcm_s24le",
+        "sample_rate": "48000",
+        "channels": 2,
+        "bits_per_sample": 24
+      }
+    },
+    "MUSIC_MIX_V2B_BEAT.wav": {
+      "frames": 10285140,
+      "quantization_max_error": 1.1897635232571702e-07,
+      "format": {
+        "codec_name": "pcm_s24le",
+        "sample_rate": "48000",
+        "channels": 2,
+        "bits_per_sample": 24
+      }
+    },
+    "MUSIC_MIX_V2B_BALANCE.mp3": {
+      "frames": 10285140,
+      "sample_peak_dBFS": -1.1586195230484009
+    }
+  },
+  "comparison": [
+    {
+      "label": "V2",
+      "decoded_LUFS": -16.01,
+      "decoded_dBTP": -5.99
+    },
+    {
+      "label": "V2B",
+      "decoded_LUFS": -16.0,
+      "decoded_dBTP": -5.8
+    }
+  ],
+  "status": "PASS",
+  "limits": "Export integrity only; subjective balance requires user audition."
+}

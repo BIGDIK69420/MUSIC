@@ -1,0 +1,96 @@
+{
+  "review_type": "Independent signal QA of V2B balance-only revision; no subjective audition.",
+  "source": "/workspace/audio-v2-candidate",
+  "revision": "/workspace/audio-v2b-balance",
+  "beat": {
+    "fitted_gain_dB_L_R": [
+      1.4999997449716367,
+      1.4999997446206774
+    ],
+    "channel_gain_difference_dB": 3.50959261652406e-10,
+    "max_error_vs_float32_plus_1_5dB": 0.0
+  },
+  "routing": {
+    "premaster_max_error_vs_v2_vocal_plus_v2b_beat": 0.0,
+    "subtracted_vocal_max_float_error": 5.960464477539063e-08
+  },
+  "original_master": {
+    "frames": 10285140,
+    "seconds": 214.27375,
+    "finite": true,
+    "peak_dBFS": -1.382675415898971,
+    "rms_dBFS": -14.427156478782582,
+    "side_mid_dB": -11.698631509861677,
+    "lr_correlation": 0.8733129921962621,
+    "mono_fold_energy_dB": -0.2842060800037656,
+    "low_band_Hz": [
+      30,
+      150
+    ],
+    "low_rms_dBFS": -18.84165081626306,
+    "low_global_crest_dB": 17.41731825271927,
+    "low_400ms_active_crest_percentiles_dB": {
+      "10": 7.135590250379278,
+      "50": 10.250982347764133,
+      "90": 12.982047173115946,
+      "95": 14.342185635868546,
+      "99": 20.772072245468376
+    }
+  },
+  "revised_master": {
+    "frames": 10285140,
+    "seconds": 214.27375,
+    "finite": true,
+    "peak_dBFS": -1.384311583749698,
+    "rms_dBFS": -14.28493024916051,
+    "side_mid_dB": -11.263041845413992,
+    "lr_correlation": 0.8608806726832934,
+    "mono_fold_energy_dB": -0.3131333962614735,
+    "low_band_Hz": [
+      30,
+      150
+    ],
+    "low_rms_dBFS": -18.282740567706767,
+    "low_global_crest_dB": 17.143891448683892,
+    "low_400ms_active_crest_percentiles_dB": {
+      "10": 7.073468751849436,
+      "50": 10.26544879551998,
+      "90": 13.019392686788589,
+      "95": 14.498605848547808,
+      "99": 21.345950394017375
+    }
+  },
+  "file_metadata": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "pcm_s24le",
+        "sample_rate": "48000",
+        "channels": 2,
+        "duration": "214.273750",
+        "bits_per_raw_sample": "24"
+      }
+    ]
+  },
+  "render_metadata": {
+    "WAV_LUFS": -11.58,
+    "WAV_dBTP": -1.38,
+    "MP3_LUFS": -11.58,
+    "MP3_dBTP": -0.9,
+    "limiter": {
+      "method": "Approximate 1ms least-squares gain; includes resampling differences.",
+      "percentiles_dB": {
+        "50": 7.144556730054319e-05,
+        "90": 1.0272629261016846,
+        "95": 1.831497311592102,
+        "99": 3.346247434616089,
+        "99.9": 4.692098140716553,
+        "100": 6.085692405700684
+      },
+      "active_percent_over_3dB": 1.5414047813455367
+    }
+  },
+  "status": "PASS",
+  "interpretation": "Beat increased by +1.5 dB relative to unchanged vocal before mastering; total loudness remains within 0.02 LU of V2. Stereo balance and bass crest changes are expected consequences of raising the existing accompaniment. No new EQ, widening or time alignment operation is needed to explain the revision. Numeric checks cannot establish perceived pumping or preference."
+}

@@ -1,0 +1,89 @@
+{
+  "status": "balance_revision_for_user_audition",
+  "base": "V2 candidate",
+  "change": {
+    "beat_gain_relative_to_vocal_dB": 1.5,
+    "vocal_processing": "unchanged",
+    "new_EQ_or_space_processing": false,
+    "vocal_source": "/workspace/audio-v2-candidate/vocal.f32",
+    "vocal_source_sha256": "602a8bea5813a620491d5611227f3a54df1657237a02023236e68a4917e74de0"
+  },
+  "master": {
+    "WAV_LUFS": -11.58,
+    "WAV_dBTP": -1.38,
+    "MP3_LUFS": -11.58,
+    "MP3_dBTP": -0.9,
+    "passes": [
+      {
+        "drive_dB": 4.35,
+        "LUFS": -12.05,
+        "dBTP": -1.38
+      },
+      {
+        "drive_dB": 4.84,
+        "LUFS": -11.71,
+        "dBTP": -1.38
+      },
+      {
+        "drive_dB": 4.99,
+        "LUFS": -11.6,
+        "dBTP": -1.38
+      },
+      {
+        "drive_dB": 5.029999999999999,
+        "LUFS": -11.58,
+        "dBTP": -1.38
+      }
+    ],
+    "limiter": {
+      "method": "Approximate 1ms least-squares gain; includes resampling differences.",
+      "percentiles_dB": {
+        "50": 7.144556730054319e-05,
+        "90": 1.0272629261016846,
+        "95": 1.831497311592102,
+        "99": 3.346247434616089,
+        "99.9": 4.692098140716553,
+        "100": 6.085692405700684
+      },
+      "active_percent_over_3dB": 1.5414047813455367
+    },
+    "duration_seconds": 214.27375
+  },
+  "comparison": [
+    {
+      "label": "V2",
+      "start_s": 0.0,
+      "end_s": 24.25,
+      "source_intervals_s": [
+        [
+          38,
+          50
+        ],
+        [
+          58,
+          70
+        ]
+      ],
+      "target_LUFS": -16,
+      "gain_dB": -4.85
+    },
+    {
+      "label": "V2B",
+      "start_s": 24.75,
+      "end_s": 49.0,
+      "source_intervals_s": [
+        [
+          38,
+          50
+        ],
+        [
+          58,
+          70
+        ]
+      ],
+      "target_LUFS": -16,
+      "gain_dB": -4.710000000000001
+    }
+  ],
+  "limitations": "Signal-based mix balance revision. No subjective audition; user decides whether the accompaniment is now sufficiently prominent."
+}
